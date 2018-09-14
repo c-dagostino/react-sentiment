@@ -2,12 +2,12 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 // oidc
-import LoginPage from '../Auth/LoginPage';
-import LogoutPage from '../Auth/LogoutPage';
-import CallbackPage from '../Auth/CallbackPage';
-import RequireAuth from '../Auth/RequireAuth';
+import LoginPage from '../../components/Auth/LoginPage';
+import LogoutPage from '../../components/Auth/LogoutPage';
+import CallbackPage from '../../components/Auth/CallbackPage';
+import RequireAuth from '../../components/Auth/RequireAuth';
 
-import HomePage from '../Content/HomePage';
+import HomePage from '../HomePage';
 import SagaPage from '../SagaExample/SagaPage';
 
 const Public = () => <h3>Public Test - No Login Required</h3>;

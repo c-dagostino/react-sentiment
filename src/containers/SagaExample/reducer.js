@@ -12,9 +12,7 @@ function sagaReducer(state = initialState, action) {
     case GET_SAGA_TEST:
       return state.set('loading', true);
     case SET_SAGA_TEST:
-      return state
-        .set('test', fromJS(action.test))
-        .set('loading', false);
+      return state.set('test', fromJS(action.test)).set('loading', false);
     default:
       return state;
   }

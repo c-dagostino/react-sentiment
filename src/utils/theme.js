@@ -1,4 +1,4 @@
-import { createMuiTheme } from '@material-ui/core';
+import { createMuiTheme } from '@material-ui/core/styles';
 import red from '@material-ui/core/colors/red';
 import lightBlue from '@material-ui/core/colors/lightBlue';
 import orange from '@material-ui/core/colors/orange';
@@ -6,7 +6,7 @@ import blueGrey from '@material-ui/core/colors/blueGrey';
 
 const fontFamilySans = '"Source Sans Pro", "Helvetica", "Arial", sans-serif';
 
-const navisTheme = createMuiTheme({
+const theme = createMuiTheme({
   direction: 'ltr',
   breakpoints: {
     keys: ['xs', 'sm', 'md', 'lg', 'xl'],
@@ -21,7 +21,7 @@ const navisTheme = createMuiTheme({
     },
     secondary: {
       light: orange[400],
-      main: '#f06b01',
+      main: orange[500],
       dark: orange[600]
     },
     neutralColor: {
@@ -84,16 +84,9 @@ const navisTheme = createMuiTheme({
         color: red.A400
       }
     },
-    MuiBottomNavigationAction: {
-      root: {
-        color: 'white'
-      },
-      selected: {
-        color: lightBlue[500]
-      }
-    },
     MuiSelect: {
       root: {
+        marginLeft: 20,
         fontFamily: fontFamilySans,
         fontWeight: 700,
         fontSize: 14,
@@ -103,4 +96,4 @@ const navisTheme = createMuiTheme({
   }
 });
 
-export default navisTheme;
+export default theme;

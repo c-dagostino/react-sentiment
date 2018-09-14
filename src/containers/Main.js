@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Paper from '@material-ui/core/Paper';
 import { withStyles } from '@material-ui/core/styles';
@@ -11,7 +12,7 @@ const styles = theme => ({
     [theme.breakpoints.up(600 + theme.spacing.unit * 2 * 2)]: {
       width: 600,
       marginLeft: 'auto',
-      marginRight: 'auto',
+      marginRight: 'auto'
     }
   },
   paper: {
@@ -31,12 +32,15 @@ class Main extends React.Component {
     const { classes } = this.props;
     return (
       <main className={classes.layout}>
-        <Paper className={classes.paper}>
-          { this.props.children }
-        </Paper>
+        <Paper className={classes.paper}>{this.props.children}</Paper>
       </main>
     );
   }
 }
+
+Main.propTypes = {
+  classes: PropTypes.object.isRequired,
+  children: PropTypes.object.isRequired
+};
 
 export default withStyles(styles)(Main);

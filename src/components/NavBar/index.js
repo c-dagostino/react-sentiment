@@ -36,13 +36,15 @@ class NavBar extends React.Component {
       <div>
         <AppBar position="static" className={classes.appBar}>
           <Toolbar>
-            <Typography variant="title" color="inherit" noWrap className={classes.toolbarTitle}>
+            <Typography
+              variant="title"
+              color="inherit"
+              noWrap
+              className={classes.toolbarTitle}
+            >
               React Marketing Baseline Client
             </Typography>
-            <Tabs
-              value={value}
-              fullWidth
-            >
+            <Tabs value={value} fullWidth>
               <Tab
                 label="Public"
                 component={Link}
@@ -69,6 +71,4 @@ class NavBar extends React.Component {
   }
 }
 
-export default compose(
-  withStyles(styles),
-)(NavBar);
+export default compose(withStyles(styles))(NavBar);

@@ -1,7 +1,4 @@
-import {
-  put,
-  takeLatest
-} from 'redux-saga/effects';
+import { put, takeLatest } from 'redux-saga/effects';
 
 import { GET_SAGA_TEST, SET_SAGA_TEST } from './actions';
 
@@ -17,6 +14,4 @@ export function* watchFetchSagaTest() {
   yield takeLatest(GET_SAGA_TEST, fetchSagaTest);
 }
 
-export const sagaExampleSagas = [
-  watchFetchSagaTest()
-];
+export const sagaExampleSagas = [watchFetchSagaTest()];

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { withRouter } from 'react-router-dom';
-import NavBar from './NavBar';
+import NavBar from '../NavBar';
 
 class Header extends React.Component {
   static propTypes = {
