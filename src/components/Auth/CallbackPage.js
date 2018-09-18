@@ -1,14 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { compose } from 'redux';
-import { connect } from 'react-redux';
 import { CallbackComponent } from 'redux-oidc';
 import { withRouter } from 'react-router-dom';
 
 import userManager from '../../utils/userManager';
+import { LOGIN_ERROR_REDIRECT_PATH } from './constants';
 
-class CallbackPage extends React.Component {
+export class CallbackPage extends React.Component {
   static propTypes = {
     history: PropTypes.shape({
       push: PropTypes.func.isRequired
@@ -17,7 +16,7 @@ class CallbackPage extends React.Component {
 
   callbackComponentSuccess = user => this.handleRedirect(user.state.referrer);
 
-  callbackComponentError = () => this.handleRedirect('/');
+  callbackComponentError = () => this.handleRedirect(LOGIN_ERROR_REDIRECT_PATH);
 
   handleRedirect(referrer) {
     const { push } = this.props.history;
@@ -36,8 +35,4 @@ class CallbackPage extends React.Component {
     );
   }
 }
-const withConnect = connect();
-export default compose(
-  withRouter,
-  withConnect
-)(CallbackPage);
+export default withRouter(CallbackPage);

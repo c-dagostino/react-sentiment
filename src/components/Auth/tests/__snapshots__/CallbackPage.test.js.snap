@@ -1,0 +1,795 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CallbackPage Expect component to render properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CallbackPage
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <div>
+        Redirecting...
+</div>,
+      "errorCallback": [Function],
+      "successCallback": [Function],
+      "userManager": UserManager {
+        "_events": UserManagerEvents {
+          "_accessTokenExpired": Timer {
+            "_callbacks": Array [],
+            "_name": "Access token expired",
+            "_nowFunc": [Function],
+            "_timer": Object {
+              "clearInterval": [Function],
+              "setInterval": [Function],
+            },
+          },
+          "_accessTokenExpiring": Timer {
+            "_callbacks": Array [
+              [Function],
+            ],
+            "_name": "Access token expiring",
+            "_nowFunc": [Function],
+            "_timer": Object {
+              "clearInterval": [Function],
+              "setInterval": [Function],
+            },
+          },
+          "_accessTokenExpiringNotificationTime": 60,
+          "_silentRenewError": Event {
+            "_callbacks": Array [],
+            "_name": "Silent renew error",
+          },
+          "_userLoaded": Event {
+            "_callbacks": Array [
+              [Function],
+            ],
+            "_name": "User loaded",
+          },
+          "_userSessionChanged": Event {
+            "_callbacks": Array [],
+            "_name": "User session changed",
+          },
+          "_userSignedOut": Event {
+            "_callbacks": Array [],
+            "_name": "User signed out",
+          },
+          "_userUnloaded": Event {
+            "_callbacks": Array [
+              [Function],
+            ],
+            "_name": "User unloaded",
+          },
+        },
+        "_sessionMonitor": SessionMonitor {
+          "_CheckSessionIFrameCtor": [Function],
+          "_userManager": [Circular],
+        },
+        "_settings": UserManagerSettings {
+          "_accessTokenExpiringNotificationTime": 60,
+          "_acr_values": undefined,
+          "_authority": undefined,
+          "_automaticSilentRenew": true,
+          "_checkSessionInterval": 2000,
+          "_client_id": undefined,
+          "_client_secret": undefined,
+          "_clockSkew": 300,
+          "_display": undefined,
+          "_extraQueryParams": Object {},
+          "_filterProtocolClaims": true,
+          "_iframeNavigator": IFrameNavigator {},
+          "_includeIdTokenInSilentRenew": true,
+          "_loadUserInfo": true,
+          "_max_age": undefined,
+          "_metadata": undefined,
+          "_metadataService": MetadataService {
+            "_jsonService": JsonService {
+              "_XMLHttpRequest": [Function],
+              "_contentTypes": Array [
+                "application/jwk-set+json",
+                "application/json",
+              ],
+            },
+            "_settings": [Circular],
+          },
+          "_metadataUrl": undefined,
+          "_monitorSession": true,
+          "_popupNavigator": PopupNavigator {},
+          "_popupWindowFeatures": undefined,
+          "_popupWindowTarget": undefined,
+          "_popup_post_logout_redirect_uri": undefined,
+          "_popup_redirect_uri": undefined,
+          "_post_logout_redirect_uri": undefined,
+          "_prompt": undefined,
+          "_redirectNavigator": RedirectNavigator {},
+          "_redirect_uri": "http://localhost/callback",
+          "_resource": undefined,
+          "_response_type": "token id_token",
+          "_revokeAccessTokenOnSignout": false,
+          "_scope": "openid email name",
+          "_signingKeys": undefined,
+          "_silentRequestTimeout": undefined,
+          "_silent_redirect_uri": "http://localhost/silent_renew.html",
+          "_staleStateAge": 900,
+          "_stateStore": WebStorageStateStore {
+            "_prefix": "oidc.",
+            "_store": InMemoryWebStorage {
+              "_data": Object {},
+            },
+          },
+          "_stopCheckSessionOnError": true,
+          "_ui_locales": undefined,
+          "_userStore": WebStorageStateStore {
+            "_prefix": "oidc.",
+            "_store": InMemoryWebStorage {
+              "_data": Object {},
+            },
+          },
+          "_validator": ResponseValidator {
+            "_joseUtil": [Function],
+            "_metadataService": MetadataService {
+              "_jsonService": JsonService {
+                "_XMLHttpRequest": [Function],
+                "_contentTypes": Array [
+                  "application/jwk-set+json",
+                  "application/json",
+                ],
+              },
+              "_settings": [Circular],
+            },
+            "_settings": [Circular],
+            "_userInfoService": UserInfoService {
+              "_jsonService": JsonService {
+                "_XMLHttpRequest": [Function],
+                "_contentTypes": Array [
+                  "application/json",
+                ],
+              },
+              "_metadataService": MetadataService {
+                "_jsonService": JsonService {
+                  "_XMLHttpRequest": [Function],
+                  "_contentTypes": Array [
+                    "application/jwk-set+json",
+                    "application/json",
+                  ],
+                },
+                "_settings": [Circular],
+              },
+              "_settings": [Circular],
+            },
+          },
+        },
+        "_silentRenewService": SilentRenewService {
+          "_callback": [Function],
+          "_userManager": [Circular],
+        },
+        "_tokenRevocationClient": TokenRevocationClient {
+          "_XMLHttpRequestCtor": [Function],
+          "_metadataService": MetadataService {
+            "_jsonService": JsonService {
+              "_XMLHttpRequest": [Function],
+              "_contentTypes": Array [
+                "application/jwk-set+json",
+                "application/json",
+              ],
+            },
+            "_settings": UserManagerSettings {
+              "_accessTokenExpiringNotificationTime": 60,
+              "_acr_values": undefined,
+              "_authority": undefined,
+              "_automaticSilentRenew": true,
+              "_checkSessionInterval": 2000,
+              "_client_id": undefined,
+              "_client_secret": undefined,
+              "_clockSkew": 300,
+              "_display": undefined,
+              "_extraQueryParams": Object {},
+              "_filterProtocolClaims": true,
+              "_iframeNavigator": IFrameNavigator {},
+              "_includeIdTokenInSilentRenew": true,
+              "_loadUserInfo": true,
+              "_max_age": undefined,
+              "_metadata": undefined,
+              "_metadataService": MetadataService {
+                "_jsonService": JsonService {
+                  "_XMLHttpRequest": [Function],
+                  "_contentTypes": Array [
+                    "application/jwk-set+json",
+                    "application/json",
+                  ],
+                },
+                "_settings": [Circular],
+              },
+              "_metadataUrl": undefined,
+              "_monitorSession": true,
+              "_popupNavigator": PopupNavigator {},
+              "_popupWindowFeatures": undefined,
+              "_popupWindowTarget": undefined,
+              "_popup_post_logout_redirect_uri": undefined,
+              "_popup_redirect_uri": undefined,
+              "_post_logout_redirect_uri": undefined,
+              "_prompt": undefined,
+              "_redirectNavigator": RedirectNavigator {},
+              "_redirect_uri": "http://localhost/callback",
+              "_resource": undefined,
+              "_response_type": "token id_token",
+              "_revokeAccessTokenOnSignout": false,
+              "_scope": "openid email name",
+              "_signingKeys": undefined,
+              "_silentRequestTimeout": undefined,
+              "_silent_redirect_uri": "http://localhost/silent_renew.html",
+              "_staleStateAge": 900,
+              "_stateStore": WebStorageStateStore {
+                "_prefix": "oidc.",
+                "_store": InMemoryWebStorage {
+                  "_data": Object {},
+                },
+              },
+              "_stopCheckSessionOnError": true,
+              "_ui_locales": undefined,
+              "_userStore": WebStorageStateStore {
+                "_prefix": "oidc.",
+                "_store": InMemoryWebStorage {
+                  "_data": Object {},
+                },
+              },
+              "_validator": ResponseValidator {
+                "_joseUtil": [Function],
+                "_metadataService": MetadataService {
+                  "_jsonService": JsonService {
+                    "_XMLHttpRequest": [Function],
+                    "_contentTypes": Array [
+                      "application/jwk-set+json",
+                      "application/json",
+                    ],
+                  },
+                  "_settings": [Circular],
+                },
+                "_settings": [Circular],
+                "_userInfoService": UserInfoService {
+                  "_jsonService": JsonService {
+                    "_XMLHttpRequest": [Function],
+                    "_contentTypes": Array [
+                      "application/json",
+                    ],
+                  },
+                  "_metadataService": MetadataService {
+                    "_jsonService": JsonService {
+                      "_XMLHttpRequest": [Function],
+                      "_contentTypes": Array [
+                        "application/jwk-set+json",
+                        "application/json",
+                      ],
+                    },
+                    "_settings": [Circular],
+                  },
+                  "_settings": [Circular],
+                },
+              },
+            },
+          },
+          "_settings": UserManagerSettings {
+            "_accessTokenExpiringNotificationTime": 60,
+            "_acr_values": undefined,
+            "_authority": undefined,
+            "_automaticSilentRenew": true,
+            "_checkSessionInterval": 2000,
+            "_client_id": undefined,
+            "_client_secret": undefined,
+            "_clockSkew": 300,
+            "_display": undefined,
+            "_extraQueryParams": Object {},
+            "_filterProtocolClaims": true,
+            "_iframeNavigator": IFrameNavigator {},
+            "_includeIdTokenInSilentRenew": true,
+            "_loadUserInfo": true,
+            "_max_age": undefined,
+            "_metadata": undefined,
+            "_metadataService": MetadataService {
+              "_jsonService": JsonService {
+                "_XMLHttpRequest": [Function],
+                "_contentTypes": Array [
+                  "application/jwk-set+json",
+                  "application/json",
+                ],
+              },
+              "_settings": [Circular],
+            },
+            "_metadataUrl": undefined,
+            "_monitorSession": true,
+            "_popupNavigator": PopupNavigator {},
+            "_popupWindowFeatures": undefined,
+            "_popupWindowTarget": undefined,
+            "_popup_post_logout_redirect_uri": undefined,
+            "_popup_redirect_uri": undefined,
+            "_post_logout_redirect_uri": undefined,
+            "_prompt": undefined,
+            "_redirectNavigator": RedirectNavigator {},
+            "_redirect_uri": "http://localhost/callback",
+            "_resource": undefined,
+            "_response_type": "token id_token",
+            "_revokeAccessTokenOnSignout": false,
+            "_scope": "openid email name",
+            "_signingKeys": undefined,
+            "_silentRequestTimeout": undefined,
+            "_silent_redirect_uri": "http://localhost/silent_renew.html",
+            "_staleStateAge": 900,
+            "_stateStore": WebStorageStateStore {
+              "_prefix": "oidc.",
+              "_store": InMemoryWebStorage {
+                "_data": Object {},
+              },
+            },
+            "_stopCheckSessionOnError": true,
+            "_ui_locales": undefined,
+            "_userStore": WebStorageStateStore {
+              "_prefix": "oidc.",
+              "_store": InMemoryWebStorage {
+                "_data": Object {},
+              },
+            },
+            "_validator": ResponseValidator {
+              "_joseUtil": [Function],
+              "_metadataService": MetadataService {
+                "_jsonService": JsonService {
+                  "_XMLHttpRequest": [Function],
+                  "_contentTypes": Array [
+                    "application/jwk-set+json",
+                    "application/json",
+                  ],
+                },
+                "_settings": [Circular],
+              },
+              "_settings": [Circular],
+              "_userInfoService": UserInfoService {
+                "_jsonService": JsonService {
+                  "_XMLHttpRequest": [Function],
+                  "_contentTypes": Array [
+                    "application/json",
+                  ],
+                },
+                "_metadataService": MetadataService {
+                  "_jsonService": JsonService {
+                    "_XMLHttpRequest": [Function],
+                    "_contentTypes": Array [
+                      "application/jwk-set+json",
+                      "application/json",
+                    ],
+                  },
+                  "_settings": [Circular],
+                },
+                "_settings": [Circular],
+              },
+            },
+          },
+        },
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Redirecting...",
+      },
+      "ref": null,
+      "rendered": "Redirecting...",
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <div>
+          Redirecting...
+</div>,
+        "errorCallback": [Function],
+        "successCallback": [Function],
+        "userManager": UserManager {
+          "_events": UserManagerEvents {
+            "_accessTokenExpired": Timer {
+              "_callbacks": Array [],
+              "_name": "Access token expired",
+              "_nowFunc": [Function],
+              "_timer": Object {
+                "clearInterval": [Function],
+                "setInterval": [Function],
+              },
+            },
+            "_accessTokenExpiring": Timer {
+              "_callbacks": Array [
+                [Function],
+              ],
+              "_name": "Access token expiring",
+              "_nowFunc": [Function],
+              "_timer": Object {
+                "clearInterval": [Function],
+                "setInterval": [Function],
+              },
+            },
+            "_accessTokenExpiringNotificationTime": 60,
+            "_silentRenewError": Event {
+              "_callbacks": Array [],
+              "_name": "Silent renew error",
+            },
+            "_userLoaded": Event {
+              "_callbacks": Array [
+                [Function],
+              ],
+              "_name": "User loaded",
+            },
+            "_userSessionChanged": Event {
+              "_callbacks": Array [],
+              "_name": "User session changed",
+            },
+            "_userSignedOut": Event {
+              "_callbacks": Array [],
+              "_name": "User signed out",
+            },
+            "_userUnloaded": Event {
+              "_callbacks": Array [
+                [Function],
+              ],
+              "_name": "User unloaded",
+            },
+          },
+          "_sessionMonitor": SessionMonitor {
+            "_CheckSessionIFrameCtor": [Function],
+            "_userManager": [Circular],
+          },
+          "_settings": UserManagerSettings {
+            "_accessTokenExpiringNotificationTime": 60,
+            "_acr_values": undefined,
+            "_authority": undefined,
+            "_automaticSilentRenew": true,
+            "_checkSessionInterval": 2000,
+            "_client_id": undefined,
+            "_client_secret": undefined,
+            "_clockSkew": 300,
+            "_display": undefined,
+            "_extraQueryParams": Object {},
+            "_filterProtocolClaims": true,
+            "_iframeNavigator": IFrameNavigator {},
+            "_includeIdTokenInSilentRenew": true,
+            "_loadUserInfo": true,
+            "_max_age": undefined,
+            "_metadata": undefined,
+            "_metadataService": MetadataService {
+              "_jsonService": JsonService {
+                "_XMLHttpRequest": [Function],
+                "_contentTypes": Array [
+                  "application/jwk-set+json",
+                  "application/json",
+                ],
+              },
+              "_settings": [Circular],
+            },
+            "_metadataUrl": undefined,
+            "_monitorSession": true,
+            "_popupNavigator": PopupNavigator {},
+            "_popupWindowFeatures": undefined,
+            "_popupWindowTarget": undefined,
+            "_popup_post_logout_redirect_uri": undefined,
+            "_popup_redirect_uri": undefined,
+            "_post_logout_redirect_uri": undefined,
+            "_prompt": undefined,
+            "_redirectNavigator": RedirectNavigator {},
+            "_redirect_uri": "http://localhost/callback",
+            "_resource": undefined,
+            "_response_type": "token id_token",
+            "_revokeAccessTokenOnSignout": false,
+            "_scope": "openid email name",
+            "_signingKeys": undefined,
+            "_silentRequestTimeout": undefined,
+            "_silent_redirect_uri": "http://localhost/silent_renew.html",
+            "_staleStateAge": 900,
+            "_stateStore": WebStorageStateStore {
+              "_prefix": "oidc.",
+              "_store": InMemoryWebStorage {
+                "_data": Object {},
+              },
+            },
+            "_stopCheckSessionOnError": true,
+            "_ui_locales": undefined,
+            "_userStore": WebStorageStateStore {
+              "_prefix": "oidc.",
+              "_store": InMemoryWebStorage {
+                "_data": Object {},
+              },
+            },
+            "_validator": ResponseValidator {
+              "_joseUtil": [Function],
+              "_metadataService": MetadataService {
+                "_jsonService": JsonService {
+                  "_XMLHttpRequest": [Function],
+                  "_contentTypes": Array [
+                    "application/jwk-set+json",
+                    "application/json",
+                  ],
+                },
+                "_settings": [Circular],
+              },
+              "_settings": [Circular],
+              "_userInfoService": UserInfoService {
+                "_jsonService": JsonService {
+                  "_XMLHttpRequest": [Function],
+                  "_contentTypes": Array [
+                    "application/json",
+                  ],
+                },
+                "_metadataService": MetadataService {
+                  "_jsonService": JsonService {
+                    "_XMLHttpRequest": [Function],
+                    "_contentTypes": Array [
+                      "application/jwk-set+json",
+                      "application/json",
+                    ],
+                  },
+                  "_settings": [Circular],
+                },
+                "_settings": [Circular],
+              },
+            },
+          },
+          "_silentRenewService": SilentRenewService {
+            "_callback": [Function],
+            "_userManager": [Circular],
+          },
+          "_tokenRevocationClient": TokenRevocationClient {
+            "_XMLHttpRequestCtor": [Function],
+            "_metadataService": MetadataService {
+              "_jsonService": JsonService {
+                "_XMLHttpRequest": [Function],
+                "_contentTypes": Array [
+                  "application/jwk-set+json",
+                  "application/json",
+                ],
+              },
+              "_settings": UserManagerSettings {
+                "_accessTokenExpiringNotificationTime": 60,
+                "_acr_values": undefined,
+                "_authority": undefined,
+                "_automaticSilentRenew": true,
+                "_checkSessionInterval": 2000,
+                "_client_id": undefined,
+                "_client_secret": undefined,
+                "_clockSkew": 300,
+                "_display": undefined,
+                "_extraQueryParams": Object {},
+                "_filterProtocolClaims": true,
+                "_iframeNavigator": IFrameNavigator {},
+                "_includeIdTokenInSilentRenew": true,
+                "_loadUserInfo": true,
+                "_max_age": undefined,
+                "_metadata": undefined,
+                "_metadataService": MetadataService {
+                  "_jsonService": JsonService {
+                    "_XMLHttpRequest": [Function],
+                    "_contentTypes": Array [
+                      "application/jwk-set+json",
+                      "application/json",
+                    ],
+                  },
+                  "_settings": [Circular],
+                },
+                "_metadataUrl": undefined,
+                "_monitorSession": true,
+                "_popupNavigator": PopupNavigator {},
+                "_popupWindowFeatures": undefined,
+                "_popupWindowTarget": undefined,
+                "_popup_post_logout_redirect_uri": undefined,
+                "_popup_redirect_uri": undefined,
+                "_post_logout_redirect_uri": undefined,
+                "_prompt": undefined,
+                "_redirectNavigator": RedirectNavigator {},
+                "_redirect_uri": "http://localhost/callback",
+                "_resource": undefined,
+                "_response_type": "token id_token",
+                "_revokeAccessTokenOnSignout": false,
+                "_scope": "openid email name",
+                "_signingKeys": undefined,
+                "_silentRequestTimeout": undefined,
+                "_silent_redirect_uri": "http://localhost/silent_renew.html",
+                "_staleStateAge": 900,
+                "_stateStore": WebStorageStateStore {
+                  "_prefix": "oidc.",
+                  "_store": InMemoryWebStorage {
+                    "_data": Object {},
+                  },
+                },
+                "_stopCheckSessionOnError": true,
+                "_ui_locales": undefined,
+                "_userStore": WebStorageStateStore {
+                  "_prefix": "oidc.",
+                  "_store": InMemoryWebStorage {
+                    "_data": Object {},
+                  },
+                },
+                "_validator": ResponseValidator {
+                  "_joseUtil": [Function],
+                  "_metadataService": MetadataService {
+                    "_jsonService": JsonService {
+                      "_XMLHttpRequest": [Function],
+                      "_contentTypes": Array [
+                        "application/jwk-set+json",
+                        "application/json",
+                      ],
+                    },
+                    "_settings": [Circular],
+                  },
+                  "_settings": [Circular],
+                  "_userInfoService": UserInfoService {
+                    "_jsonService": JsonService {
+                      "_XMLHttpRequest": [Function],
+                      "_contentTypes": Array [
+                        "application/json",
+                      ],
+                    },
+                    "_metadataService": MetadataService {
+                      "_jsonService": JsonService {
+                        "_XMLHttpRequest": [Function],
+                        "_contentTypes": Array [
+                          "application/jwk-set+json",
+                          "application/json",
+                        ],
+                      },
+                      "_settings": [Circular],
+                    },
+                    "_settings": [Circular],
+                  },
+                },
+              },
+            },
+            "_settings": UserManagerSettings {
+              "_accessTokenExpiringNotificationTime": 60,
+              "_acr_values": undefined,
+              "_authority": undefined,
+              "_automaticSilentRenew": true,
+              "_checkSessionInterval": 2000,
+              "_client_id": undefined,
+              "_client_secret": undefined,
+              "_clockSkew": 300,
+              "_display": undefined,
+              "_extraQueryParams": Object {},
+              "_filterProtocolClaims": true,
+              "_iframeNavigator": IFrameNavigator {},
+              "_includeIdTokenInSilentRenew": true,
+              "_loadUserInfo": true,
+              "_max_age": undefined,
+              "_metadata": undefined,
+              "_metadataService": MetadataService {
+                "_jsonService": JsonService {
+                  "_XMLHttpRequest": [Function],
+                  "_contentTypes": Array [
+                    "application/jwk-set+json",
+                    "application/json",
+                  ],
+                },
+                "_settings": [Circular],
+              },
+              "_metadataUrl": undefined,
+              "_monitorSession": true,
+              "_popupNavigator": PopupNavigator {},
+              "_popupWindowFeatures": undefined,
+              "_popupWindowTarget": undefined,
+              "_popup_post_logout_redirect_uri": undefined,
+              "_popup_redirect_uri": undefined,
+              "_post_logout_redirect_uri": undefined,
+              "_prompt": undefined,
+              "_redirectNavigator": RedirectNavigator {},
+              "_redirect_uri": "http://localhost/callback",
+              "_resource": undefined,
+              "_response_type": "token id_token",
+              "_revokeAccessTokenOnSignout": false,
+              "_scope": "openid email name",
+              "_signingKeys": undefined,
+              "_silentRequestTimeout": undefined,
+              "_silent_redirect_uri": "http://localhost/silent_renew.html",
+              "_staleStateAge": 900,
+              "_stateStore": WebStorageStateStore {
+                "_prefix": "oidc.",
+                "_store": InMemoryWebStorage {
+                  "_data": Object {},
+                },
+              },
+              "_stopCheckSessionOnError": true,
+              "_ui_locales": undefined,
+              "_userStore": WebStorageStateStore {
+                "_prefix": "oidc.",
+                "_store": InMemoryWebStorage {
+                  "_data": Object {},
+                },
+              },
+              "_validator": ResponseValidator {
+                "_joseUtil": [Function],
+                "_metadataService": MetadataService {
+                  "_jsonService": JsonService {
+                    "_XMLHttpRequest": [Function],
+                    "_contentTypes": Array [
+                      "application/jwk-set+json",
+                      "application/json",
+                    ],
+                  },
+                  "_settings": [Circular],
+                },
+                "_settings": [Circular],
+                "_userInfoService": UserInfoService {
+                  "_jsonService": JsonService {
+                    "_XMLHttpRequest": [Function],
+                    "_contentTypes": Array [
+                      "application/json",
+                    ],
+                  },
+                  "_metadataService": MetadataService {
+                    "_jsonService": JsonService {
+                      "_XMLHttpRequest": [Function],
+                      "_contentTypes": Array [
+                        "application/jwk-set+json",
+                        "application/json",
+                      ],
+                    },
+                    "_settings": [Circular],
+                  },
+                  "_settings": [Circular],
+                },
+              },
+            },
+          },
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Redirecting...",
+        },
+        "ref": null,
+        "rendered": "Redirecting...",
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

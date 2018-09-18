@@ -7,19 +7,20 @@ import { LOGOUT_URL } from './constants';
 
 const { REACT_APP_OIDC_AUTHORITY_URL: authorityUrl } = process.env;
 
-class LogoutPage extends React.Component {
+export class LogoutPage extends React.Component {
   static propTypes = {
     history: PropTypes.shape({
       push: PropTypes.func.isRequired
     }).isRequired
   };
 
+  // eslint-disable-next-line consistent-return
   async componentDidMount() {
     try {
       const user = await userManager.getUser();
       const tokenId = user.id_token;
 
-      userManager.removeUser();
+      await userManager.removeUser();
       window.location.assign(
         `${authorityUrl}${LOGOUT_URL}&id_token_hint=${tokenId}`
       );
@@ -27,7 +28,6 @@ class LogoutPage extends React.Component {
       const { push } = this.props.history;
       return push('/');
     }
-    return null;
   }
 
   render() {
