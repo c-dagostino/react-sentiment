@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import NavBar from '../NavBar';
 
-class Header extends React.Component {
+export class Header extends React.Component {
   static propTypes = {
     history: PropTypes.shape({
       location: PropTypes.shape({
@@ -19,7 +19,7 @@ class Header extends React.Component {
       history &&
       history.location &&
       history.location.pathname &&
-      history.location.pathname !== '/callback'
+      history.location.pathname.toLowerCase() !== '/callback'
     ) {
       return history.location.pathname;
     }

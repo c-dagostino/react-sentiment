@@ -7,11 +7,11 @@ import LogoutPage from '../../components/Auth/LogoutPage';
 import CallbackPage from '../../components/Auth/CallbackPage';
 import RequireAuth from '../../components/Auth/RequireAuth';
 
-import HomePage from '../HomePage';
-import SagaPage from '../SagaExample/SagaPage';
+import HomePage from '../../components/HomePage';
+import SagaPage from '../SagaExample';
 
-const Public = () => <h3>Public Test - No Login Required</h3>;
-const Protected = () => <h3>Protected - Login Required</h3>;
+export const Public = () => <h3>Public Test - No Login Required</h3>;
+export const Protected = () => <h3>Protected - Login Required</h3>;
 
 export default class Routes extends React.Component {
   render() {

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { fromJS } from 'immutable';
 
 import { compose } from 'redux';
 import { Link } from 'react-router-dom';
@@ -20,7 +21,27 @@ const styles = () => ({
   }
 });
 
-class NavBar extends React.Component {
+// TODO: move this to a separate file?
+export const tabs = fromJS([
+  {
+    label: 'Public',
+    value: '/public'
+  },
+  {
+    label: 'Protected',
+    value: '/protected'
+  },
+  {
+    label: 'Saga Example',
+    value: '/saga'
+  },
+  {
+    label: 'Logout',
+    value: '/logout'
+  }
+]);
+
+export class NavBar extends React.Component {
   static propTypes = {
     classes: PropTypes.shape({
       appBar: PropTypes.string.isRequired,
@@ -29,9 +50,27 @@ class NavBar extends React.Component {
     value: PropTypes.string.isRequired
   };
 
+  validateValue() {
+    const { value } = this.props;
+    return tabs.some(tab => tab.get('value') === value) ? value : false;
+  }
+
+  generateTabList() {
+    const generatedTabList = tabs.map(tab => (
+      <Tab
+        component={Link}
+        key={tab.get('value')}
+        label={tab.get('label')}
+        to={tab.get('value')}
+        value={tab.get('value')}
+      />
+    ));
+
+    return generatedTabList;
+  }
+
   render() {
     const { classes } = this.props;
-    const { value } = this.props;
     return (
       <div>
         <AppBar position="static" className={classes.appBar}>
@@ -44,25 +83,8 @@ class NavBar extends React.Component {
             >
               React Marketing Baseline Client
             </Typography>
-            <Tabs value={value} fullWidth>
-              <Tab
-                label="Public"
-                component={Link}
-                to="/public"
-                value={'/public'}
-              />
-              <Tab
-                label="Protected"
-                component={Link}
-                to="/protected"
-                value="/protected"
-              />
-              <Tab
-                label="Saga Example"
-                component={Link}
-                to="/saga"
-                value="/saga"
-              />
+            <Tabs value={this.validateValue()} fullWidth>
+              {this.generateTabList()}
             </Tabs>
           </Toolbar>
         </AppBar>

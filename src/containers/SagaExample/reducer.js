@@ -2,7 +2,7 @@ import { fromJS } from 'immutable';
 
 import { GET_SAGA_TEST, SET_SAGA_TEST } from './actions';
 
-const initialState = fromJS({
+export const initialState = fromJS({
   test: 'Hello',
   loading: false
 });
