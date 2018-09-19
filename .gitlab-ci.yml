@@ -43,4 +43,4 @@ Test:
   - yarn install
   script:
   # Runs the tests.
-  - yarn test
+  - yarn test --coverage --no-cache
