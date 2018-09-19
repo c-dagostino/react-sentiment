@@ -28,7 +28,7 @@ stages:
 Build:
   stage: build
   tags:
-  - Linux
+  - node
   before_script:
   - yarn install
   script:
@@ -37,7 +37,7 @@ Build:
 Test:
   stage: test
   tags:
-  - Linux
+  - node
   before_script:
   - yarn install
   script:
