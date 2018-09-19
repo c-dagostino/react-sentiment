@@ -27,7 +27,7 @@ stages:
 Build:
   stage: build
   tags:
-  - linux
+  - Linux
   before_script:
   - yarn config set cache-folder .yarn
   - yarn install
@@ -37,7 +37,7 @@ Build:
 Test:
   stage: test
   tags:
-  - linux
+  - Linux
   before_script:
   - yarn config set cache-folder .yarn
   - yarn install
