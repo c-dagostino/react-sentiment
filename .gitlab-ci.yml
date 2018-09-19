@@ -7,6 +7,7 @@
 
 # And to cache them as well.
 cache:
+  untracked: true
   paths:
   - node_modules/
 
