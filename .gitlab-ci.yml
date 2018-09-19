@@ -31,7 +31,7 @@ Build:
   tags:
   - Linux
   before_script:
-  - yarn config set cache-folder .yarn
+  - yarn config set cache-folder /.yarn
   - yarn install
   script:
   - yarn build
@@ -41,7 +41,7 @@ Test:
   tags:
   - Linux
   before_script:
-  - yarn config set cache-folder .yarn
+  - yarn config set cache-folder /.yarn
   - yarn install
   script:
   # Runs the tests.
