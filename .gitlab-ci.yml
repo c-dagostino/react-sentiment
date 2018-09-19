@@ -17,7 +17,6 @@ cache:
 before_script:
 - apt-get update -qq && apt-get install
 - rm -rf node_modules
-- mkdir .yarn
 
 # You specify the stages. Those are the steps that GitLab will go through
 # Order matters.
@@ -31,7 +30,7 @@ Build:
   tags:
   - Linux
   before_script:
-  - yarn config set cache-folder /.yarn
+  - yarn config set cache-folder .yarn
   - yarn install
   script:
   - yarn build
@@ -41,7 +40,7 @@ Test:
   tags:
   - Linux
   before_script:
-  - yarn config set cache-folder /.yarn
+  - yarn config set cache-folder .yarn
   - yarn install
   script:
   # Runs the tests.
