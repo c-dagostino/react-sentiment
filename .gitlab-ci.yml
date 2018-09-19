@@ -9,7 +9,6 @@
 cache:
   paths:
   - node_modules/
-  - .yarn
 
 # We tell GitLab to install all the packages
 # before running anything.
@@ -30,7 +29,6 @@ Build:
   tags:
   - Linux
   before_script:
-  - yarn config set cache-folder .yarn
   - yarn install
   script:
   - yarn build
@@ -40,7 +38,6 @@ Test:
   tags:
   - Linux
   before_script:
-  - yarn config set cache-folder .yarn
   - yarn install
   script:
   # Runs the tests.
