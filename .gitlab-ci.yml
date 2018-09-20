@@ -8,7 +8,9 @@
 # And to cache them as well.
 cache:
   untracked: true
+  key: cache_yarn
   paths:
+  - .cache_yarn
   - node_modules/
 
 # We tell GitLab to install all the packages
@@ -30,7 +32,7 @@ Build:
   tags:
   - Linux
   before_script:
-  - yarn
+  - yarn install --cache-folder .cache_yarn
   script:
   - yarn build
 
@@ -39,7 +41,7 @@ Test:
   tags:
   - Linux
   before_script:
-  - yarn
+  - yarn install --cache-folder .cache_yarn
   script:
   # Runs the tests.
   - yarn test --coverage --no-cache
