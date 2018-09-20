@@ -30,7 +30,7 @@ Build:
   tags:
   - Linux
   before_script:
-  - yarn install
+  - yarn
   script:
   - yarn build
 
@@ -39,7 +39,7 @@ Test:
   tags:
   - Linux
   before_script:
-  - yarn install
+  - yarn
   script:
   # Runs the tests.
   - yarn test --coverage --no-cache
