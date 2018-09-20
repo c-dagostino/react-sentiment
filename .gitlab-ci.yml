@@ -1,3 +1,5 @@
+# Reference: https://www.exclamationlabs.com/blog/continuous-deployment-to-npm-using-gitlab-ci/
+
 # GitLab uses docker in the background, so we need to specify the
 # image versions. This is useful because we're freely to use
 # multiple node versions to work with it. They come from the docker
@@ -7,22 +9,18 @@
 
 # And to cache them as well.
 cache:
-  untracked: true
-  key: cache_yarn
   paths:
-  - .cache_yarn
   - node_modules/
+  - .yarn_cache
 
 # We tell GitLab to install all the packages
 # before running anything.
 # Docker images come with yarn preinstalled
 before_script:
 - apt-get update -qq && apt-get install
-- rm -rf node_modules
 
 # You specify the stages. Those are the steps that GitLab will go through
 # Order matters.
-
 stages:
 - build
 - test
@@ -32,16 +30,17 @@ Build:
   tags:
   - Linux
   before_script:
-  - yarn install --cache-folder .cache_yarn
+  - yarn config set cache-folder .yarn_cache
+  - yarn install
   script:
-  - yarn build
+  - npm run build
 
 Test:
   stage: test
   tags:
   - Linux
   before_script:
-  - yarn install --cache-folder .cache_yarn
+  - yarn install --cache-folder .yarn_cache
   script:
   # Runs the tests.
   - yarn test --coverage --no-cache
