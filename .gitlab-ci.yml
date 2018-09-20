@@ -45,3 +45,6 @@ Test:
   script:
   # Runs the tests.
   - yarn test --coverage --no-cache
+  artifacts:
+    paths:
+    - coverage/lcov-report
