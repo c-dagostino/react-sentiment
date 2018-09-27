@@ -1,6 +1,7 @@
-import { applyMiddleware, compose, createStore } from 'redux';
+import { applyMiddleware, createStore } from 'redux';
 import { fromJS } from 'immutable';
 import createSagaMiddleware from 'redux-saga';
+import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';
 
 import reducers from './reducers';
 import sagas from './sagas';
@@ -10,11 +11,7 @@ const initialState = fromJS({});
 const store = createStore(
   reducers,
   initialState,
-  compose(
-    applyMiddleware(sagaMiddleware),
-    // eslint-disable-next-line no-underscore-dangle
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-  )
+  composeWithDevTools(applyMiddleware(sagaMiddleware))
 );
 
 sagaMiddleware.run(sagas);
