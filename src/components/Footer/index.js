@@ -1,14 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import packageJson from '../../../package.json';
+
+import { withStyles } from '@material-ui/core/styles';
 
 const styles = theme => ({
   footer: {
     backgroundColor: theme.palette.background.paper,
-    padding: `${theme.spacing.unit * 6}px 0`
+    padding: `${theme.spacing.unit * 6}px 0`,
+    bottom: 0,
+    width: '100%',
+    position: 'absolute'
   }
 });
 
@@ -24,15 +27,7 @@ export class Footer extends React.Component {
     return (
       <footer className={classes.footer}>
         <Typography variant="title" align="center" gutterBottom>
-          React Marketing Baseline Client
-        </Typography>
-        <Typography
-          variant="subheading"
-          align="center"
-          color="textSecondary"
-          component="p"
-        >
-          {`Version: ${packageJson.version}`}
+          {`© Navis Software ${new Date().getFullYear()}`}
         </Typography>
       </footer>
     );

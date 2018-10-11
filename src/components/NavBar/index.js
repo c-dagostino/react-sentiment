@@ -24,6 +24,10 @@ const styles = () => ({
 // TODO: move this to a separate file?
 export const tabs = fromJS([
   {
+    label: 'About',
+    value: '/about'
+  },
+  {
     label: 'Public',
     value: '/public'
   },

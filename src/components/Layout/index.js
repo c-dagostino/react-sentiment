@@ -10,9 +10,10 @@ import Routes from '../../containers/Routes';
 import theme from '../../utils/theme';
 
 const stickyFooter = {
-  height: '100%',
   boxSizing: 'border-box',
-  marginBottom: '-150px'
+  minHeight: '100%',
+  paddingBottom: '100px',
+  position: 'relative'
 };
 
 export default class Layout extends React.Component {

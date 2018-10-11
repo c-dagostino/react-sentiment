@@ -45,6 +45,12 @@ ShallowWrapper {
                         Immutable.List [
                                 <WithStyles(Tab)
                                         component={[Function]}
+                                        label="About"
+                                        to="/about"
+                                        value="/about"
+                                />,
+                                <WithStyles(Tab)
+                                        component={[Function]}
                                         label="Public"
                                         to="/public"
                                         value="/public"
@@ -92,6 +98,12 @@ ShallowWrapper {
                     value={false}
           >
                     Immutable.List [
+                              <WithStyles(Tab)
+                                        component={[Function]}
+                                        label="About"
+                                        to="/about"
+                                        value="/about"
+                              />,
                               <WithStyles(Tab)
                                         component={[Function]}
                                         label="Public"
@@ -142,6 +154,12 @@ ShallowWrapper {
               value={false}
 >
               Immutable.List [
+                            <WithStyles(Tab)
+                                          component={[Function]}
+                                          label="About"
+                                          to="/about"
+                                          value="/about"
+                            />,
                             <WithStyles(Tab)
                                           component={[Function]}
                                           label="Public"
@@ -195,6 +213,12 @@ ShallowWrapper {
               "children": Immutable.List [
                 <WithStyles(Tab)
                                 component={[Function]}
+                                label="About"
+                                to="/about"
+                                value="/about"
+                />,
+                <WithStyles(Tab)
+                                component={[Function]}
                                 label="Public"
                                 to="/public"
                                 value="/public"
@@ -223,6 +247,20 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "/about",
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "label": "About",
+                  "to": "/about",
+                  "value": "/about",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
               Object {
                 "instance": null,
                 "key": "/public",
@@ -315,6 +353,12 @@ ShallowWrapper {
                               Immutable.List [
                                         <WithStyles(Tab)
                                                   component={[Function]}
+                                                  label="About"
+                                                  to="/about"
+                                                  value="/about"
+                                        />,
+                                        <WithStyles(Tab)
+                                                  component={[Function]}
                                                   label="Public"
                                                   to="/public"
                                                   value="/public"
@@ -362,6 +406,12 @@ ShallowWrapper {
                         value={false}
             >
                         Immutable.List [
+                                    <WithStyles(Tab)
+                                                component={[Function]}
+                                                label="About"
+                                                to="/about"
+                                                value="/about"
+                                    />,
                                     <WithStyles(Tab)
                                                 component={[Function]}
                                                 label="Public"
@@ -412,6 +462,12 @@ ShallowWrapper {
                 value={false}
 >
                 Immutable.List [
+                                <WithStyles(Tab)
+                                                component={[Function]}
+                                                label="About"
+                                                to="/about"
+                                                value="/about"
+                                />,
                                 <WithStyles(Tab)
                                                 component={[Function]}
                                                 label="Public"
@@ -465,6 +521,12 @@ ShallowWrapper {
                 "children": Immutable.List [
                   <WithStyles(Tab)
                                     component={[Function]}
+                                    label="About"
+                                    to="/about"
+                                    value="/about"
+                  />,
+                  <WithStyles(Tab)
+                                    component={[Function]}
                                     label="Public"
                                     to="/public"
                                     value="/public"
@@ -493,6 +555,20 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "/about",
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "label": "About",
+                    "to": "/about",
+                    "value": "/about",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
                 Object {
                   "instance": null,
                   "key": "/public",
@@ -592,7 +668,7 @@ ShallowWrapper {
             "toolbarTitle": "test-toolbar-title",
           }
     }
-    value="/public"
+    value="/about"
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -622,9 +698,15 @@ ShallowWrapper {
                 </WithStyles(Typography)>
                 <WithStyles(Tabs)
                         fullWidth={true}
-                        value="/public"
+                        value="/about"
                 >
                         Immutable.List [
+                                <WithStyles(Tab)
+                                        component={[Function]}
+                                        label="About"
+                                        to="/about"
+                                        value="/about"
+                                />,
                                 <WithStyles(Tab)
                                         component={[Function]}
                                         label="Public"
@@ -671,9 +753,15 @@ ShallowWrapper {
           </WithStyles(Typography)>
           <WithStyles(Tabs)
                     fullWidth={true}
-                    value="/public"
+                    value="/about"
           >
                     Immutable.List [
+                              <WithStyles(Tab)
+                                        component={[Function]}
+                                        label="About"
+                                        to="/about"
+                                        value="/about"
+                              />,
                               <WithStyles(Tab)
                                         component={[Function]}
                                         label="Public"
@@ -721,9 +809,15 @@ ShallowWrapper {
 </WithStyles(Typography)>,
             <WithStyles(Tabs)
               fullWidth={true}
-              value="/public"
+              value="/about"
 >
               Immutable.List [
+                            <WithStyles(Tab)
+                                          component={[Function]}
+                                          label="About"
+                                          to="/about"
+                                          value="/about"
+                            />,
                             <WithStyles(Tab)
                                           component={[Function]}
                                           label="Public"
@@ -777,6 +871,12 @@ ShallowWrapper {
               "children": Immutable.List [
                 <WithStyles(Tab)
                                 component={[Function]}
+                                label="About"
+                                to="/about"
+                                value="/about"
+                />,
+                <WithStyles(Tab)
+                                component={[Function]}
                                 label="Public"
                                 to="/public"
                                 value="/public"
@@ -801,10 +901,24 @@ ShallowWrapper {
                 />,
 ],
               "fullWidth": true,
-              "value": "/public",
+              "value": "/about",
             },
             "ref": null,
             "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "/about",
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "label": "About",
+                  "to": "/about",
+                  "value": "/about",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
               Object {
                 "instance": null,
                 "key": "/public",
@@ -892,9 +1006,15 @@ ShallowWrapper {
                     </WithStyles(Typography)>
                     <WithStyles(Tabs)
                               fullWidth={true}
-                              value="/public"
+                              value="/about"
                     >
                               Immutable.List [
+                                        <WithStyles(Tab)
+                                                  component={[Function]}
+                                                  label="About"
+                                                  to="/about"
+                                                  value="/about"
+                                        />,
                                         <WithStyles(Tab)
                                                   component={[Function]}
                                                   label="Public"
@@ -941,9 +1061,15 @@ ShallowWrapper {
             </WithStyles(Typography)>
             <WithStyles(Tabs)
                         fullWidth={true}
-                        value="/public"
+                        value="/about"
             >
                         Immutable.List [
+                                    <WithStyles(Tab)
+                                                component={[Function]}
+                                                label="About"
+                                                to="/about"
+                                                value="/about"
+                                    />,
                                     <WithStyles(Tab)
                                                 component={[Function]}
                                                 label="Public"
@@ -991,9 +1117,15 @@ ShallowWrapper {
 </WithStyles(Typography)>,
               <WithStyles(Tabs)
                 fullWidth={true}
-                value="/public"
+                value="/about"
 >
                 Immutable.List [
+                                <WithStyles(Tab)
+                                                component={[Function]}
+                                                label="About"
+                                                to="/about"
+                                                value="/about"
+                                />,
                                 <WithStyles(Tab)
                                                 component={[Function]}
                                                 label="Public"
@@ -1047,6 +1179,12 @@ ShallowWrapper {
                 "children": Immutable.List [
                   <WithStyles(Tab)
                                     component={[Function]}
+                                    label="About"
+                                    to="/about"
+                                    value="/about"
+                  />,
+                  <WithStyles(Tab)
+                                    component={[Function]}
                                     label="Public"
                                     to="/public"
                                     value="/public"
@@ -1071,10 +1209,24 @@ ShallowWrapper {
                   />,
 ],
                 "fullWidth": true,
-                "value": "/public",
+                "value": "/about",
               },
               "ref": null,
               "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "/about",
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "label": "About",
+                    "to": "/about",
+                    "value": "/about",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
                 Object {
                   "instance": null,
                   "key": "/public",

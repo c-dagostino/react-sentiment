@@ -136,6 +136,14 @@ ShallowWrapper {
       "children": Array [
         <Route
           component={[Function]}
+          path="/about"
+/>,
+        <Route
+          component={[Function]}
+          path="/callback"
+/>,
+        <Route
+          component={[Function]}
           path="/login"
 />,
         <Route
@@ -144,15 +152,11 @@ ShallowWrapper {
 />,
         <Route
           component={[Function]}
-          path="/callback"
+          path="/protected"
 />,
         <Route
           component={[Function]}
           path="/public"
-/>,
-        <Route
-          component={[Function]}
-          path="/protected"
 />,
         <Route
           component={[Function]}
@@ -167,6 +171,30 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "path": "/about",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "path": "/callback",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
       Object {
         "instance": null,
         "key": undefined,
@@ -197,7 +225,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "component": [Function],
-          "path": "/callback",
+          "path": "/protected",
         },
         "ref": null,
         "rendered": null,
@@ -210,18 +238,6 @@ ShallowWrapper {
         "props": Object {
           "component": [Function],
           "path": "/public",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "component": [Function],
-          "path": "/protected",
         },
         "ref": null,
         "rendered": null,
@@ -264,6 +280,14 @@ ShallowWrapper {
         "children": Array [
           <Route
             component={[Function]}
+            path="/about"
+/>,
+          <Route
+            component={[Function]}
+            path="/callback"
+/>,
+          <Route
+            component={[Function]}
             path="/login"
 />,
           <Route
@@ -272,15 +296,11 @@ ShallowWrapper {
 />,
           <Route
             component={[Function]}
-            path="/callback"
+            path="/protected"
 />,
           <Route
             component={[Function]}
             path="/public"
-/>,
-          <Route
-            component={[Function]}
-            path="/protected"
 />,
           <Route
             component={[Function]}
@@ -295,6 +315,30 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/about",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/callback",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         Object {
           "instance": null,
           "key": undefined,
@@ -325,7 +369,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "component": [Function],
-            "path": "/callback",
+            "path": "/protected",
           },
           "ref": null,
           "rendered": null,
@@ -338,18 +382,6 @@ ShallowWrapper {
           "props": Object {
             "component": [Function],
             "path": "/public",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "component": [Function],
-            "path": "/protected",
           },
           "ref": null,
           "rendered": null,

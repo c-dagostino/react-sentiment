@@ -7,6 +7,7 @@ import LogoutPage from '../../components/Auth/LogoutPage';
 import CallbackPage from '../../components/Auth/CallbackPage';
 import RequireAuth from '../../components/Auth/RequireAuth';
 
+import AboutPage from '../../components/AboutPage';
 import HomePage from '../../components/HomePage';
 import SagaPage from '../SagaExample';
 
@@ -17,11 +18,12 @@ export default class Routes extends React.Component {
   render() {
     return (
       <Switch>
+        <Route path={'/about'} component={AboutPage} />
+        <Route path={'/callback'} component={CallbackPage} />
         <Route path={'/login'} component={LoginPage} />
         <Route path={'/logout'} component={LogoutPage} />
-        <Route path={'/callback'} component={CallbackPage} />
-        <Route path={'/public'} component={Public} />
         <Route path={'/protected'} component={RequireAuth(Protected)} />
+        <Route path={'/public'} component={Public} />
         <Route path={'/saga'} component={RequireAuth(SagaPage)} />
         <Route exaxt path={'/'} component={HomePage} />
       </Switch>
