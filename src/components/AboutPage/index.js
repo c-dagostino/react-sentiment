@@ -60,8 +60,8 @@ export class AboutPage extends React.Component {
 
   render() {
     const {
-      REACT_APP_NAME: appName,
       NODE_ENV: nodeEnvironment,
+      REACT_APP_NAME: appName,
       REACT_APP_OIDC_AUTHORITY_CLIENT_ID: clientId,
       REACT_APP_OIDC_AUTHORITY_URL: authUrl
     } = environmentProperties;
@@ -77,6 +77,7 @@ export class AboutPage extends React.Component {
       name: packageJson.name,
       version: packageJson.version
     };
+
     return (
       <div>
         <Typography variant="title" align="center" gutterBottom>
