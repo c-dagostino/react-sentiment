@@ -50,9 +50,7 @@ export class AboutPage extends React.Component {
   generateRows(rows) {
     const entries = Object.entries(rows);
     return entries.map(entry => {
-      const cells = entry.map((cell, i) => (
-        <TableCell key={i}>{cell}</TableCell>
-      ));
+      const cells = entry.map(cell => <TableCell key={cell}>{cell}</TableCell>);
 
       return <TableRow key={entry[0]}>{cells}</TableRow>;
     });

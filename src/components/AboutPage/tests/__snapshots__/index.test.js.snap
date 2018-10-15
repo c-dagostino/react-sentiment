@@ -674,7 +674,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "appName",
                     "nodeType": "class",
                     "props": Object {
                       "children": "appName",
@@ -685,7 +685,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "React Marketing Baseline Client",
                     "nodeType": "class",
                     "props": Object {
                       "children": "React Marketing Baseline Client",
@@ -715,7 +715,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "nodeEnvironment",
                     "nodeType": "class",
                     "props": Object {
                       "children": "nodeEnvironment",
@@ -726,7 +726,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "test",
                     "nodeType": "class",
                     "props": Object {
                       "children": "test",
@@ -754,7 +754,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "clientId",
                     "nodeType": "class",
                     "props": Object {
                       "children": "clientId",
@@ -765,7 +765,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": undefined,
                     "nodeType": "class",
                     "props": Object {
                       "children": undefined,
@@ -793,7 +793,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "authUrl",
                     "nodeType": "class",
                     "props": Object {
                       "children": "authUrl",
@@ -804,7 +804,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": undefined,
                     "nodeType": "class",
                     "props": Object {
                       "children": undefined,
@@ -1020,7 +1020,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "name",
                     "nodeType": "class",
                     "props": Object {
                       "children": "name",
@@ -1031,7 +1031,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "react-marketing-baseline-client",
                     "nodeType": "class",
                     "props": Object {
                       "children": "react-marketing-baseline-client",
@@ -1061,7 +1061,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "version",
                     "nodeType": "class",
                     "props": Object {
                       "children": "version",
@@ -1072,7 +1072,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "0.1.0",
                     "nodeType": "class",
                     "props": Object {
                       "children": "0.1.0",
@@ -1792,7 +1792,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "@material-ui/core",
                     "nodeType": "class",
                     "props": Object {
                       "children": "@material-ui/core",
@@ -1803,7 +1803,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^3.0.3",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^3.0.3",
@@ -1833,7 +1833,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "@material-ui/icons",
                     "nodeType": "class",
                     "props": Object {
                       "children": "@material-ui/icons",
@@ -1844,7 +1844,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^3.0.1",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^3.0.1",
@@ -1874,7 +1874,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "axios",
                     "nodeType": "class",
                     "props": Object {
                       "children": "axios",
@@ -1885,7 +1885,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^0.18.0",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^0.18.0",
@@ -1915,7 +1915,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "contrast",
                     "nodeType": "class",
                     "props": Object {
                       "children": "contrast",
@@ -1926,7 +1926,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^1.0.1",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^1.0.1",
@@ -1956,7 +1956,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "enzyme",
                     "nodeType": "class",
                     "props": Object {
                       "children": "enzyme",
@@ -1967,7 +1967,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^3.6.0",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^3.6.0",
@@ -1997,7 +1997,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "enzyme-adapter-react-16",
                     "nodeType": "class",
                     "props": Object {
                       "children": "enzyme-adapter-react-16",
@@ -2008,7 +2008,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^1.5.0",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^1.5.0",
@@ -2038,7 +2038,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "immutable",
                     "nodeType": "class",
                     "props": Object {
                       "children": "immutable",
@@ -2049,7 +2049,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^3.8.2",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^3.8.2",
@@ -2079,7 +2079,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "oidc-client",
                     "nodeType": "class",
                     "props": Object {
                       "children": "oidc-client",
@@ -2090,7 +2090,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^1.5.2",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^1.5.2",
@@ -2120,7 +2120,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "polished",
                     "nodeType": "class",
                     "props": Object {
                       "children": "polished",
@@ -2131,7 +2131,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^2.0.3",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^2.0.3",
@@ -2161,7 +2161,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "prop-types",
                     "nodeType": "class",
                     "props": Object {
                       "children": "prop-types",
@@ -2172,7 +2172,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^15.6.2",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^15.6.2",
@@ -2202,7 +2202,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "react",
                     "nodeType": "class",
                     "props": Object {
                       "children": "react",
@@ -2213,7 +2213,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^16.5.0",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^16.5.0",
@@ -2243,7 +2243,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "react-dom",
                     "nodeType": "class",
                     "props": Object {
                       "children": "react-dom",
@@ -2254,7 +2254,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^16.5.0",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^16.5.0",
@@ -2284,7 +2284,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "react-redux",
                     "nodeType": "class",
                     "props": Object {
                       "children": "react-redux",
@@ -2295,7 +2295,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^5.0.7",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^5.0.7",
@@ -2325,7 +2325,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "react-router",
                     "nodeType": "class",
                     "props": Object {
                       "children": "react-router",
@@ -2336,7 +2336,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^4.3.1",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^4.3.1",
@@ -2366,7 +2366,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "react-router-dom",
                     "nodeType": "class",
                     "props": Object {
                       "children": "react-router-dom",
@@ -2377,7 +2377,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^4.3.1",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^4.3.1",
@@ -2407,7 +2407,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "react-scripts",
                     "nodeType": "class",
                     "props": Object {
                       "children": "react-scripts",
@@ -2418,7 +2418,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "1.1.5",
                     "nodeType": "class",
                     "props": Object {
                       "children": "1.1.5",
@@ -2448,7 +2448,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "redux",
                     "nodeType": "class",
                     "props": Object {
                       "children": "redux",
@@ -2459,7 +2459,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^4.0.0",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^4.0.0",
@@ -2489,7 +2489,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "redux-devtools-extension",
                     "nodeType": "class",
                     "props": Object {
                       "children": "redux-devtools-extension",
@@ -2500,7 +2500,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^2.13.5",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^2.13.5",
@@ -2530,7 +2530,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "redux-immutable",
                     "nodeType": "class",
                     "props": Object {
                       "children": "redux-immutable",
@@ -2541,7 +2541,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^4.0.0",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^4.0.0",
@@ -2571,7 +2571,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "redux-mock-store",
                     "nodeType": "class",
                     "props": Object {
                       "children": "redux-mock-store",
@@ -2582,7 +2582,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^1.5.3",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^1.5.3",
@@ -2612,7 +2612,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "redux-oidc",
                     "nodeType": "class",
                     "props": Object {
                       "children": "redux-oidc",
@@ -2623,7 +2623,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^3.0.2",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^3.0.2",
@@ -2653,7 +2653,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "redux-saga",
                     "nodeType": "class",
                     "props": Object {
                       "children": "redux-saga",
@@ -2664,7 +2664,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^0.16.0",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^0.16.0",
@@ -2694,7 +2694,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "styled-components",
                     "nodeType": "class",
                     "props": Object {
                       "children": "styled-components",
@@ -2705,7 +2705,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^3.4.6",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^3.4.6",
@@ -3137,7 +3137,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "eslint",
                     "nodeType": "class",
                     "props": Object {
                       "children": "eslint",
@@ -3148,7 +3148,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^5.5.0",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^5.5.0",
@@ -3178,7 +3178,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "eslint-config-airbnb",
                     "nodeType": "class",
                     "props": Object {
                       "children": "eslint-config-airbnb",
@@ -3189,7 +3189,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^17.1.0",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^17.1.0",
@@ -3219,7 +3219,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "eslint-config-prettier",
                     "nodeType": "class",
                     "props": Object {
                       "children": "eslint-config-prettier",
@@ -3230,7 +3230,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^3.0.1",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^3.0.1",
@@ -3260,7 +3260,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "eslint-plugin-import",
                     "nodeType": "class",
                     "props": Object {
                       "children": "eslint-plugin-import",
@@ -3271,7 +3271,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^2.14.0",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^2.14.0",
@@ -3301,7 +3301,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "eslint-plugin-jsx-a11y",
                     "nodeType": "class",
                     "props": Object {
                       "children": "eslint-plugin-jsx-a11y",
@@ -3312,7 +3312,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^6.1.1",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^6.1.1",
@@ -3342,7 +3342,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "eslint-plugin-prettier",
                     "nodeType": "class",
                     "props": Object {
                       "children": "eslint-plugin-prettier",
@@ -3353,7 +3353,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^2.6.2",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^2.6.2",
@@ -3383,7 +3383,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "eslint-plugin-react",
                     "nodeType": "class",
                     "props": Object {
                       "children": "eslint-plugin-react",
@@ -3394,7 +3394,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^7.11.1",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^7.11.1",
@@ -3424,7 +3424,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "husky",
                     "nodeType": "class",
                     "props": Object {
                       "children": "husky",
@@ -3435,7 +3435,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^1.0.1",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^1.0.1",
@@ -3465,7 +3465,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "lint-staged",
                     "nodeType": "class",
                     "props": Object {
                       "children": "lint-staged",
@@ -3476,7 +3476,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^7.2.2",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^7.2.2",
@@ -3506,7 +3506,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "prettier",
                     "nodeType": "class",
                     "props": Object {
                       "children": "prettier",
@@ -3517,7 +3517,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^1.14.2",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^1.14.2",
@@ -3547,7 +3547,7 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "0",
+                    "key": "redux-saga-test-plan",
                     "nodeType": "class",
                     "props": Object {
                       "children": "redux-saga-test-plan",
@@ -3558,7 +3558,7 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "1",
+                    "key": "^3.7.0",
                     "nodeType": "class",
                     "props": Object {
                       "children": "^3.7.0",
@@ -4237,7 +4237,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "appName",
                       "nodeType": "class",
                       "props": Object {
                         "children": "appName",
@@ -4248,7 +4248,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "React Marketing Baseline Client",
                       "nodeType": "class",
                       "props": Object {
                         "children": "React Marketing Baseline Client",
@@ -4278,7 +4278,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "nodeEnvironment",
                       "nodeType": "class",
                       "props": Object {
                         "children": "nodeEnvironment",
@@ -4289,7 +4289,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "test",
                       "nodeType": "class",
                       "props": Object {
                         "children": "test",
@@ -4317,7 +4317,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "clientId",
                       "nodeType": "class",
                       "props": Object {
                         "children": "clientId",
@@ -4328,7 +4328,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": undefined,
                       "nodeType": "class",
                       "props": Object {
                         "children": undefined,
@@ -4356,7 +4356,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "authUrl",
                       "nodeType": "class",
                       "props": Object {
                         "children": "authUrl",
@@ -4367,7 +4367,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": undefined,
                       "nodeType": "class",
                       "props": Object {
                         "children": undefined,
@@ -4583,7 +4583,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "name",
                       "nodeType": "class",
                       "props": Object {
                         "children": "name",
@@ -4594,7 +4594,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "react-marketing-baseline-client",
                       "nodeType": "class",
                       "props": Object {
                         "children": "react-marketing-baseline-client",
@@ -4624,7 +4624,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "version",
                       "nodeType": "class",
                       "props": Object {
                         "children": "version",
@@ -4635,7 +4635,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "0.1.0",
                       "nodeType": "class",
                       "props": Object {
                         "children": "0.1.0",
@@ -5355,7 +5355,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "@material-ui/core",
                       "nodeType": "class",
                       "props": Object {
                         "children": "@material-ui/core",
@@ -5366,7 +5366,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^3.0.3",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^3.0.3",
@@ -5396,7 +5396,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "@material-ui/icons",
                       "nodeType": "class",
                       "props": Object {
                         "children": "@material-ui/icons",
@@ -5407,7 +5407,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^3.0.1",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^3.0.1",
@@ -5437,7 +5437,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "axios",
                       "nodeType": "class",
                       "props": Object {
                         "children": "axios",
@@ -5448,7 +5448,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^0.18.0",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^0.18.0",
@@ -5478,7 +5478,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "contrast",
                       "nodeType": "class",
                       "props": Object {
                         "children": "contrast",
@@ -5489,7 +5489,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^1.0.1",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^1.0.1",
@@ -5519,7 +5519,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "enzyme",
                       "nodeType": "class",
                       "props": Object {
                         "children": "enzyme",
@@ -5530,7 +5530,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^3.6.0",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^3.6.0",
@@ -5560,7 +5560,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "enzyme-adapter-react-16",
                       "nodeType": "class",
                       "props": Object {
                         "children": "enzyme-adapter-react-16",
@@ -5571,7 +5571,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^1.5.0",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^1.5.0",
@@ -5601,7 +5601,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "immutable",
                       "nodeType": "class",
                       "props": Object {
                         "children": "immutable",
@@ -5612,7 +5612,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^3.8.2",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^3.8.2",
@@ -5642,7 +5642,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "oidc-client",
                       "nodeType": "class",
                       "props": Object {
                         "children": "oidc-client",
@@ -5653,7 +5653,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^1.5.2",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^1.5.2",
@@ -5683,7 +5683,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "polished",
                       "nodeType": "class",
                       "props": Object {
                         "children": "polished",
@@ -5694,7 +5694,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^2.0.3",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^2.0.3",
@@ -5724,7 +5724,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "prop-types",
                       "nodeType": "class",
                       "props": Object {
                         "children": "prop-types",
@@ -5735,7 +5735,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^15.6.2",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^15.6.2",
@@ -5765,7 +5765,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "react",
                       "nodeType": "class",
                       "props": Object {
                         "children": "react",
@@ -5776,7 +5776,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^16.5.0",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^16.5.0",
@@ -5806,7 +5806,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "react-dom",
                       "nodeType": "class",
                       "props": Object {
                         "children": "react-dom",
@@ -5817,7 +5817,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^16.5.0",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^16.5.0",
@@ -5847,7 +5847,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "react-redux",
                       "nodeType": "class",
                       "props": Object {
                         "children": "react-redux",
@@ -5858,7 +5858,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^5.0.7",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^5.0.7",
@@ -5888,7 +5888,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "react-router",
                       "nodeType": "class",
                       "props": Object {
                         "children": "react-router",
@@ -5899,7 +5899,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^4.3.1",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^4.3.1",
@@ -5929,7 +5929,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "react-router-dom",
                       "nodeType": "class",
                       "props": Object {
                         "children": "react-router-dom",
@@ -5940,7 +5940,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^4.3.1",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^4.3.1",
@@ -5970,7 +5970,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "react-scripts",
                       "nodeType": "class",
                       "props": Object {
                         "children": "react-scripts",
@@ -5981,7 +5981,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "1.1.5",
                       "nodeType": "class",
                       "props": Object {
                         "children": "1.1.5",
@@ -6011,7 +6011,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "redux",
                       "nodeType": "class",
                       "props": Object {
                         "children": "redux",
@@ -6022,7 +6022,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^4.0.0",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^4.0.0",
@@ -6052,7 +6052,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "redux-devtools-extension",
                       "nodeType": "class",
                       "props": Object {
                         "children": "redux-devtools-extension",
@@ -6063,7 +6063,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^2.13.5",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^2.13.5",
@@ -6093,7 +6093,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "redux-immutable",
                       "nodeType": "class",
                       "props": Object {
                         "children": "redux-immutable",
@@ -6104,7 +6104,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^4.0.0",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^4.0.0",
@@ -6134,7 +6134,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "redux-mock-store",
                       "nodeType": "class",
                       "props": Object {
                         "children": "redux-mock-store",
@@ -6145,7 +6145,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^1.5.3",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^1.5.3",
@@ -6175,7 +6175,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "redux-oidc",
                       "nodeType": "class",
                       "props": Object {
                         "children": "redux-oidc",
@@ -6186,7 +6186,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^3.0.2",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^3.0.2",
@@ -6216,7 +6216,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "redux-saga",
                       "nodeType": "class",
                       "props": Object {
                         "children": "redux-saga",
@@ -6227,7 +6227,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^0.16.0",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^0.16.0",
@@ -6257,7 +6257,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "styled-components",
                       "nodeType": "class",
                       "props": Object {
                         "children": "styled-components",
@@ -6268,7 +6268,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^3.4.6",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^3.4.6",
@@ -6700,7 +6700,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "eslint",
                       "nodeType": "class",
                       "props": Object {
                         "children": "eslint",
@@ -6711,7 +6711,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^5.5.0",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^5.5.0",
@@ -6741,7 +6741,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "eslint-config-airbnb",
                       "nodeType": "class",
                       "props": Object {
                         "children": "eslint-config-airbnb",
@@ -6752,7 +6752,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^17.1.0",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^17.1.0",
@@ -6782,7 +6782,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "eslint-config-prettier",
                       "nodeType": "class",
                       "props": Object {
                         "children": "eslint-config-prettier",
@@ -6793,7 +6793,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^3.0.1",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^3.0.1",
@@ -6823,7 +6823,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "eslint-plugin-import",
                       "nodeType": "class",
                       "props": Object {
                         "children": "eslint-plugin-import",
@@ -6834,7 +6834,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^2.14.0",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^2.14.0",
@@ -6864,7 +6864,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "eslint-plugin-jsx-a11y",
                       "nodeType": "class",
                       "props": Object {
                         "children": "eslint-plugin-jsx-a11y",
@@ -6875,7 +6875,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^6.1.1",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^6.1.1",
@@ -6905,7 +6905,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "eslint-plugin-prettier",
                       "nodeType": "class",
                       "props": Object {
                         "children": "eslint-plugin-prettier",
@@ -6916,7 +6916,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^2.6.2",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^2.6.2",
@@ -6946,7 +6946,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "eslint-plugin-react",
                       "nodeType": "class",
                       "props": Object {
                         "children": "eslint-plugin-react",
@@ -6957,7 +6957,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^7.11.1",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^7.11.1",
@@ -6987,7 +6987,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "husky",
                       "nodeType": "class",
                       "props": Object {
                         "children": "husky",
@@ -6998,7 +6998,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^1.0.1",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^1.0.1",
@@ -7028,7 +7028,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "lint-staged",
                       "nodeType": "class",
                       "props": Object {
                         "children": "lint-staged",
@@ -7039,7 +7039,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^7.2.2",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^7.2.2",
@@ -7069,7 +7069,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "prettier",
                       "nodeType": "class",
                       "props": Object {
                         "children": "prettier",
@@ -7080,7 +7080,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^1.14.2",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^1.14.2",
@@ -7110,7 +7110,7 @@ ShallowWrapper {
                   "rendered": Array [
                     Object {
                       "instance": null,
-                      "key": "0",
+                      "key": "redux-saga-test-plan",
                       "nodeType": "class",
                       "props": Object {
                         "children": "redux-saga-test-plan",
@@ -7121,7 +7121,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "1",
+                      "key": "^3.7.0",
                       "nodeType": "class",
                       "props": Object {
                         "children": "^3.7.0",
