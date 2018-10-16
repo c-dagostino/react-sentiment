@@ -31,7 +31,7 @@
   },
   {
     "id": "logoutPage.title",
-    "defaultMessage": "[LogoutPage",
+    "defaultMessage": "[LogoutPage]",
     "filepath": "src/components/Auth/LogoutPage/index.js"
   },
   {
@@ -47,11 +47,6 @@
   {
     "id": "en.label",
     "defaultMessage": "[English]",
-    "filepath": "src/components/LanguageSelector/index.js"
-  },
-  {
-    "id": "es.label",
-    "defaultMessage": "[Spanish]",
     "filepath": "src/components/LanguageSelector/index.js"
   },
   {

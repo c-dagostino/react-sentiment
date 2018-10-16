@@ -1,3 +1,3 @@
-const supported = ['en', 'es'];
+const supported = ['en'];
 
 module.exports = supported;
