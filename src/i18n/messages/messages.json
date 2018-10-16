@@ -1,0 +1,117 @@
+[
+  {
+    "id": "about.envProps",
+    "defaultMessage": "[Env Props]",
+    "filepath": "src/components/AboutPage/index.js"
+  },
+  {
+    "id": "about.about",
+    "defaultMessage": "[About]",
+    "filepath": "src/components/AboutPage/index.js"
+  },
+  {
+    "id": "about.dependencies",
+    "defaultMessage": "[Dependencies]",
+    "filepath": "src/components/AboutPage/index.js"
+  },
+  {
+    "id": "about.devDependencies",
+    "defaultMessage": "[Dev Dependencies]",
+    "filepath": "src/components/AboutPage/index.js"
+  },
+  {
+    "id": "callbackPage.redirecting",
+    "defaultMessage": "[Redirecting...]",
+    "filepath": "src/components/Auth/CallbackPage/index.js"
+  },
+  {
+    "id": "loginPage.title",
+    "defaultMessage": "[LoginPage]",
+    "filepath": "src/components/Auth/LoginPage/index.js"
+  },
+  {
+    "id": "logoutPage.title",
+    "defaultMessage": "[LogoutPage",
+    "filepath": "src/components/Auth/LogoutPage/index.js"
+  },
+  {
+    "id": "homepage.title",
+    "defaultMessage": "[HomePage]",
+    "filepath": "src/components/HomePage/index.js"
+  },
+  {
+    "id": "homepage.paragraph",
+    "defaultMessage": "[Hello, World!]",
+    "filepath": "src/components/HomePage/index.js"
+  },
+  {
+    "id": "en.label",
+    "defaultMessage": "[English]",
+    "filepath": "src/components/LanguageSelector/index.js"
+  },
+  {
+    "id": "es.label",
+    "defaultMessage": "[Spanish]",
+    "filepath": "src/components/LanguageSelector/index.js"
+  },
+  {
+    "id": "language",
+    "defaultMessage": "[Language]",
+    "filepath": "src/components/LanguageSelector/index.js"
+  },
+  {
+    "id": "nav.about",
+    "defaultMessage": "[About]",
+    "filepath": "src/components/NavBar/index.js"
+  },
+  {
+    "id": "nav.public",
+    "defaultMessage": "[Public]",
+    "filepath": "src/components/NavBar/index.js"
+  },
+  {
+    "id": "nav.protected",
+    "defaultMessage": "[Protected]",
+    "filepath": "src/components/NavBar/index.js"
+  },
+  {
+    "id": "nav.sagaExample",
+    "defaultMessage": "[Saga Example]",
+    "filepath": "src/components/NavBar/index.js"
+  },
+  {
+    "id": "nav.logout",
+    "defaultMessage": "[Logout]",
+    "filepath": "src/components/NavBar/index.js"
+  },
+  {
+    "id": "app.name",
+    "defaultMessage": "[React Marketing Baseline Client]",
+    "filepath": "src/components/NavBar/index.js"
+  },
+  {
+    "id": "routes.public",
+    "defaultMessage": "[Public - No Login Required]",
+    "filepath": "src/containers/Routes/index.js"
+  },
+  {
+    "id": "routes.protected",
+    "defaultMessage": "[Protected - Login Required]",
+    "filepath": "src/containers/Routes/index.js"
+  },
+  {
+    "id": "sagaExample.title",
+    "defaultMessage": "[Saga Example]",
+    "filepath": "src/containers/SagaExample/index.js"
+  },
+  {
+    "id": "sagaExample.response",
+    "defaultMessage": "[Test: {responseMessage}]",
+    "filepath": "src/containers/SagaExample/index.js"
+  },
+  {
+    "id": "sagaExample.testButton",
+    "defaultMessage": "[Test Saga]",
+    "filepath": "src/containers/SagaExample/index.js"
+  }
+]

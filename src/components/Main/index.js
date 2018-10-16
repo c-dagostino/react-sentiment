@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import { withStyles } from '@material-ui/core/styles';
 
@@ -39,9 +40,9 @@ class Main extends React.Component {
   render() {
     const { classes } = this.props;
     return (
-      <main className={classes.layout}>
+      <Grid className={classes.layout}>
         <Paper className={classes.paper}>{this.props.children}</Paper>
-      </main>
+      </Grid>
     );
   }
 }

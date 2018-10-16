@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { compose } from 'redux';
 
+import { FormattedMessage, defineMessages } from 'react-intl';
+
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -19,6 +21,25 @@ const styles = theme => ({
   }
 });
 
+const messages = defineMessages({
+  envProps: {
+    id: 'about.envProps',
+    defaultMessage: '[Env Props]'
+  },
+  about: {
+    id: 'about.about',
+    defaultMessage: '[About]'
+  },
+  dependencies: {
+    id: 'about.dependencies',
+    defaultMessage: '[Dependencies]'
+  },
+  devDependencies: {
+    id: 'about.devDependencies',
+    defaultMessage: '[Dev Dependencies]'
+  }
+});
+
 export class AboutPage extends React.Component {
   static propTypes = {
     classes: PropTypes.shape({
@@ -26,7 +47,7 @@ export class AboutPage extends React.Component {
     }).isRequired
   };
 
-  generateTable(label, rows) {
+  generateTable(key, rows) {
     const { classes } = this.props;
     return (
       <div>
@@ -35,7 +56,7 @@ export class AboutPage extends React.Component {
             <TableRow className={classes.headerRow}>
               <TableCell>
                 <Typography variant="title" color={'textSecondary'}>
-                  {label}
+                  <FormattedMessage {...messages[key]} />
                 </Typography>
               </TableCell>
               <TableCell />
@@ -79,12 +100,15 @@ export class AboutPage extends React.Component {
     return (
       <div>
         <Typography variant="title" align="center" gutterBottom>
-          {appName}
+          <FormattedMessage
+            id={'app.name'}
+            default={'[React Marketing Baseline Client]'}
+          />
         </Typography>
-        {this.generateTable('Env Props', environmentRows)}
-        {this.generateTable('About', versionRows)}
-        {this.generateTable('Dependencies', packageJson.dependencies)}
-        {this.generateTable('Dev Dependencies', packageJson.devDependencies)}
+        {this.generateTable('envProps', environmentRows)}
+        {this.generateTable('about', versionRows)}
+        {this.generateTable('dependencies', packageJson.dependencies)}
+        {this.generateTable('devDependencies', packageJson.devDependencies)}
       </div>
     );
   }

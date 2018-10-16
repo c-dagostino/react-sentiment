@@ -3,6 +3,9 @@ import PropTypes from 'prop-types';
 
 import { bindActionCreators, compose } from 'redux';
 import { connect } from 'react-redux';
+
+import { FormattedMessage } from 'react-intl';
+
 import { getSagaTest as getSagaTestAction } from './actions';
 
 export class SagaPage extends React.Component {
@@ -25,14 +28,28 @@ export class SagaPage extends React.Component {
     const { sagaTest } = this.props;
     return (
       <div>
-        <h3>Saga Example</h3>
-        <p>{`Test: ${sagaTest}`}</p>
+        <h3>
+          <FormattedMessage
+            id={'sagaExample.title'}
+            defaultMessage={'[Saga Example]'}
+          />
+        </h3>
+        <p>
+          <FormattedMessage
+            id={'sagaExample.response'}
+            defaultMessage={'[Test: {responseMessage}]'}
+            values={{ responseMessage: sagaTest }}
+          />
+        </p>
         <button
           type={'button'}
           onClick={this.onButtonClick}
           data-id={'sagaTestButton'}
         >
-          Test Saga
+          <FormattedMessage
+            id={'sagaExample.testButton'}
+            defaultMessage={'[Test Saga]'}
+          />
         </button>
       </div>
     );

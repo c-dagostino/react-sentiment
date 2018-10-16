@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { FormattedMessage } from 'react-intl';
 import userManager from '../../../utils/userManager';
 
 class LoginPage extends React.Component {
@@ -41,7 +42,12 @@ class LoginPage extends React.Component {
   render() {
     return (
       <div>
-        <h3>LoginPage</h3>
+        <h3>
+          <FormattedMessage
+            id={'loginPage.title'}
+            defaultMessage={'[LoginPage]'}
+          />
+        </h3>
       </div>
     );
   }

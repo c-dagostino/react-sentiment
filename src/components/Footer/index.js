@@ -1,9 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Typography from '@material-ui/core/Typography';
+import { FormattedDate } from 'react-intl';
 
+import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
+
+import LanguageSelector from '../LanguageSelector';
 
 const styles = theme => ({
   footer: {
@@ -29,6 +32,10 @@ export class Footer extends React.Component {
         <Typography variant="title" align="center" gutterBottom>
           {`© Navis Software ${new Date().getFullYear()}`}
         </Typography>
+        <Typography variant="title" align="center" gutterBottom>
+          <FormattedDate value={new Date()} />
+        </Typography>
+        <LanguageSelector />
       </footer>
     );
   }

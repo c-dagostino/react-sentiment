@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 
+import { FormattedMessage } from 'react-intl';
+
 import userManager from '../../../utils/userManager';
 import { LOGOUT_URL } from '../constants';
 
@@ -31,7 +33,12 @@ export class LogoutPage extends React.Component {
   }
 
   render() {
-    return <div>Logging out...</div>;
+    return (
+      <FormattedMessage
+        id={'logoutPage.title'}
+        defaultMessage={'[LogoutPage]'}
+      />
+    );
   }
 }
 

@@ -7,13 +7,13 @@ import store from './store';
 import userManager from './utils/userManager';
 
 import './index.css';
-import App from './containers/App';
+import I18n from './containers/I18n';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
   <Provider store={store}>
     <OidcProvider store={store} userManager={userManager}>
-      <App />
+      <I18n />
     </OidcProvider>
   </Provider>,
   window.document.getElementById('root')

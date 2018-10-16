@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import { CallbackComponent } from 'redux-oidc';
 import { withRouter } from 'react-router-dom';
 
+import { FormattedMessage } from 'react-intl';
+
 import userManager from '../../../utils/userManager';
 import { LOGIN_ERROR_REDIRECT_PATH } from '../constants';
 
@@ -30,7 +32,10 @@ export class CallbackPage extends React.Component {
         successCallback={this.callbackComponentSuccess}
         errorCallback={this.callbackComponentError}
       >
-        <div>Redirecting...</div>
+        <FormattedMessage
+          id={'callbackPage.redirecting'}
+          defaultMessage={'[Redirecting...]'}
+        />
       </CallbackComponent>
     );
   }

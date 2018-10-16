@@ -5,6 +5,8 @@ import { fromJS } from 'immutable';
 import { compose } from 'redux';
 import { Link } from 'react-router-dom';
 
+import { FormattedMessage, defineMessages } from 'react-intl';
+
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
@@ -21,26 +23,48 @@ const styles = () => ({
   }
 });
 
+const messages = defineMessages({
+  about: {
+    id: 'nav.about',
+    defaultMessage: '[About]'
+  },
+  public: {
+    id: 'nav.public',
+    defaultMessage: '[Public]'
+  },
+  protected: {
+    id: 'nav.protected',
+    defaultMessage: '[Protected]'
+  },
+  sagaExample: {
+    id: 'nav.sagaExample',
+    defaultMessage: '[Saga Example]'
+  },
+  logout: {
+    id: 'nav.logout',
+    defaultMessage: '[Logout]'
+  }
+});
 // TODO: move this to a separate file?
 export const tabs = fromJS([
   {
-    label: 'About',
+    id: 'about',
     value: '/about'
   },
   {
-    label: 'Public',
+    id: 'public',
     value: '/public'
   },
   {
-    label: 'Protected',
+    id: 'protected',
     value: '/protected'
   },
   {
-    label: 'Saga Example',
+    id: 'sagaExample',
     value: '/saga'
   },
   {
-    label: 'Logout',
+    id: 'logout',
     value: '/logout'
   }
 ]);
@@ -63,8 +87,8 @@ export class NavBar extends React.Component {
     const generatedTabList = tabs.map(tab => (
       <Tab
         component={Link}
-        key={tab.get('value')}
-        label={tab.get('label')}
+        key={tab.get('id')}
+        label={<FormattedMessage {...messages[tab.get('id')]} />}
         to={tab.get('value')}
         value={tab.get('value')}
       />
@@ -85,7 +109,10 @@ export class NavBar extends React.Component {
               noWrap
               className={classes.toolbarTitle}
             >
-              React Marketing Baseline Client
+              <FormattedMessage
+                id={'app.name'}
+                defaultMessage={'[React Marketing Baseline Client]'}
+              />
             </Typography>
             <Tabs value={this.validateValue()} fullWidth>
               {this.generateTabList()}
