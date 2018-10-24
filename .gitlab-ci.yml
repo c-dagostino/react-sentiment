@@ -5,7 +5,7 @@
 # multiple node versions to work with it. They come from the docker
 # repo.
 # Uses NodeJS V 9.4.0
-image: node:latest
+# image: node:9.4.0
 
 # And to cache them as well.
 cache:
@@ -39,6 +39,11 @@ Build:
 
 unit_tests:
   stage: test
+  artifacts:
+    expire_in: 6 weeks
+    name: "${CI_PIPELINE_ID}:{$CI_JOB_NAME}"
+    paths:
+    - coverage/lcov-report
   tags:
   - Linux
   script:
@@ -81,8 +86,8 @@ deploy_dev:
   - echo $S3_BUCKET_PATH
   - echo $DEV_DISTRIBUTION_ID
   - echo $DEV_DISTRIBUTION_PATH
-  - echo "${S3_BUCKET_PATH}/marketing-admin-webapp"
-  - echo "${S3_BUCKET_PATH}/marketing-admin-webapp.old"
+  - echo "${S3_BUCKET_PATH}/${APPLICATION_NAME}"
+  - echo "${S3_BUCKET_PATH}/${APPLICATION_NAME}.old"
 
   - export AWS_REGION=$CI_AWS_REGION
   - export AWS_ACCESS_KEY_ID=$CI_AWS_ACCESS_KEY_ID
@@ -95,7 +100,7 @@ deploy_dev:
   - aws s3 mv "${S3_BUCKET_PATH}/${APPLICATION_NAME}" "${S3_BUCKET_PATH}/${APPLICATION_NAME}.old" --recursive --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
 
   # Upload the build folder to S3 bucket
-  - aws s3 cp build/ "${S3_BUCKET_PATH}/marketing-admin-webapp" --recursive --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
+  - aws s3 cp build/ "${S3_BUCKET_PATH}/${APPLICATION_NAME}" --recursive --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
 
   # Fixes SVGs content type
   - aws s3 cp "${S3_BUCKET_PATH}/${APPLICATION_NAME}" "${S3_BUCKET_PATH}/${APPLICATION_NAME}"  --exclude "*" --include "*.svg" --content-type="image/svg+xml" --metadata-directive="REPLACE" --recursive
@@ -107,4 +112,3 @@ deploy_dev:
   - aws s3 rm "${S3_BUCKET_PATH}/${APPLICATION_NAME}.old" --recursive
   tags:
   - Linux
-
