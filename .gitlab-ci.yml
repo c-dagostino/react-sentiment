@@ -35,7 +35,7 @@ Build:
   - yarn config set cache-folder .yarn_cache
   - yarn install
   script:
-  - yarn build
+  - yarn build:production
 
 unit_tests:
   stage: test
