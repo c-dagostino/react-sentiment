@@ -36,7 +36,11 @@ ShallowWrapper {
                         noWrap={true}
                         variant="title"
                 >
-                        React Marketing Baseline Client
+                        <FormattedMessage
+                                defaultMessage="[React Marketing Baseline Client]"
+                                id="app.name"
+                                values={Object {}}
+                        />
                 </WithStyles(Typography)>
                 <WithStyles(Tabs)
                         fullWidth={true}
@@ -45,31 +49,61 @@ ShallowWrapper {
                         Immutable.List [
                                 <WithStyles(Tab)
                                         component={[Function]}
-                                        label="About"
+                                        label={
+                                                <FormattedMessage
+                                                        defaultMessage="[About]"
+                                                        id="nav.about"
+                                                        values={Object {}}
+                                                />
+                                        }
                                         to="/about"
                                         value="/about"
                                 />,
                                 <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Public"
+                                        label={
+                                                <FormattedMessage
+                                                        defaultMessage="[Public]"
+                                                        id="nav.public"
+                                                        values={Object {}}
+                                                />
+                                        }
                                         to="/public"
                                         value="/public"
                                 />,
                                 <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Protected"
+                                        label={
+                                                <FormattedMessage
+                                                        defaultMessage="[Protected]"
+                                                        id="nav.protected"
+                                                        values={Object {}}
+                                                />
+                                        }
                                         to="/protected"
                                         value="/protected"
                                 />,
                                 <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Saga Example"
+                                        label={
+                                                <FormattedMessage
+                                                        defaultMessage="[Saga Example]"
+                                                        id="nav.sagaExample"
+                                                        values={Object {}}
+                                                />
+                                        }
                                         to="/saga"
                                         value="/saga"
                                 />,
                                 <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Logout"
+                                        label={
+                                                <FormattedMessage
+                                                        defaultMessage="[Logout]"
+                                                        id="nav.logout"
+                                                        values={Object {}}
+                                                />
+                                        }
                                         to="/logout"
                                         value="/logout"
                                 />,
@@ -91,7 +125,11 @@ ShallowWrapper {
                     noWrap={true}
                     variant="title"
           >
-                    React Marketing Baseline Client
+                    <FormattedMessage
+                              defaultMessage="[React Marketing Baseline Client]"
+                              id="app.name"
+                              values={Object {}}
+                    />
           </WithStyles(Typography)>
           <WithStyles(Tabs)
                     fullWidth={true}
@@ -100,31 +138,61 @@ ShallowWrapper {
                     Immutable.List [
                               <WithStyles(Tab)
                                         component={[Function]}
-                                        label="About"
+                                        label={
+                                                  <FormattedMessage
+                                                            defaultMessage="[About]"
+                                                            id="nav.about"
+                                                            values={Object {}}
+                                                  />
+                                        }
                                         to="/about"
                                         value="/about"
                               />,
                               <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Public"
+                                        label={
+                                                  <FormattedMessage
+                                                            defaultMessage="[Public]"
+                                                            id="nav.public"
+                                                            values={Object {}}
+                                                  />
+                                        }
                                         to="/public"
                                         value="/public"
                               />,
                               <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Protected"
+                                        label={
+                                                  <FormattedMessage
+                                                            defaultMessage="[Protected]"
+                                                            id="nav.protected"
+                                                            values={Object {}}
+                                                  />
+                                        }
                                         to="/protected"
                                         value="/protected"
                               />,
                               <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Saga Example"
+                                        label={
+                                                  <FormattedMessage
+                                                            defaultMessage="[Saga Example]"
+                                                            id="nav.sagaExample"
+                                                            values={Object {}}
+                                                  />
+                                        }
                                         to="/saga"
                                         value="/saga"
                               />,
                               <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Logout"
+                                        label={
+                                                  <FormattedMessage
+                                                            defaultMessage="[Logout]"
+                                                            id="nav.logout"
+                                                            values={Object {}}
+                                                  />
+                                        }
                                         to="/logout"
                                         value="/logout"
                               />,
@@ -147,7 +215,11 @@ ShallowWrapper {
               noWrap={true}
               variant="title"
 >
-              React Marketing Baseline Client
+              <FormattedMessage
+                            defaultMessage="[React Marketing Baseline Client]"
+                            id="app.name"
+                            values={Object {}}
+              />
 </WithStyles(Typography)>,
             <WithStyles(Tabs)
               fullWidth={true}
@@ -156,31 +228,61 @@ ShallowWrapper {
               Immutable.List [
                             <WithStyles(Tab)
                                           component={[Function]}
-                                          label="About"
+                                          label={
+                                                        <FormattedMessage
+                                                                      defaultMessage="[About]"
+                                                                      id="nav.about"
+                                                                      values={Object {}}
+                                                        />
+                                          }
                                           to="/about"
                                           value="/about"
                             />,
                             <WithStyles(Tab)
                                           component={[Function]}
-                                          label="Public"
+                                          label={
+                                                        <FormattedMessage
+                                                                      defaultMessage="[Public]"
+                                                                      id="nav.public"
+                                                                      values={Object {}}
+                                                        />
+                                          }
                                           to="/public"
                                           value="/public"
                             />,
                             <WithStyles(Tab)
                                           component={[Function]}
-                                          label="Protected"
+                                          label={
+                                                        <FormattedMessage
+                                                                      defaultMessage="[Protected]"
+                                                                      id="nav.protected"
+                                                                      values={Object {}}
+                                                        />
+                                          }
                                           to="/protected"
                                           value="/protected"
                             />,
                             <WithStyles(Tab)
                                           component={[Function]}
-                                          label="Saga Example"
+                                          label={
+                                                        <FormattedMessage
+                                                                      defaultMessage="[Saga Example]"
+                                                                      id="nav.sagaExample"
+                                                                      values={Object {}}
+                                                        />
+                                          }
                                           to="/saga"
                                           value="/saga"
                             />,
                             <WithStyles(Tab)
                                           component={[Function]}
-                                          label="Logout"
+                                          label={
+                                                        <FormattedMessage
+                                                                      defaultMessage="[Logout]"
+                                                                      id="nav.logout"
+                                                                      values={Object {}}
+                                                        />
+                                          }
                                           to="/logout"
                                           value="/logout"
                             />,
@@ -195,14 +297,30 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": "React Marketing Baseline Client",
+              "children": <FormattedMessage
+                defaultMessage="[React Marketing Baseline Client]"
+                id="app.name"
+                values={Object {}}
+/>,
               "className": "test-toolbar-title",
               "color": "inherit",
               "noWrap": true,
               "variant": "title",
             },
             "ref": null,
-            "rendered": "React Marketing Baseline Client",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "[React Marketing Baseline Client]",
+                "id": "app.name",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
             "type": [Function],
           },
           Object {
@@ -213,31 +331,61 @@ ShallowWrapper {
               "children": Immutable.List [
                 <WithStyles(Tab)
                                 component={[Function]}
-                                label="About"
+                                label={
+                                                <FormattedMessage
+                                                                defaultMessage="[About]"
+                                                                id="nav.about"
+                                                                values={Object {}}
+                                                />
+                                }
                                 to="/about"
                                 value="/about"
                 />,
                 <WithStyles(Tab)
                                 component={[Function]}
-                                label="Public"
+                                label={
+                                                <FormattedMessage
+                                                                defaultMessage="[Public]"
+                                                                id="nav.public"
+                                                                values={Object {}}
+                                                />
+                                }
                                 to="/public"
                                 value="/public"
                 />,
                 <WithStyles(Tab)
                                 component={[Function]}
-                                label="Protected"
+                                label={
+                                                <FormattedMessage
+                                                                defaultMessage="[Protected]"
+                                                                id="nav.protected"
+                                                                values={Object {}}
+                                                />
+                                }
                                 to="/protected"
                                 value="/protected"
                 />,
                 <WithStyles(Tab)
                                 component={[Function]}
-                                label="Saga Example"
+                                label={
+                                                <FormattedMessage
+                                                                defaultMessage="[Saga Example]"
+                                                                id="nav.sagaExample"
+                                                                values={Object {}}
+                                                />
+                                }
                                 to="/saga"
                                 value="/saga"
                 />,
                 <WithStyles(Tab)
                                 component={[Function]}
-                                label="Logout"
+                                label={
+                                                <FormattedMessage
+                                                                defaultMessage="[Logout]"
+                                                                id="nav.logout"
+                                                                values={Object {}}
+                                                />
+                                }
                                 to="/logout"
                                 value="/logout"
                 />,
@@ -249,11 +397,15 @@ ShallowWrapper {
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": "/about",
+                "key": "about",
                 "nodeType": "class",
                 "props": Object {
                   "component": [Function],
-                  "label": "About",
+                  "label": <FormattedMessage
+                    defaultMessage="[About]"
+                    id="nav.about"
+                    values={Object {}}
+/>,
                   "to": "/about",
                   "value": "/about",
                 },
@@ -263,11 +415,15 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "/public",
+                "key": "public",
                 "nodeType": "class",
                 "props": Object {
                   "component": [Function],
-                  "label": "Public",
+                  "label": <FormattedMessage
+                    defaultMessage="[Public]"
+                    id="nav.public"
+                    values={Object {}}
+/>,
                   "to": "/public",
                   "value": "/public",
                 },
@@ -277,11 +433,15 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "/protected",
+                "key": "protected",
                 "nodeType": "class",
                 "props": Object {
                   "component": [Function],
-                  "label": "Protected",
+                  "label": <FormattedMessage
+                    defaultMessage="[Protected]"
+                    id="nav.protected"
+                    values={Object {}}
+/>,
                   "to": "/protected",
                   "value": "/protected",
                 },
@@ -291,11 +451,15 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "/saga",
+                "key": "sagaExample",
                 "nodeType": "class",
                 "props": Object {
                   "component": [Function],
-                  "label": "Saga Example",
+                  "label": <FormattedMessage
+                    defaultMessage="[Saga Example]"
+                    id="nav.sagaExample"
+                    values={Object {}}
+/>,
                   "to": "/saga",
                   "value": "/saga",
                 },
@@ -305,11 +469,15 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "/logout",
+                "key": "logout",
                 "nodeType": "class",
                 "props": Object {
                   "component": [Function],
-                  "label": "Logout",
+                  "label": <FormattedMessage
+                    defaultMessage="[Logout]"
+                    id="nav.logout"
+                    values={Object {}}
+/>,
                   "to": "/logout",
                   "value": "/logout",
                 },
@@ -344,7 +512,11 @@ ShallowWrapper {
                               noWrap={true}
                               variant="title"
                     >
-                              React Marketing Baseline Client
+                              <FormattedMessage
+                                        defaultMessage="[React Marketing Baseline Client]"
+                                        id="app.name"
+                                        values={Object {}}
+                              />
                     </WithStyles(Typography)>
                     <WithStyles(Tabs)
                               fullWidth={true}
@@ -353,31 +525,61 @@ ShallowWrapper {
                               Immutable.List [
                                         <WithStyles(Tab)
                                                   component={[Function]}
-                                                  label="About"
+                                                  label={
+                                                            <FormattedMessage
+                                                                      defaultMessage="[About]"
+                                                                      id="nav.about"
+                                                                      values={Object {}}
+                                                            />
+                                                  }
                                                   to="/about"
                                                   value="/about"
                                         />,
                                         <WithStyles(Tab)
                                                   component={[Function]}
-                                                  label="Public"
+                                                  label={
+                                                            <FormattedMessage
+                                                                      defaultMessage="[Public]"
+                                                                      id="nav.public"
+                                                                      values={Object {}}
+                                                            />
+                                                  }
                                                   to="/public"
                                                   value="/public"
                                         />,
                                         <WithStyles(Tab)
                                                   component={[Function]}
-                                                  label="Protected"
+                                                  label={
+                                                            <FormattedMessage
+                                                                      defaultMessage="[Protected]"
+                                                                      id="nav.protected"
+                                                                      values={Object {}}
+                                                            />
+                                                  }
                                                   to="/protected"
                                                   value="/protected"
                                         />,
                                         <WithStyles(Tab)
                                                   component={[Function]}
-                                                  label="Saga Example"
+                                                  label={
+                                                            <FormattedMessage
+                                                                      defaultMessage="[Saga Example]"
+                                                                      id="nav.sagaExample"
+                                                                      values={Object {}}
+                                                            />
+                                                  }
                                                   to="/saga"
                                                   value="/saga"
                                         />,
                                         <WithStyles(Tab)
                                                   component={[Function]}
-                                                  label="Logout"
+                                                  label={
+                                                            <FormattedMessage
+                                                                      defaultMessage="[Logout]"
+                                                                      id="nav.logout"
+                                                                      values={Object {}}
+                                                            />
+                                                  }
                                                   to="/logout"
                                                   value="/logout"
                                         />,
@@ -399,7 +601,11 @@ ShallowWrapper {
                         noWrap={true}
                         variant="title"
             >
-                        React Marketing Baseline Client
+                        <FormattedMessage
+                                    defaultMessage="[React Marketing Baseline Client]"
+                                    id="app.name"
+                                    values={Object {}}
+                        />
             </WithStyles(Typography)>
             <WithStyles(Tabs)
                         fullWidth={true}
@@ -408,31 +614,61 @@ ShallowWrapper {
                         Immutable.List [
                                     <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="About"
+                                                label={
+                                                            <FormattedMessage
+                                                                        defaultMessage="[About]"
+                                                                        id="nav.about"
+                                                                        values={Object {}}
+                                                            />
+                                                }
                                                 to="/about"
                                                 value="/about"
                                     />,
                                     <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Public"
+                                                label={
+                                                            <FormattedMessage
+                                                                        defaultMessage="[Public]"
+                                                                        id="nav.public"
+                                                                        values={Object {}}
+                                                            />
+                                                }
                                                 to="/public"
                                                 value="/public"
                                     />,
                                     <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Protected"
+                                                label={
+                                                            <FormattedMessage
+                                                                        defaultMessage="[Protected]"
+                                                                        id="nav.protected"
+                                                                        values={Object {}}
+                                                            />
+                                                }
                                                 to="/protected"
                                                 value="/protected"
                                     />,
                                     <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Saga Example"
+                                                label={
+                                                            <FormattedMessage
+                                                                        defaultMessage="[Saga Example]"
+                                                                        id="nav.sagaExample"
+                                                                        values={Object {}}
+                                                            />
+                                                }
                                                 to="/saga"
                                                 value="/saga"
                                     />,
                                     <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Logout"
+                                                label={
+                                                            <FormattedMessage
+                                                                        defaultMessage="[Logout]"
+                                                                        id="nav.logout"
+                                                                        values={Object {}}
+                                                            />
+                                                }
                                                 to="/logout"
                                                 value="/logout"
                                     />,
@@ -455,7 +691,11 @@ ShallowWrapper {
                 noWrap={true}
                 variant="title"
 >
-                React Marketing Baseline Client
+                <FormattedMessage
+                                defaultMessage="[React Marketing Baseline Client]"
+                                id="app.name"
+                                values={Object {}}
+                />
 </WithStyles(Typography)>,
               <WithStyles(Tabs)
                 fullWidth={true}
@@ -464,31 +704,61 @@ ShallowWrapper {
                 Immutable.List [
                                 <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="About"
+                                                label={
+                                                                <FormattedMessage
+                                                                                defaultMessage="[About]"
+                                                                                id="nav.about"
+                                                                                values={Object {}}
+                                                                />
+                                                }
                                                 to="/about"
                                                 value="/about"
                                 />,
                                 <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Public"
+                                                label={
+                                                                <FormattedMessage
+                                                                                defaultMessage="[Public]"
+                                                                                id="nav.public"
+                                                                                values={Object {}}
+                                                                />
+                                                }
                                                 to="/public"
                                                 value="/public"
                                 />,
                                 <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Protected"
+                                                label={
+                                                                <FormattedMessage
+                                                                                defaultMessage="[Protected]"
+                                                                                id="nav.protected"
+                                                                                values={Object {}}
+                                                                />
+                                                }
                                                 to="/protected"
                                                 value="/protected"
                                 />,
                                 <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Saga Example"
+                                                label={
+                                                                <FormattedMessage
+                                                                                defaultMessage="[Saga Example]"
+                                                                                id="nav.sagaExample"
+                                                                                values={Object {}}
+                                                                />
+                                                }
                                                 to="/saga"
                                                 value="/saga"
                                 />,
                                 <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Logout"
+                                                label={
+                                                                <FormattedMessage
+                                                                                defaultMessage="[Logout]"
+                                                                                id="nav.logout"
+                                                                                values={Object {}}
+                                                                />
+                                                }
                                                 to="/logout"
                                                 value="/logout"
                                 />,
@@ -503,14 +773,30 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": "React Marketing Baseline Client",
+                "children": <FormattedMessage
+                  defaultMessage="[React Marketing Baseline Client]"
+                  id="app.name"
+                  values={Object {}}
+/>,
                 "className": "test-toolbar-title",
                 "color": "inherit",
                 "noWrap": true,
                 "variant": "title",
               },
               "ref": null,
-              "rendered": "React Marketing Baseline Client",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "[React Marketing Baseline Client]",
+                  "id": "app.name",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
               "type": [Function],
             },
             Object {
@@ -521,31 +807,61 @@ ShallowWrapper {
                 "children": Immutable.List [
                   <WithStyles(Tab)
                                     component={[Function]}
-                                    label="About"
+                                    label={
+                                                      <FormattedMessage
+                                                                        defaultMessage="[About]"
+                                                                        id="nav.about"
+                                                                        values={Object {}}
+                                                      />
+                                    }
                                     to="/about"
                                     value="/about"
                   />,
                   <WithStyles(Tab)
                                     component={[Function]}
-                                    label="Public"
+                                    label={
+                                                      <FormattedMessage
+                                                                        defaultMessage="[Public]"
+                                                                        id="nav.public"
+                                                                        values={Object {}}
+                                                      />
+                                    }
                                     to="/public"
                                     value="/public"
                   />,
                   <WithStyles(Tab)
                                     component={[Function]}
-                                    label="Protected"
+                                    label={
+                                                      <FormattedMessage
+                                                                        defaultMessage="[Protected]"
+                                                                        id="nav.protected"
+                                                                        values={Object {}}
+                                                      />
+                                    }
                                     to="/protected"
                                     value="/protected"
                   />,
                   <WithStyles(Tab)
                                     component={[Function]}
-                                    label="Saga Example"
+                                    label={
+                                                      <FormattedMessage
+                                                                        defaultMessage="[Saga Example]"
+                                                                        id="nav.sagaExample"
+                                                                        values={Object {}}
+                                                      />
+                                    }
                                     to="/saga"
                                     value="/saga"
                   />,
                   <WithStyles(Tab)
                                     component={[Function]}
-                                    label="Logout"
+                                    label={
+                                                      <FormattedMessage
+                                                                        defaultMessage="[Logout]"
+                                                                        id="nav.logout"
+                                                                        values={Object {}}
+                                                      />
+                                    }
                                     to="/logout"
                                     value="/logout"
                   />,
@@ -557,11 +873,15 @@ ShallowWrapper {
               "rendered": Array [
                 Object {
                   "instance": null,
-                  "key": "/about",
+                  "key": "about",
                   "nodeType": "class",
                   "props": Object {
                     "component": [Function],
-                    "label": "About",
+                    "label": <FormattedMessage
+                      defaultMessage="[About]"
+                      id="nav.about"
+                      values={Object {}}
+/>,
                     "to": "/about",
                     "value": "/about",
                   },
@@ -571,11 +891,15 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "/public",
+                  "key": "public",
                   "nodeType": "class",
                   "props": Object {
                     "component": [Function],
-                    "label": "Public",
+                    "label": <FormattedMessage
+                      defaultMessage="[Public]"
+                      id="nav.public"
+                      values={Object {}}
+/>,
                     "to": "/public",
                     "value": "/public",
                   },
@@ -585,11 +909,15 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "/protected",
+                  "key": "protected",
                   "nodeType": "class",
                   "props": Object {
                     "component": [Function],
-                    "label": "Protected",
+                    "label": <FormattedMessage
+                      defaultMessage="[Protected]"
+                      id="nav.protected"
+                      values={Object {}}
+/>,
                     "to": "/protected",
                     "value": "/protected",
                   },
@@ -599,11 +927,15 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "/saga",
+                  "key": "sagaExample",
                   "nodeType": "class",
                   "props": Object {
                     "component": [Function],
-                    "label": "Saga Example",
+                    "label": <FormattedMessage
+                      defaultMessage="[Saga Example]"
+                      id="nav.sagaExample"
+                      values={Object {}}
+/>,
                     "to": "/saga",
                     "value": "/saga",
                   },
@@ -613,11 +945,15 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "/logout",
+                  "key": "logout",
                   "nodeType": "class",
                   "props": Object {
                     "component": [Function],
-                    "label": "Logout",
+                    "label": <FormattedMessage
+                      defaultMessage="[Logout]"
+                      id="nav.logout"
+                      values={Object {}}
+/>,
                     "to": "/logout",
                     "value": "/logout",
                   },
@@ -694,7 +1030,11 @@ ShallowWrapper {
                         noWrap={true}
                         variant="title"
                 >
-                        React Marketing Baseline Client
+                        <FormattedMessage
+                                defaultMessage="[React Marketing Baseline Client]"
+                                id="app.name"
+                                values={Object {}}
+                        />
                 </WithStyles(Typography)>
                 <WithStyles(Tabs)
                         fullWidth={true}
@@ -703,31 +1043,61 @@ ShallowWrapper {
                         Immutable.List [
                                 <WithStyles(Tab)
                                         component={[Function]}
-                                        label="About"
+                                        label={
+                                                <FormattedMessage
+                                                        defaultMessage="[About]"
+                                                        id="nav.about"
+                                                        values={Object {}}
+                                                />
+                                        }
                                         to="/about"
                                         value="/about"
                                 />,
                                 <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Public"
+                                        label={
+                                                <FormattedMessage
+                                                        defaultMessage="[Public]"
+                                                        id="nav.public"
+                                                        values={Object {}}
+                                                />
+                                        }
                                         to="/public"
                                         value="/public"
                                 />,
                                 <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Protected"
+                                        label={
+                                                <FormattedMessage
+                                                        defaultMessage="[Protected]"
+                                                        id="nav.protected"
+                                                        values={Object {}}
+                                                />
+                                        }
                                         to="/protected"
                                         value="/protected"
                                 />,
                                 <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Saga Example"
+                                        label={
+                                                <FormattedMessage
+                                                        defaultMessage="[Saga Example]"
+                                                        id="nav.sagaExample"
+                                                        values={Object {}}
+                                                />
+                                        }
                                         to="/saga"
                                         value="/saga"
                                 />,
                                 <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Logout"
+                                        label={
+                                                <FormattedMessage
+                                                        defaultMessage="[Logout]"
+                                                        id="nav.logout"
+                                                        values={Object {}}
+                                                />
+                                        }
                                         to="/logout"
                                         value="/logout"
                                 />,
@@ -749,7 +1119,11 @@ ShallowWrapper {
                     noWrap={true}
                     variant="title"
           >
-                    React Marketing Baseline Client
+                    <FormattedMessage
+                              defaultMessage="[React Marketing Baseline Client]"
+                              id="app.name"
+                              values={Object {}}
+                    />
           </WithStyles(Typography)>
           <WithStyles(Tabs)
                     fullWidth={true}
@@ -758,31 +1132,61 @@ ShallowWrapper {
                     Immutable.List [
                               <WithStyles(Tab)
                                         component={[Function]}
-                                        label="About"
+                                        label={
+                                                  <FormattedMessage
+                                                            defaultMessage="[About]"
+                                                            id="nav.about"
+                                                            values={Object {}}
+                                                  />
+                                        }
                                         to="/about"
                                         value="/about"
                               />,
                               <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Public"
+                                        label={
+                                                  <FormattedMessage
+                                                            defaultMessage="[Public]"
+                                                            id="nav.public"
+                                                            values={Object {}}
+                                                  />
+                                        }
                                         to="/public"
                                         value="/public"
                               />,
                               <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Protected"
+                                        label={
+                                                  <FormattedMessage
+                                                            defaultMessage="[Protected]"
+                                                            id="nav.protected"
+                                                            values={Object {}}
+                                                  />
+                                        }
                                         to="/protected"
                                         value="/protected"
                               />,
                               <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Saga Example"
+                                        label={
+                                                  <FormattedMessage
+                                                            defaultMessage="[Saga Example]"
+                                                            id="nav.sagaExample"
+                                                            values={Object {}}
+                                                  />
+                                        }
                                         to="/saga"
                                         value="/saga"
                               />,
                               <WithStyles(Tab)
                                         component={[Function]}
-                                        label="Logout"
+                                        label={
+                                                  <FormattedMessage
+                                                            defaultMessage="[Logout]"
+                                                            id="nav.logout"
+                                                            values={Object {}}
+                                                  />
+                                        }
                                         to="/logout"
                                         value="/logout"
                               />,
@@ -805,7 +1209,11 @@ ShallowWrapper {
               noWrap={true}
               variant="title"
 >
-              React Marketing Baseline Client
+              <FormattedMessage
+                            defaultMessage="[React Marketing Baseline Client]"
+                            id="app.name"
+                            values={Object {}}
+              />
 </WithStyles(Typography)>,
             <WithStyles(Tabs)
               fullWidth={true}
@@ -814,31 +1222,61 @@ ShallowWrapper {
               Immutable.List [
                             <WithStyles(Tab)
                                           component={[Function]}
-                                          label="About"
+                                          label={
+                                                        <FormattedMessage
+                                                                      defaultMessage="[About]"
+                                                                      id="nav.about"
+                                                                      values={Object {}}
+                                                        />
+                                          }
                                           to="/about"
                                           value="/about"
                             />,
                             <WithStyles(Tab)
                                           component={[Function]}
-                                          label="Public"
+                                          label={
+                                                        <FormattedMessage
+                                                                      defaultMessage="[Public]"
+                                                                      id="nav.public"
+                                                                      values={Object {}}
+                                                        />
+                                          }
                                           to="/public"
                                           value="/public"
                             />,
                             <WithStyles(Tab)
                                           component={[Function]}
-                                          label="Protected"
+                                          label={
+                                                        <FormattedMessage
+                                                                      defaultMessage="[Protected]"
+                                                                      id="nav.protected"
+                                                                      values={Object {}}
+                                                        />
+                                          }
                                           to="/protected"
                                           value="/protected"
                             />,
                             <WithStyles(Tab)
                                           component={[Function]}
-                                          label="Saga Example"
+                                          label={
+                                                        <FormattedMessage
+                                                                      defaultMessage="[Saga Example]"
+                                                                      id="nav.sagaExample"
+                                                                      values={Object {}}
+                                                        />
+                                          }
                                           to="/saga"
                                           value="/saga"
                             />,
                             <WithStyles(Tab)
                                           component={[Function]}
-                                          label="Logout"
+                                          label={
+                                                        <FormattedMessage
+                                                                      defaultMessage="[Logout]"
+                                                                      id="nav.logout"
+                                                                      values={Object {}}
+                                                        />
+                                          }
                                           to="/logout"
                                           value="/logout"
                             />,
@@ -853,14 +1291,30 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": "React Marketing Baseline Client",
+              "children": <FormattedMessage
+                defaultMessage="[React Marketing Baseline Client]"
+                id="app.name"
+                values={Object {}}
+/>,
               "className": "test-toolbar-title",
               "color": "inherit",
               "noWrap": true,
               "variant": "title",
             },
             "ref": null,
-            "rendered": "React Marketing Baseline Client",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "[React Marketing Baseline Client]",
+                "id": "app.name",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
             "type": [Function],
           },
           Object {
@@ -871,31 +1325,61 @@ ShallowWrapper {
               "children": Immutable.List [
                 <WithStyles(Tab)
                                 component={[Function]}
-                                label="About"
+                                label={
+                                                <FormattedMessage
+                                                                defaultMessage="[About]"
+                                                                id="nav.about"
+                                                                values={Object {}}
+                                                />
+                                }
                                 to="/about"
                                 value="/about"
                 />,
                 <WithStyles(Tab)
                                 component={[Function]}
-                                label="Public"
+                                label={
+                                                <FormattedMessage
+                                                                defaultMessage="[Public]"
+                                                                id="nav.public"
+                                                                values={Object {}}
+                                                />
+                                }
                                 to="/public"
                                 value="/public"
                 />,
                 <WithStyles(Tab)
                                 component={[Function]}
-                                label="Protected"
+                                label={
+                                                <FormattedMessage
+                                                                defaultMessage="[Protected]"
+                                                                id="nav.protected"
+                                                                values={Object {}}
+                                                />
+                                }
                                 to="/protected"
                                 value="/protected"
                 />,
                 <WithStyles(Tab)
                                 component={[Function]}
-                                label="Saga Example"
+                                label={
+                                                <FormattedMessage
+                                                                defaultMessage="[Saga Example]"
+                                                                id="nav.sagaExample"
+                                                                values={Object {}}
+                                                />
+                                }
                                 to="/saga"
                                 value="/saga"
                 />,
                 <WithStyles(Tab)
                                 component={[Function]}
-                                label="Logout"
+                                label={
+                                                <FormattedMessage
+                                                                defaultMessage="[Logout]"
+                                                                id="nav.logout"
+                                                                values={Object {}}
+                                                />
+                                }
                                 to="/logout"
                                 value="/logout"
                 />,
@@ -907,11 +1391,15 @@ ShallowWrapper {
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": "/about",
+                "key": "about",
                 "nodeType": "class",
                 "props": Object {
                   "component": [Function],
-                  "label": "About",
+                  "label": <FormattedMessage
+                    defaultMessage="[About]"
+                    id="nav.about"
+                    values={Object {}}
+/>,
                   "to": "/about",
                   "value": "/about",
                 },
@@ -921,11 +1409,15 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "/public",
+                "key": "public",
                 "nodeType": "class",
                 "props": Object {
                   "component": [Function],
-                  "label": "Public",
+                  "label": <FormattedMessage
+                    defaultMessage="[Public]"
+                    id="nav.public"
+                    values={Object {}}
+/>,
                   "to": "/public",
                   "value": "/public",
                 },
@@ -935,11 +1427,15 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "/protected",
+                "key": "protected",
                 "nodeType": "class",
                 "props": Object {
                   "component": [Function],
-                  "label": "Protected",
+                  "label": <FormattedMessage
+                    defaultMessage="[Protected]"
+                    id="nav.protected"
+                    values={Object {}}
+/>,
                   "to": "/protected",
                   "value": "/protected",
                 },
@@ -949,11 +1445,15 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "/saga",
+                "key": "sagaExample",
                 "nodeType": "class",
                 "props": Object {
                   "component": [Function],
-                  "label": "Saga Example",
+                  "label": <FormattedMessage
+                    defaultMessage="[Saga Example]"
+                    id="nav.sagaExample"
+                    values={Object {}}
+/>,
                   "to": "/saga",
                   "value": "/saga",
                 },
@@ -963,11 +1463,15 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "/logout",
+                "key": "logout",
                 "nodeType": "class",
                 "props": Object {
                   "component": [Function],
-                  "label": "Logout",
+                  "label": <FormattedMessage
+                    defaultMessage="[Logout]"
+                    id="nav.logout"
+                    values={Object {}}
+/>,
                   "to": "/logout",
                   "value": "/logout",
                 },
@@ -1002,7 +1506,11 @@ ShallowWrapper {
                               noWrap={true}
                               variant="title"
                     >
-                              React Marketing Baseline Client
+                              <FormattedMessage
+                                        defaultMessage="[React Marketing Baseline Client]"
+                                        id="app.name"
+                                        values={Object {}}
+                              />
                     </WithStyles(Typography)>
                     <WithStyles(Tabs)
                               fullWidth={true}
@@ -1011,31 +1519,61 @@ ShallowWrapper {
                               Immutable.List [
                                         <WithStyles(Tab)
                                                   component={[Function]}
-                                                  label="About"
+                                                  label={
+                                                            <FormattedMessage
+                                                                      defaultMessage="[About]"
+                                                                      id="nav.about"
+                                                                      values={Object {}}
+                                                            />
+                                                  }
                                                   to="/about"
                                                   value="/about"
                                         />,
                                         <WithStyles(Tab)
                                                   component={[Function]}
-                                                  label="Public"
+                                                  label={
+                                                            <FormattedMessage
+                                                                      defaultMessage="[Public]"
+                                                                      id="nav.public"
+                                                                      values={Object {}}
+                                                            />
+                                                  }
                                                   to="/public"
                                                   value="/public"
                                         />,
                                         <WithStyles(Tab)
                                                   component={[Function]}
-                                                  label="Protected"
+                                                  label={
+                                                            <FormattedMessage
+                                                                      defaultMessage="[Protected]"
+                                                                      id="nav.protected"
+                                                                      values={Object {}}
+                                                            />
+                                                  }
                                                   to="/protected"
                                                   value="/protected"
                                         />,
                                         <WithStyles(Tab)
                                                   component={[Function]}
-                                                  label="Saga Example"
+                                                  label={
+                                                            <FormattedMessage
+                                                                      defaultMessage="[Saga Example]"
+                                                                      id="nav.sagaExample"
+                                                                      values={Object {}}
+                                                            />
+                                                  }
                                                   to="/saga"
                                                   value="/saga"
                                         />,
                                         <WithStyles(Tab)
                                                   component={[Function]}
-                                                  label="Logout"
+                                                  label={
+                                                            <FormattedMessage
+                                                                      defaultMessage="[Logout]"
+                                                                      id="nav.logout"
+                                                                      values={Object {}}
+                                                            />
+                                                  }
                                                   to="/logout"
                                                   value="/logout"
                                         />,
@@ -1057,7 +1595,11 @@ ShallowWrapper {
                         noWrap={true}
                         variant="title"
             >
-                        React Marketing Baseline Client
+                        <FormattedMessage
+                                    defaultMessage="[React Marketing Baseline Client]"
+                                    id="app.name"
+                                    values={Object {}}
+                        />
             </WithStyles(Typography)>
             <WithStyles(Tabs)
                         fullWidth={true}
@@ -1066,31 +1608,61 @@ ShallowWrapper {
                         Immutable.List [
                                     <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="About"
+                                                label={
+                                                            <FormattedMessage
+                                                                        defaultMessage="[About]"
+                                                                        id="nav.about"
+                                                                        values={Object {}}
+                                                            />
+                                                }
                                                 to="/about"
                                                 value="/about"
                                     />,
                                     <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Public"
+                                                label={
+                                                            <FormattedMessage
+                                                                        defaultMessage="[Public]"
+                                                                        id="nav.public"
+                                                                        values={Object {}}
+                                                            />
+                                                }
                                                 to="/public"
                                                 value="/public"
                                     />,
                                     <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Protected"
+                                                label={
+                                                            <FormattedMessage
+                                                                        defaultMessage="[Protected]"
+                                                                        id="nav.protected"
+                                                                        values={Object {}}
+                                                            />
+                                                }
                                                 to="/protected"
                                                 value="/protected"
                                     />,
                                     <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Saga Example"
+                                                label={
+                                                            <FormattedMessage
+                                                                        defaultMessage="[Saga Example]"
+                                                                        id="nav.sagaExample"
+                                                                        values={Object {}}
+                                                            />
+                                                }
                                                 to="/saga"
                                                 value="/saga"
                                     />,
                                     <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Logout"
+                                                label={
+                                                            <FormattedMessage
+                                                                        defaultMessage="[Logout]"
+                                                                        id="nav.logout"
+                                                                        values={Object {}}
+                                                            />
+                                                }
                                                 to="/logout"
                                                 value="/logout"
                                     />,
@@ -1113,7 +1685,11 @@ ShallowWrapper {
                 noWrap={true}
                 variant="title"
 >
-                React Marketing Baseline Client
+                <FormattedMessage
+                                defaultMessage="[React Marketing Baseline Client]"
+                                id="app.name"
+                                values={Object {}}
+                />
 </WithStyles(Typography)>,
               <WithStyles(Tabs)
                 fullWidth={true}
@@ -1122,31 +1698,61 @@ ShallowWrapper {
                 Immutable.List [
                                 <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="About"
+                                                label={
+                                                                <FormattedMessage
+                                                                                defaultMessage="[About]"
+                                                                                id="nav.about"
+                                                                                values={Object {}}
+                                                                />
+                                                }
                                                 to="/about"
                                                 value="/about"
                                 />,
                                 <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Public"
+                                                label={
+                                                                <FormattedMessage
+                                                                                defaultMessage="[Public]"
+                                                                                id="nav.public"
+                                                                                values={Object {}}
+                                                                />
+                                                }
                                                 to="/public"
                                                 value="/public"
                                 />,
                                 <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Protected"
+                                                label={
+                                                                <FormattedMessage
+                                                                                defaultMessage="[Protected]"
+                                                                                id="nav.protected"
+                                                                                values={Object {}}
+                                                                />
+                                                }
                                                 to="/protected"
                                                 value="/protected"
                                 />,
                                 <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Saga Example"
+                                                label={
+                                                                <FormattedMessage
+                                                                                defaultMessage="[Saga Example]"
+                                                                                id="nav.sagaExample"
+                                                                                values={Object {}}
+                                                                />
+                                                }
                                                 to="/saga"
                                                 value="/saga"
                                 />,
                                 <WithStyles(Tab)
                                                 component={[Function]}
-                                                label="Logout"
+                                                label={
+                                                                <FormattedMessage
+                                                                                defaultMessage="[Logout]"
+                                                                                id="nav.logout"
+                                                                                values={Object {}}
+                                                                />
+                                                }
                                                 to="/logout"
                                                 value="/logout"
                                 />,
@@ -1161,14 +1767,30 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": "React Marketing Baseline Client",
+                "children": <FormattedMessage
+                  defaultMessage="[React Marketing Baseline Client]"
+                  id="app.name"
+                  values={Object {}}
+/>,
                 "className": "test-toolbar-title",
                 "color": "inherit",
                 "noWrap": true,
                 "variant": "title",
               },
               "ref": null,
-              "rendered": "React Marketing Baseline Client",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "[React Marketing Baseline Client]",
+                  "id": "app.name",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
               "type": [Function],
             },
             Object {
@@ -1179,31 +1801,61 @@ ShallowWrapper {
                 "children": Immutable.List [
                   <WithStyles(Tab)
                                     component={[Function]}
-                                    label="About"
+                                    label={
+                                                      <FormattedMessage
+                                                                        defaultMessage="[About]"
+                                                                        id="nav.about"
+                                                                        values={Object {}}
+                                                      />
+                                    }
                                     to="/about"
                                     value="/about"
                   />,
                   <WithStyles(Tab)
                                     component={[Function]}
-                                    label="Public"
+                                    label={
+                                                      <FormattedMessage
+                                                                        defaultMessage="[Public]"
+                                                                        id="nav.public"
+                                                                        values={Object {}}
+                                                      />
+                                    }
                                     to="/public"
                                     value="/public"
                   />,
                   <WithStyles(Tab)
                                     component={[Function]}
-                                    label="Protected"
+                                    label={
+                                                      <FormattedMessage
+                                                                        defaultMessage="[Protected]"
+                                                                        id="nav.protected"
+                                                                        values={Object {}}
+                                                      />
+                                    }
                                     to="/protected"
                                     value="/protected"
                   />,
                   <WithStyles(Tab)
                                     component={[Function]}
-                                    label="Saga Example"
+                                    label={
+                                                      <FormattedMessage
+                                                                        defaultMessage="[Saga Example]"
+                                                                        id="nav.sagaExample"
+                                                                        values={Object {}}
+                                                      />
+                                    }
                                     to="/saga"
                                     value="/saga"
                   />,
                   <WithStyles(Tab)
                                     component={[Function]}
-                                    label="Logout"
+                                    label={
+                                                      <FormattedMessage
+                                                                        defaultMessage="[Logout]"
+                                                                        id="nav.logout"
+                                                                        values={Object {}}
+                                                      />
+                                    }
                                     to="/logout"
                                     value="/logout"
                   />,
@@ -1215,11 +1867,15 @@ ShallowWrapper {
               "rendered": Array [
                 Object {
                   "instance": null,
-                  "key": "/about",
+                  "key": "about",
                   "nodeType": "class",
                   "props": Object {
                     "component": [Function],
-                    "label": "About",
+                    "label": <FormattedMessage
+                      defaultMessage="[About]"
+                      id="nav.about"
+                      values={Object {}}
+/>,
                     "to": "/about",
                     "value": "/about",
                   },
@@ -1229,11 +1885,15 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "/public",
+                  "key": "public",
                   "nodeType": "class",
                   "props": Object {
                     "component": [Function],
-                    "label": "Public",
+                    "label": <FormattedMessage
+                      defaultMessage="[Public]"
+                      id="nav.public"
+                      values={Object {}}
+/>,
                     "to": "/public",
                     "value": "/public",
                   },
@@ -1243,11 +1903,15 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "/protected",
+                  "key": "protected",
                   "nodeType": "class",
                   "props": Object {
                     "component": [Function],
-                    "label": "Protected",
+                    "label": <FormattedMessage
+                      defaultMessage="[Protected]"
+                      id="nav.protected"
+                      values={Object {}}
+/>,
                     "to": "/protected",
                     "value": "/protected",
                   },
@@ -1257,11 +1921,15 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "/saga",
+                  "key": "sagaExample",
                   "nodeType": "class",
                   "props": Object {
                     "component": [Function],
-                    "label": "Saga Example",
+                    "label": <FormattedMessage
+                      defaultMessage="[Saga Example]"
+                      id="nav.sagaExample"
+                      values={Object {}}
+/>,
                     "to": "/saga",
                     "value": "/saga",
                   },
@@ -1271,11 +1939,15 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "/logout",
+                  "key": "logout",
                   "nodeType": "class",
                   "props": Object {
                     "component": [Function],
-                    "label": "Logout",
+                    "label": <FormattedMessage
+                      defaultMessage="[Logout]"
+                      id="nav.logout"
+                      values={Object {}}
+/>,
                     "to": "/logout",
                     "value": "/logout",
                   },

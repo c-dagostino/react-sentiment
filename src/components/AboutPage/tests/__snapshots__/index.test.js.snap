@@ -29,7 +29,11 @@ ShallowWrapper {
           gutterBottom={true}
           variant="title"
 >
-          React Marketing Baseline Client
+          <FormattedMessage
+                    default="[React Marketing Baseline Client]"
+                    id="app.name"
+                    values={Object {}}
+          />
 </WithStyles(Typography)>,
         <div>
           <WithStyles(Table)>
@@ -42,7 +46,11 @@ ShallowWrapper {
                                                             color="textSecondary"
                                                             variant="title"
                                                   >
-                                                            Env Props
+                                                            <FormattedMessage
+                                                                      defaultMessage="[Env Props]"
+                                                                      id="about.envProps"
+                                                                      values={Object {}}
+                                                            />
                                                   </WithStyles(Typography)>
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell) />
@@ -89,7 +97,11 @@ ShallowWrapper {
                                                             color="textSecondary"
                                                             variant="title"
                                                   >
-                                                            About
+                                                            <FormattedMessage
+                                                                      defaultMessage="[About]"
+                                                                      id="about.about"
+                                                                      values={Object {}}
+                                                            />
                                                   </WithStyles(Typography)>
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell) />
@@ -124,7 +136,11 @@ ShallowWrapper {
                                                             color="textSecondary"
                                                             variant="title"
                                                   >
-                                                            Dependencies
+                                                            <FormattedMessage
+                                                                      defaultMessage="[Dependencies]"
+                                                                      id="about.dependencies"
+                                                                      values={Object {}}
+                                                            />
                                                   </WithStyles(Typography)>
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell) />
@@ -187,6 +203,14 @@ ShallowWrapper {
                               </WithStyles(TableRow)>
                               <WithStyles(TableRow)>
                                         <WithStyles(TableCell)>
+                                                  moment
+                                        </WithStyles(TableCell)>
+                                        <WithStyles(TableCell)>
+                                                  ^2.22.2
+                                        </WithStyles(TableCell)>
+                              </WithStyles(TableRow)>
+                              <WithStyles(TableRow)>
+                                        <WithStyles(TableCell)>
                                                   oidc-client
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell)>
@@ -223,6 +247,14 @@ ShallowWrapper {
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell)>
                                                   ^16.5.0
+                                        </WithStyles(TableCell)>
+                              </WithStyles(TableRow)>
+                              <WithStyles(TableRow)>
+                                        <WithStyles(TableCell)>
+                                                  react-intl
+                                        </WithStyles(TableCell)>
+                                        <WithStyles(TableCell)>
+                                                  ^2.7.1
                                         </WithStyles(TableCell)>
                               </WithStyles(TableRow)>
                               <WithStyles(TableRow)>
@@ -327,7 +359,11 @@ ShallowWrapper {
                                                             color="textSecondary"
                                                             variant="title"
                                                   >
-                                                            Dev Dependencies
+                                                            <FormattedMessage
+                                                                      defaultMessage="[Dev Dependencies]"
+                                                                      id="about.devDependencies"
+                                                                      values={Object {}}
+                                                            />
                                                   </WithStyles(Typography)>
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell) />
@@ -414,6 +450,22 @@ ShallowWrapper {
                               </WithStyles(TableRow)>
                               <WithStyles(TableRow)>
                                         <WithStyles(TableCell)>
+                                                  react-intl-cra
+                                        </WithStyles(TableCell)>
+                                        <WithStyles(TableCell)>
+                                                  ^0.3.3
+                                        </WithStyles(TableCell)>
+                              </WithStyles(TableRow)>
+                              <WithStyles(TableRow)>
+                                        <WithStyles(TableCell)>
+                                                  react-intl-translations-manager
+                                        </WithStyles(TableCell)>
+                                        <WithStyles(TableCell)>
+                                                  ^5.0.3
+                                        </WithStyles(TableCell)>
+                              </WithStyles(TableRow)>
+                              <WithStyles(TableRow)>
+                                        <WithStyles(TableCell)>
                                                   redux-saga-test-plan
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell)>
@@ -433,12 +485,28 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "align": "center",
-          "children": "React Marketing Baseline Client",
+          "children": <FormattedMessage
+            default="[React Marketing Baseline Client]"
+            id="app.name"
+            values={Object {}}
+/>,
           "gutterBottom": true,
           "variant": "title",
         },
         "ref": null,
-        "rendered": "React Marketing Baseline Client",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "default": "[React Marketing Baseline Client]",
+            "id": "app.name",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": [Function],
       },
       Object {
@@ -456,7 +524,11 @@ ShallowWrapper {
                                                             color="textSecondary"
                                                             variant="title"
                                                 >
-                                                            Env Props
+                                                            <FormattedMessage
+                                                                        defaultMessage="[Env Props]"
+                                                                        id="about.envProps"
+                                                                        values={Object {}}
+                                                            />
                                                 </WithStyles(Typography)>
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell) />
@@ -507,7 +579,11 @@ ShallowWrapper {
                                                         color="textSecondary"
                                                         variant="title"
                                           >
-                                                        Env Props
+                                                        <FormattedMessage
+                                                                      defaultMessage="[Env Props]"
+                                                                      id="about.envProps"
+                                                                      values={Object {}}
+                                                        />
                                           </WithStyles(Typography)>
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell) />
@@ -557,7 +633,11 @@ ShallowWrapper {
                                                       color="textSecondary"
                                                       variant="title"
                                     >
-                                                      Env Props
+                                                      <FormattedMessage
+                                                                        defaultMessage="[Env Props]"
+                                                                        id="about.envProps"
+                                                                        values={Object {}}
+                                                      />
                                     </WithStyles(Typography)>
                   </WithStyles(TableCell)>
                   <WithStyles(TableCell) />
@@ -607,7 +687,11 @@ ShallowWrapper {
                                             color="textSecondary"
                                             variant="title"
                       >
-                                            Env Props
+                                            <FormattedMessage
+                                                                  defaultMessage="[Env Props]"
+                                                                  id="about.envProps"
+                                                                  values={Object {}}
+                                            />
                       </WithStyles(Typography)>
 </WithStyles(TableCell)>,
                     <WithStyles(TableCell) />,
@@ -625,7 +709,11 @@ ShallowWrapper {
                         color="textSecondary"
                         variant="title"
 >
-                        Env Props
+                        <FormattedMessage
+                                                defaultMessage="[Env Props]"
+                                                id="about.envProps"
+                                                values={Object {}}
+                        />
 </WithStyles(Typography)>,
                     },
                     "ref": null,
@@ -634,12 +722,28 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "class",
                       "props": Object {
-                        "children": "Env Props",
+                        "children": <FormattedMessage
+                          defaultMessage="[Env Props]"
+                          id="about.envProps"
+                          values={Object {}}
+/>,
                         "color": "textSecondary",
                         "variant": "title",
                       },
                       "ref": null,
-                      "rendered": "Env Props",
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "defaultMessage": "[Env Props]",
+                          "id": "about.envProps",
+                          "values": Object {},
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
                       "type": [Function],
                     },
                     "type": [Function],
@@ -838,7 +942,11 @@ ShallowWrapper {
                                                             color="textSecondary"
                                                             variant="title"
                                                 >
-                                                            About
+                                                            <FormattedMessage
+                                                                        defaultMessage="[About]"
+                                                                        id="about.about"
+                                                                        values={Object {}}
+                                                            />
                                                 </WithStyles(Typography)>
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell) />
@@ -877,7 +985,11 @@ ShallowWrapper {
                                                         color="textSecondary"
                                                         variant="title"
                                           >
-                                                        About
+                                                        <FormattedMessage
+                                                                      defaultMessage="[About]"
+                                                                      id="about.about"
+                                                                      values={Object {}}
+                                                        />
                                           </WithStyles(Typography)>
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell) />
@@ -915,7 +1027,11 @@ ShallowWrapper {
                                                       color="textSecondary"
                                                       variant="title"
                                     >
-                                                      About
+                                                      <FormattedMessage
+                                                                        defaultMessage="[About]"
+                                                                        id="about.about"
+                                                                        values={Object {}}
+                                                      />
                                     </WithStyles(Typography)>
                   </WithStyles(TableCell)>
                   <WithStyles(TableCell) />
@@ -953,7 +1069,11 @@ ShallowWrapper {
                                             color="textSecondary"
                                             variant="title"
                       >
-                                            About
+                                            <FormattedMessage
+                                                                  defaultMessage="[About]"
+                                                                  id="about.about"
+                                                                  values={Object {}}
+                                            />
                       </WithStyles(Typography)>
 </WithStyles(TableCell)>,
                     <WithStyles(TableCell) />,
@@ -971,7 +1091,11 @@ ShallowWrapper {
                         color="textSecondary"
                         variant="title"
 >
-                        About
+                        <FormattedMessage
+                                                defaultMessage="[About]"
+                                                id="about.about"
+                                                values={Object {}}
+                        />
 </WithStyles(Typography)>,
                     },
                     "ref": null,
@@ -980,12 +1104,28 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "class",
                       "props": Object {
-                        "children": "About",
+                        "children": <FormattedMessage
+                          defaultMessage="[About]"
+                          id="about.about"
+                          values={Object {}}
+/>,
                         "color": "textSecondary",
                         "variant": "title",
                       },
                       "ref": null,
-                      "rendered": "About",
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "defaultMessage": "[About]",
+                          "id": "about.about",
+                          "values": Object {},
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
                       "type": [Function],
                     },
                     "type": [Function],
@@ -1106,7 +1246,11 @@ ShallowWrapper {
                                                             color="textSecondary"
                                                             variant="title"
                                                 >
-                                                            Dependencies
+                                                            <FormattedMessage
+                                                                        defaultMessage="[Dependencies]"
+                                                                        id="about.dependencies"
+                                                                        values={Object {}}
+                                                            />
                                                 </WithStyles(Typography)>
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell) />
@@ -1169,6 +1313,14 @@ ShallowWrapper {
                         </WithStyles(TableRow)>
                         <WithStyles(TableRow)>
                                     <WithStyles(TableCell)>
+                                                moment
+                                    </WithStyles(TableCell)>
+                                    <WithStyles(TableCell)>
+                                                ^2.22.2
+                                    </WithStyles(TableCell)>
+                        </WithStyles(TableRow)>
+                        <WithStyles(TableRow)>
+                                    <WithStyles(TableCell)>
                                                 oidc-client
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell)>
@@ -1205,6 +1357,14 @@ ShallowWrapper {
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell)>
                                                 ^16.5.0
+                                    </WithStyles(TableCell)>
+                        </WithStyles(TableRow)>
+                        <WithStyles(TableRow)>
+                                    <WithStyles(TableCell)>
+                                                react-intl
+                                    </WithStyles(TableCell)>
+                                    <WithStyles(TableCell)>
+                                                ^2.7.1
                                     </WithStyles(TableCell)>
                         </WithStyles(TableRow)>
                         <WithStyles(TableRow)>
@@ -1313,7 +1473,11 @@ ShallowWrapper {
                                                         color="textSecondary"
                                                         variant="title"
                                           >
-                                                        Dependencies
+                                                        <FormattedMessage
+                                                                      defaultMessage="[Dependencies]"
+                                                                      id="about.dependencies"
+                                                                      values={Object {}}
+                                                        />
                                           </WithStyles(Typography)>
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell) />
@@ -1376,6 +1540,14 @@ ShallowWrapper {
               </WithStyles(TableRow)>
               <WithStyles(TableRow)>
                             <WithStyles(TableCell)>
+                                          moment
+                            </WithStyles(TableCell)>
+                            <WithStyles(TableCell)>
+                                          ^2.22.2
+                            </WithStyles(TableCell)>
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)>
+                            <WithStyles(TableCell)>
                                           oidc-client
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell)>
@@ -1412,6 +1584,14 @@ ShallowWrapper {
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell)>
                                           ^16.5.0
+                            </WithStyles(TableCell)>
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)>
+                            <WithStyles(TableCell)>
+                                          react-intl
+                            </WithStyles(TableCell)>
+                            <WithStyles(TableCell)>
+                                          ^2.7.1
                             </WithStyles(TableCell)>
               </WithStyles(TableRow)>
               <WithStyles(TableRow)>
@@ -1519,7 +1699,11 @@ ShallowWrapper {
                                                       color="textSecondary"
                                                       variant="title"
                                     >
-                                                      Dependencies
+                                                      <FormattedMessage
+                                                                        defaultMessage="[Dependencies]"
+                                                                        id="about.dependencies"
+                                                                        values={Object {}}
+                                                      />
                                     </WithStyles(Typography)>
                   </WithStyles(TableCell)>
                   <WithStyles(TableCell) />
@@ -1583,6 +1767,14 @@ ShallowWrapper {
 </WithStyles(TableRow)>,
                   <WithStyles(TableRow)>
                     <WithStyles(TableCell)>
+                                        moment
+                    </WithStyles(TableCell)>
+                    <WithStyles(TableCell)>
+                                        ^2.22.2
+                    </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                  <WithStyles(TableRow)>
+                    <WithStyles(TableCell)>
                                         oidc-client
                     </WithStyles(TableCell)>
                     <WithStyles(TableCell)>
@@ -1619,6 +1811,14 @@ ShallowWrapper {
                     </WithStyles(TableCell)>
                     <WithStyles(TableCell)>
                                         ^16.5.0
+                    </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                  <WithStyles(TableRow)>
+                    <WithStyles(TableCell)>
+                                        react-intl
+                    </WithStyles(TableCell)>
+                    <WithStyles(TableCell)>
+                                        ^2.7.1
                     </WithStyles(TableCell)>
 </WithStyles(TableRow)>,
                   <WithStyles(TableRow)>
@@ -1725,7 +1925,11 @@ ShallowWrapper {
                                             color="textSecondary"
                                             variant="title"
                       >
-                                            Dependencies
+                                            <FormattedMessage
+                                                                  defaultMessage="[Dependencies]"
+                                                                  id="about.dependencies"
+                                                                  values={Object {}}
+                                            />
                       </WithStyles(Typography)>
 </WithStyles(TableCell)>,
                     <WithStyles(TableCell) />,
@@ -1743,7 +1947,11 @@ ShallowWrapper {
                         color="textSecondary"
                         variant="title"
 >
-                        Dependencies
+                        <FormattedMessage
+                                                defaultMessage="[Dependencies]"
+                                                id="about.dependencies"
+                                                values={Object {}}
+                        />
 </WithStyles(Typography)>,
                     },
                     "ref": null,
@@ -1752,12 +1960,28 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "class",
                       "props": Object {
-                        "children": "Dependencies",
+                        "children": <FormattedMessage
+                          defaultMessage="[Dependencies]"
+                          id="about.dependencies"
+                          values={Object {}}
+/>,
                         "color": "textSecondary",
                         "variant": "title",
                       },
                       "ref": null,
-                      "rendered": "Dependencies",
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "defaultMessage": "[Dependencies]",
+                          "id": "about.dependencies",
+                          "values": Object {},
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
                       "type": [Function],
                     },
                     "type": [Function],
@@ -2063,6 +2287,47 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
+                "key": "moment",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell)>
+                      moment
+</WithStyles(TableCell)>,
+                    <WithStyles(TableCell)>
+                      ^2.22.2
+</WithStyles(TableCell)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "moment",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "moment",
+                    },
+                    "ref": null,
+                    "rendered": "moment",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "^2.22.2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "^2.22.2",
+                    },
+                    "ref": null,
+                    "rendered": "^2.22.2",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
                 "key": "oidc-client",
                 "nodeType": "class",
                 "props": Object {
@@ -2261,6 +2526,47 @@ ShallowWrapper {
                     },
                     "ref": null,
                     "rendered": "^16.5.0",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "react-intl",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell)>
+                      react-intl
+</WithStyles(TableCell)>,
+                    <WithStyles(TableCell)>
+                      ^2.7.1
+</WithStyles(TableCell)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "react-intl",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "react-intl",
+                    },
+                    "ref": null,
+                    "rendered": "react-intl",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "^2.7.1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "^2.7.1",
+                    },
+                    "ref": null,
+                    "rendered": "^2.7.1",
                     "type": [Function],
                   },
                 ],
@@ -2739,7 +3045,11 @@ ShallowWrapper {
                                                             color="textSecondary"
                                                             variant="title"
                                                 >
-                                                            Dev Dependencies
+                                                            <FormattedMessage
+                                                                        defaultMessage="[Dev Dependencies]"
+                                                                        id="about.devDependencies"
+                                                                        values={Object {}}
+                                                            />
                                                 </WithStyles(Typography)>
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell) />
@@ -2826,6 +3136,22 @@ ShallowWrapper {
                         </WithStyles(TableRow)>
                         <WithStyles(TableRow)>
                                     <WithStyles(TableCell)>
+                                                react-intl-cra
+                                    </WithStyles(TableCell)>
+                                    <WithStyles(TableCell)>
+                                                ^0.3.3
+                                    </WithStyles(TableCell)>
+                        </WithStyles(TableRow)>
+                        <WithStyles(TableRow)>
+                                    <WithStyles(TableCell)>
+                                                react-intl-translations-manager
+                                    </WithStyles(TableCell)>
+                                    <WithStyles(TableCell)>
+                                                ^5.0.3
+                                    </WithStyles(TableCell)>
+                        </WithStyles(TableRow)>
+                        <WithStyles(TableRow)>
+                                    <WithStyles(TableCell)>
                                                 redux-saga-test-plan
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell)>
@@ -2850,7 +3176,11 @@ ShallowWrapper {
                                                         color="textSecondary"
                                                         variant="title"
                                           >
-                                                        Dev Dependencies
+                                                        <FormattedMessage
+                                                                      defaultMessage="[Dev Dependencies]"
+                                                                      id="about.devDependencies"
+                                                                      values={Object {}}
+                                                        />
                                           </WithStyles(Typography)>
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell) />
@@ -2937,6 +3267,22 @@ ShallowWrapper {
               </WithStyles(TableRow)>
               <WithStyles(TableRow)>
                             <WithStyles(TableCell)>
+                                          react-intl-cra
+                            </WithStyles(TableCell)>
+                            <WithStyles(TableCell)>
+                                          ^0.3.3
+                            </WithStyles(TableCell)>
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)>
+                            <WithStyles(TableCell)>
+                                          react-intl-translations-manager
+                            </WithStyles(TableCell)>
+                            <WithStyles(TableCell)>
+                                          ^5.0.3
+                            </WithStyles(TableCell)>
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)>
+                            <WithStyles(TableCell)>
                                           redux-saga-test-plan
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell)>
@@ -2960,7 +3306,11 @@ ShallowWrapper {
                                                       color="textSecondary"
                                                       variant="title"
                                     >
-                                                      Dev Dependencies
+                                                      <FormattedMessage
+                                                                        defaultMessage="[Dev Dependencies]"
+                                                                        id="about.devDependencies"
+                                                                        values={Object {}}
+                                                      />
                                     </WithStyles(Typography)>
                   </WithStyles(TableCell)>
                   <WithStyles(TableCell) />
@@ -3048,6 +3398,22 @@ ShallowWrapper {
 </WithStyles(TableRow)>,
                   <WithStyles(TableRow)>
                     <WithStyles(TableCell)>
+                                        react-intl-cra
+                    </WithStyles(TableCell)>
+                    <WithStyles(TableCell)>
+                                        ^0.3.3
+                    </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                  <WithStyles(TableRow)>
+                    <WithStyles(TableCell)>
+                                        react-intl-translations-manager
+                    </WithStyles(TableCell)>
+                    <WithStyles(TableCell)>
+                                        ^5.0.3
+                    </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                  <WithStyles(TableRow)>
+                    <WithStyles(TableCell)>
                                         redux-saga-test-plan
                     </WithStyles(TableCell)>
                     <WithStyles(TableCell)>
@@ -3070,7 +3436,11 @@ ShallowWrapper {
                                             color="textSecondary"
                                             variant="title"
                       >
-                                            Dev Dependencies
+                                            <FormattedMessage
+                                                                  defaultMessage="[Dev Dependencies]"
+                                                                  id="about.devDependencies"
+                                                                  values={Object {}}
+                                            />
                       </WithStyles(Typography)>
 </WithStyles(TableCell)>,
                     <WithStyles(TableCell) />,
@@ -3088,7 +3458,11 @@ ShallowWrapper {
                         color="textSecondary"
                         variant="title"
 >
-                        Dev Dependencies
+                        <FormattedMessage
+                                                defaultMessage="[Dev Dependencies]"
+                                                id="about.devDependencies"
+                                                values={Object {}}
+                        />
 </WithStyles(Typography)>,
                     },
                     "ref": null,
@@ -3097,12 +3471,28 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "class",
                       "props": Object {
-                        "children": "Dev Dependencies",
+                        "children": <FormattedMessage
+                          defaultMessage="[Dev Dependencies]"
+                          id="about.devDependencies"
+                          values={Object {}}
+/>,
                         "color": "textSecondary",
                         "variant": "title",
                       },
                       "ref": null,
-                      "rendered": "Dev Dependencies",
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "defaultMessage": "[Dev Dependencies]",
+                          "id": "about.devDependencies",
+                          "values": Object {},
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
                       "type": [Function],
                     },
                     "type": [Function],
@@ -3531,6 +3921,88 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
+                "key": "react-intl-cra",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell)>
+                      react-intl-cra
+</WithStyles(TableCell)>,
+                    <WithStyles(TableCell)>
+                      ^0.3.3
+</WithStyles(TableCell)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "react-intl-cra",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "react-intl-cra",
+                    },
+                    "ref": null,
+                    "rendered": "react-intl-cra",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "^0.3.3",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "^0.3.3",
+                    },
+                    "ref": null,
+                    "rendered": "^0.3.3",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "react-intl-translations-manager",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell)>
+                      react-intl-translations-manager
+</WithStyles(TableCell)>,
+                    <WithStyles(TableCell)>
+                      ^5.0.3
+</WithStyles(TableCell)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "react-intl-translations-manager",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "react-intl-translations-manager",
+                    },
+                    "ref": null,
+                    "rendered": "react-intl-translations-manager",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "^5.0.3",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "^5.0.3",
+                    },
+                    "ref": null,
+                    "rendered": "^5.0.3",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
                 "key": "redux-saga-test-plan",
                 "nodeType": "class",
                 "props": Object {
@@ -3592,7 +4064,11 @@ ShallowWrapper {
             gutterBottom={true}
             variant="title"
 >
-            React Marketing Baseline Client
+            <FormattedMessage
+                        default="[React Marketing Baseline Client]"
+                        id="app.name"
+                        values={Object {}}
+            />
 </WithStyles(Typography)>,
           <div>
             <WithStyles(Table)>
@@ -3605,7 +4081,11 @@ ShallowWrapper {
                                                                         color="textSecondary"
                                                                         variant="title"
                                                             >
-                                                                        Env Props
+                                                                        <FormattedMessage
+                                                                                    defaultMessage="[Env Props]"
+                                                                                    id="about.envProps"
+                                                                                    values={Object {}}
+                                                                        />
                                                             </WithStyles(Typography)>
                                                 </WithStyles(TableCell)>
                                                 <WithStyles(TableCell) />
@@ -3652,7 +4132,11 @@ ShallowWrapper {
                                                                         color="textSecondary"
                                                                         variant="title"
                                                             >
-                                                                        About
+                                                                        <FormattedMessage
+                                                                                    defaultMessage="[About]"
+                                                                                    id="about.about"
+                                                                                    values={Object {}}
+                                                                        />
                                                             </WithStyles(Typography)>
                                                 </WithStyles(TableCell)>
                                                 <WithStyles(TableCell) />
@@ -3687,7 +4171,11 @@ ShallowWrapper {
                                                                         color="textSecondary"
                                                                         variant="title"
                                                             >
-                                                                        Dependencies
+                                                                        <FormattedMessage
+                                                                                    defaultMessage="[Dependencies]"
+                                                                                    id="about.dependencies"
+                                                                                    values={Object {}}
+                                                                        />
                                                             </WithStyles(Typography)>
                                                 </WithStyles(TableCell)>
                                                 <WithStyles(TableCell) />
@@ -3750,6 +4238,14 @@ ShallowWrapper {
                                     </WithStyles(TableRow)>
                                     <WithStyles(TableRow)>
                                                 <WithStyles(TableCell)>
+                                                            moment
+                                                </WithStyles(TableCell)>
+                                                <WithStyles(TableCell)>
+                                                            ^2.22.2
+                                                </WithStyles(TableCell)>
+                                    </WithStyles(TableRow)>
+                                    <WithStyles(TableRow)>
+                                                <WithStyles(TableCell)>
                                                             oidc-client
                                                 </WithStyles(TableCell)>
                                                 <WithStyles(TableCell)>
@@ -3786,6 +4282,14 @@ ShallowWrapper {
                                                 </WithStyles(TableCell)>
                                                 <WithStyles(TableCell)>
                                                             ^16.5.0
+                                                </WithStyles(TableCell)>
+                                    </WithStyles(TableRow)>
+                                    <WithStyles(TableRow)>
+                                                <WithStyles(TableCell)>
+                                                            react-intl
+                                                </WithStyles(TableCell)>
+                                                <WithStyles(TableCell)>
+                                                            ^2.7.1
                                                 </WithStyles(TableCell)>
                                     </WithStyles(TableRow)>
                                     <WithStyles(TableRow)>
@@ -3890,7 +4394,11 @@ ShallowWrapper {
                                                                         color="textSecondary"
                                                                         variant="title"
                                                             >
-                                                                        Dev Dependencies
+                                                                        <FormattedMessage
+                                                                                    defaultMessage="[Dev Dependencies]"
+                                                                                    id="about.devDependencies"
+                                                                                    values={Object {}}
+                                                                        />
                                                             </WithStyles(Typography)>
                                                 </WithStyles(TableCell)>
                                                 <WithStyles(TableCell) />
@@ -3977,6 +4485,22 @@ ShallowWrapper {
                                     </WithStyles(TableRow)>
                                     <WithStyles(TableRow)>
                                                 <WithStyles(TableCell)>
+                                                            react-intl-cra
+                                                </WithStyles(TableCell)>
+                                                <WithStyles(TableCell)>
+                                                            ^0.3.3
+                                                </WithStyles(TableCell)>
+                                    </WithStyles(TableRow)>
+                                    <WithStyles(TableRow)>
+                                                <WithStyles(TableCell)>
+                                                            react-intl-translations-manager
+                                                </WithStyles(TableCell)>
+                                                <WithStyles(TableCell)>
+                                                            ^5.0.3
+                                                </WithStyles(TableCell)>
+                                    </WithStyles(TableRow)>
+                                    <WithStyles(TableRow)>
+                                                <WithStyles(TableCell)>
                                                             redux-saga-test-plan
                                                 </WithStyles(TableCell)>
                                                 <WithStyles(TableCell)>
@@ -3996,12 +4520,28 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "align": "center",
-            "children": "React Marketing Baseline Client",
+            "children": <FormattedMessage
+              default="[React Marketing Baseline Client]"
+              id="app.name"
+              values={Object {}}
+/>,
             "gutterBottom": true,
             "variant": "title",
           },
           "ref": null,
-          "rendered": "React Marketing Baseline Client",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "default": "[React Marketing Baseline Client]",
+              "id": "app.name",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": [Function],
         },
         Object {
@@ -4019,7 +4559,11 @@ ShallowWrapper {
                                                                       color="textSecondary"
                                                                       variant="title"
                                                         >
-                                                                      Env Props
+                                                                      <FormattedMessage
+                                                                                    defaultMessage="[Env Props]"
+                                                                                    id="about.envProps"
+                                                                                    values={Object {}}
+                                                                      />
                                                         </WithStyles(Typography)>
                                           </WithStyles(TableCell)>
                                           <WithStyles(TableCell) />
@@ -4070,7 +4614,11 @@ ShallowWrapper {
                                                                 color="textSecondary"
                                                                 variant="title"
                                                 >
-                                                                Env Props
+                                                                <FormattedMessage
+                                                                                defaultMessage="[Env Props]"
+                                                                                id="about.envProps"
+                                                                                values={Object {}}
+                                                                />
                                                 </WithStyles(Typography)>
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell) />
@@ -4120,7 +4668,11 @@ ShallowWrapper {
                                                             color="textSecondary"
                                                             variant="title"
                                         >
-                                                            Env Props
+                                                            <FormattedMessage
+                                                                                defaultMessage="[Env Props]"
+                                                                                id="about.envProps"
+                                                                                values={Object {}}
+                                                            />
                                         </WithStyles(Typography)>
                     </WithStyles(TableCell)>
                     <WithStyles(TableCell) />
@@ -4170,7 +4722,11 @@ ShallowWrapper {
                                                 color="textSecondary"
                                                 variant="title"
                         >
-                                                Env Props
+                                                <FormattedMessage
+                                                                        defaultMessage="[Env Props]"
+                                                                        id="about.envProps"
+                                                                        values={Object {}}
+                                                />
                         </WithStyles(Typography)>
 </WithStyles(TableCell)>,
                       <WithStyles(TableCell) />,
@@ -4188,7 +4744,11 @@ ShallowWrapper {
                           color="textSecondary"
                           variant="title"
 >
-                          Env Props
+                          <FormattedMessage
+                                                    defaultMessage="[Env Props]"
+                                                    id="about.envProps"
+                                                    values={Object {}}
+                          />
 </WithStyles(Typography)>,
                       },
                       "ref": null,
@@ -4197,12 +4757,28 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "class",
                         "props": Object {
-                          "children": "Env Props",
+                          "children": <FormattedMessage
+                            defaultMessage="[Env Props]"
+                            id="about.envProps"
+                            values={Object {}}
+/>,
                           "color": "textSecondary",
                           "variant": "title",
                         },
                         "ref": null,
-                        "rendered": "Env Props",
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "defaultMessage": "[Env Props]",
+                            "id": "about.envProps",
+                            "values": Object {},
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
                         "type": [Function],
                       },
                       "type": [Function],
@@ -4401,7 +4977,11 @@ ShallowWrapper {
                                                                       color="textSecondary"
                                                                       variant="title"
                                                         >
-                                                                      About
+                                                                      <FormattedMessage
+                                                                                    defaultMessage="[About]"
+                                                                                    id="about.about"
+                                                                                    values={Object {}}
+                                                                      />
                                                         </WithStyles(Typography)>
                                           </WithStyles(TableCell)>
                                           <WithStyles(TableCell) />
@@ -4440,7 +5020,11 @@ ShallowWrapper {
                                                                 color="textSecondary"
                                                                 variant="title"
                                                 >
-                                                                About
+                                                                <FormattedMessage
+                                                                                defaultMessage="[About]"
+                                                                                id="about.about"
+                                                                                values={Object {}}
+                                                                />
                                                 </WithStyles(Typography)>
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell) />
@@ -4478,7 +5062,11 @@ ShallowWrapper {
                                                             color="textSecondary"
                                                             variant="title"
                                         >
-                                                            About
+                                                            <FormattedMessage
+                                                                                defaultMessage="[About]"
+                                                                                id="about.about"
+                                                                                values={Object {}}
+                                                            />
                                         </WithStyles(Typography)>
                     </WithStyles(TableCell)>
                     <WithStyles(TableCell) />
@@ -4516,7 +5104,11 @@ ShallowWrapper {
                                                 color="textSecondary"
                                                 variant="title"
                         >
-                                                About
+                                                <FormattedMessage
+                                                                        defaultMessage="[About]"
+                                                                        id="about.about"
+                                                                        values={Object {}}
+                                                />
                         </WithStyles(Typography)>
 </WithStyles(TableCell)>,
                       <WithStyles(TableCell) />,
@@ -4534,7 +5126,11 @@ ShallowWrapper {
                           color="textSecondary"
                           variant="title"
 >
-                          About
+                          <FormattedMessage
+                                                    defaultMessage="[About]"
+                                                    id="about.about"
+                                                    values={Object {}}
+                          />
 </WithStyles(Typography)>,
                       },
                       "ref": null,
@@ -4543,12 +5139,28 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "class",
                         "props": Object {
-                          "children": "About",
+                          "children": <FormattedMessage
+                            defaultMessage="[About]"
+                            id="about.about"
+                            values={Object {}}
+/>,
                           "color": "textSecondary",
                           "variant": "title",
                         },
                         "ref": null,
-                        "rendered": "About",
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "defaultMessage": "[About]",
+                            "id": "about.about",
+                            "values": Object {},
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
                         "type": [Function],
                       },
                       "type": [Function],
@@ -4669,7 +5281,11 @@ ShallowWrapper {
                                                                       color="textSecondary"
                                                                       variant="title"
                                                         >
-                                                                      Dependencies
+                                                                      <FormattedMessage
+                                                                                    defaultMessage="[Dependencies]"
+                                                                                    id="about.dependencies"
+                                                                                    values={Object {}}
+                                                                      />
                                                         </WithStyles(Typography)>
                                           </WithStyles(TableCell)>
                                           <WithStyles(TableCell) />
@@ -4732,6 +5348,14 @@ ShallowWrapper {
                             </WithStyles(TableRow)>
                             <WithStyles(TableRow)>
                                           <WithStyles(TableCell)>
+                                                        moment
+                                          </WithStyles(TableCell)>
+                                          <WithStyles(TableCell)>
+                                                        ^2.22.2
+                                          </WithStyles(TableCell)>
+                            </WithStyles(TableRow)>
+                            <WithStyles(TableRow)>
+                                          <WithStyles(TableCell)>
                                                         oidc-client
                                           </WithStyles(TableCell)>
                                           <WithStyles(TableCell)>
@@ -4768,6 +5392,14 @@ ShallowWrapper {
                                           </WithStyles(TableCell)>
                                           <WithStyles(TableCell)>
                                                         ^16.5.0
+                                          </WithStyles(TableCell)>
+                            </WithStyles(TableRow)>
+                            <WithStyles(TableRow)>
+                                          <WithStyles(TableCell)>
+                                                        react-intl
+                                          </WithStyles(TableCell)>
+                                          <WithStyles(TableCell)>
+                                                        ^2.7.1
                                           </WithStyles(TableCell)>
                             </WithStyles(TableRow)>
                             <WithStyles(TableRow)>
@@ -4876,7 +5508,11 @@ ShallowWrapper {
                                                                 color="textSecondary"
                                                                 variant="title"
                                                 >
-                                                                Dependencies
+                                                                <FormattedMessage
+                                                                                defaultMessage="[Dependencies]"
+                                                                                id="about.dependencies"
+                                                                                values={Object {}}
+                                                                />
                                                 </WithStyles(Typography)>
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell) />
@@ -4939,6 +5575,14 @@ ShallowWrapper {
                 </WithStyles(TableRow)>
                 <WithStyles(TableRow)>
                                 <WithStyles(TableCell)>
+                                                moment
+                                </WithStyles(TableCell)>
+                                <WithStyles(TableCell)>
+                                                ^2.22.2
+                                </WithStyles(TableCell)>
+                </WithStyles(TableRow)>
+                <WithStyles(TableRow)>
+                                <WithStyles(TableCell)>
                                                 oidc-client
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell)>
@@ -4975,6 +5619,14 @@ ShallowWrapper {
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell)>
                                                 ^16.5.0
+                                </WithStyles(TableCell)>
+                </WithStyles(TableRow)>
+                <WithStyles(TableRow)>
+                                <WithStyles(TableCell)>
+                                                react-intl
+                                </WithStyles(TableCell)>
+                                <WithStyles(TableCell)>
+                                                ^2.7.1
                                 </WithStyles(TableCell)>
                 </WithStyles(TableRow)>
                 <WithStyles(TableRow)>
@@ -5082,7 +5734,11 @@ ShallowWrapper {
                                                             color="textSecondary"
                                                             variant="title"
                                         >
-                                                            Dependencies
+                                                            <FormattedMessage
+                                                                                defaultMessage="[Dependencies]"
+                                                                                id="about.dependencies"
+                                                                                values={Object {}}
+                                                            />
                                         </WithStyles(Typography)>
                     </WithStyles(TableCell)>
                     <WithStyles(TableCell) />
@@ -5146,6 +5802,14 @@ ShallowWrapper {
 </WithStyles(TableRow)>,
                     <WithStyles(TableRow)>
                       <WithStyles(TableCell)>
+                                            moment
+                      </WithStyles(TableCell)>
+                      <WithStyles(TableCell)>
+                                            ^2.22.2
+                      </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                    <WithStyles(TableRow)>
+                      <WithStyles(TableCell)>
                                             oidc-client
                       </WithStyles(TableCell)>
                       <WithStyles(TableCell)>
@@ -5182,6 +5846,14 @@ ShallowWrapper {
                       </WithStyles(TableCell)>
                       <WithStyles(TableCell)>
                                             ^16.5.0
+                      </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                    <WithStyles(TableRow)>
+                      <WithStyles(TableCell)>
+                                            react-intl
+                      </WithStyles(TableCell)>
+                      <WithStyles(TableCell)>
+                                            ^2.7.1
                       </WithStyles(TableCell)>
 </WithStyles(TableRow)>,
                     <WithStyles(TableRow)>
@@ -5288,7 +5960,11 @@ ShallowWrapper {
                                                 color="textSecondary"
                                                 variant="title"
                         >
-                                                Dependencies
+                                                <FormattedMessage
+                                                                        defaultMessage="[Dependencies]"
+                                                                        id="about.dependencies"
+                                                                        values={Object {}}
+                                                />
                         </WithStyles(Typography)>
 </WithStyles(TableCell)>,
                       <WithStyles(TableCell) />,
@@ -5306,7 +5982,11 @@ ShallowWrapper {
                           color="textSecondary"
                           variant="title"
 >
-                          Dependencies
+                          <FormattedMessage
+                                                    defaultMessage="[Dependencies]"
+                                                    id="about.dependencies"
+                                                    values={Object {}}
+                          />
 </WithStyles(Typography)>,
                       },
                       "ref": null,
@@ -5315,12 +5995,28 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "class",
                         "props": Object {
-                          "children": "Dependencies",
+                          "children": <FormattedMessage
+                            defaultMessage="[Dependencies]"
+                            id="about.dependencies"
+                            values={Object {}}
+/>,
                           "color": "textSecondary",
                           "variant": "title",
                         },
                         "ref": null,
-                        "rendered": "Dependencies",
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "defaultMessage": "[Dependencies]",
+                            "id": "about.dependencies",
+                            "values": Object {},
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
                         "type": [Function],
                       },
                       "type": [Function],
@@ -5626,6 +6322,47 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
+                  "key": "moment",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(TableCell)>
+                        moment
+</WithStyles(TableCell)>,
+                      <WithStyles(TableCell)>
+                        ^2.22.2
+</WithStyles(TableCell)>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "moment",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "moment",
+                      },
+                      "ref": null,
+                      "rendered": "moment",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "^2.22.2",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "^2.22.2",
+                      },
+                      "ref": null,
+                      "rendered": "^2.22.2",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
                   "key": "oidc-client",
                   "nodeType": "class",
                   "props": Object {
@@ -5824,6 +6561,47 @@ ShallowWrapper {
                       },
                       "ref": null,
                       "rendered": "^16.5.0",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "react-intl",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(TableCell)>
+                        react-intl
+</WithStyles(TableCell)>,
+                      <WithStyles(TableCell)>
+                        ^2.7.1
+</WithStyles(TableCell)>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "react-intl",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "react-intl",
+                      },
+                      "ref": null,
+                      "rendered": "react-intl",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "^2.7.1",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "^2.7.1",
+                      },
+                      "ref": null,
+                      "rendered": "^2.7.1",
                       "type": [Function],
                     },
                   ],
@@ -6302,7 +7080,11 @@ ShallowWrapper {
                                                                       color="textSecondary"
                                                                       variant="title"
                                                         >
-                                                                      Dev Dependencies
+                                                                      <FormattedMessage
+                                                                                    defaultMessage="[Dev Dependencies]"
+                                                                                    id="about.devDependencies"
+                                                                                    values={Object {}}
+                                                                      />
                                                         </WithStyles(Typography)>
                                           </WithStyles(TableCell)>
                                           <WithStyles(TableCell) />
@@ -6389,6 +7171,22 @@ ShallowWrapper {
                             </WithStyles(TableRow)>
                             <WithStyles(TableRow)>
                                           <WithStyles(TableCell)>
+                                                        react-intl-cra
+                                          </WithStyles(TableCell)>
+                                          <WithStyles(TableCell)>
+                                                        ^0.3.3
+                                          </WithStyles(TableCell)>
+                            </WithStyles(TableRow)>
+                            <WithStyles(TableRow)>
+                                          <WithStyles(TableCell)>
+                                                        react-intl-translations-manager
+                                          </WithStyles(TableCell)>
+                                          <WithStyles(TableCell)>
+                                                        ^5.0.3
+                                          </WithStyles(TableCell)>
+                            </WithStyles(TableRow)>
+                            <WithStyles(TableRow)>
+                                          <WithStyles(TableCell)>
                                                         redux-saga-test-plan
                                           </WithStyles(TableCell)>
                                           <WithStyles(TableCell)>
@@ -6413,7 +7211,11 @@ ShallowWrapper {
                                                                 color="textSecondary"
                                                                 variant="title"
                                                 >
-                                                                Dev Dependencies
+                                                                <FormattedMessage
+                                                                                defaultMessage="[Dev Dependencies]"
+                                                                                id="about.devDependencies"
+                                                                                values={Object {}}
+                                                                />
                                                 </WithStyles(Typography)>
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell) />
@@ -6500,6 +7302,22 @@ ShallowWrapper {
                 </WithStyles(TableRow)>
                 <WithStyles(TableRow)>
                                 <WithStyles(TableCell)>
+                                                react-intl-cra
+                                </WithStyles(TableCell)>
+                                <WithStyles(TableCell)>
+                                                ^0.3.3
+                                </WithStyles(TableCell)>
+                </WithStyles(TableRow)>
+                <WithStyles(TableRow)>
+                                <WithStyles(TableCell)>
+                                                react-intl-translations-manager
+                                </WithStyles(TableCell)>
+                                <WithStyles(TableCell)>
+                                                ^5.0.3
+                                </WithStyles(TableCell)>
+                </WithStyles(TableRow)>
+                <WithStyles(TableRow)>
+                                <WithStyles(TableCell)>
                                                 redux-saga-test-plan
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell)>
@@ -6523,7 +7341,11 @@ ShallowWrapper {
                                                             color="textSecondary"
                                                             variant="title"
                                         >
-                                                            Dev Dependencies
+                                                            <FormattedMessage
+                                                                                defaultMessage="[Dev Dependencies]"
+                                                                                id="about.devDependencies"
+                                                                                values={Object {}}
+                                                            />
                                         </WithStyles(Typography)>
                     </WithStyles(TableCell)>
                     <WithStyles(TableCell) />
@@ -6611,6 +7433,22 @@ ShallowWrapper {
 </WithStyles(TableRow)>,
                     <WithStyles(TableRow)>
                       <WithStyles(TableCell)>
+                                            react-intl-cra
+                      </WithStyles(TableCell)>
+                      <WithStyles(TableCell)>
+                                            ^0.3.3
+                      </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                    <WithStyles(TableRow)>
+                      <WithStyles(TableCell)>
+                                            react-intl-translations-manager
+                      </WithStyles(TableCell)>
+                      <WithStyles(TableCell)>
+                                            ^5.0.3
+                      </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                    <WithStyles(TableRow)>
+                      <WithStyles(TableCell)>
                                             redux-saga-test-plan
                       </WithStyles(TableCell)>
                       <WithStyles(TableCell)>
@@ -6633,7 +7471,11 @@ ShallowWrapper {
                                                 color="textSecondary"
                                                 variant="title"
                         >
-                                                Dev Dependencies
+                                                <FormattedMessage
+                                                                        defaultMessage="[Dev Dependencies]"
+                                                                        id="about.devDependencies"
+                                                                        values={Object {}}
+                                                />
                         </WithStyles(Typography)>
 </WithStyles(TableCell)>,
                       <WithStyles(TableCell) />,
@@ -6651,7 +7493,11 @@ ShallowWrapper {
                           color="textSecondary"
                           variant="title"
 >
-                          Dev Dependencies
+                          <FormattedMessage
+                                                    defaultMessage="[Dev Dependencies]"
+                                                    id="about.devDependencies"
+                                                    values={Object {}}
+                          />
 </WithStyles(Typography)>,
                       },
                       "ref": null,
@@ -6660,12 +7506,28 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "class",
                         "props": Object {
-                          "children": "Dev Dependencies",
+                          "children": <FormattedMessage
+                            defaultMessage="[Dev Dependencies]"
+                            id="about.devDependencies"
+                            values={Object {}}
+/>,
                           "color": "textSecondary",
                           "variant": "title",
                         },
                         "ref": null,
-                        "rendered": "Dev Dependencies",
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "defaultMessage": "[Dev Dependencies]",
+                            "id": "about.devDependencies",
+                            "values": Object {},
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
                         "type": [Function],
                       },
                       "type": [Function],
@@ -7087,6 +7949,88 @@ ShallowWrapper {
                       },
                       "ref": null,
                       "rendered": "^1.14.2",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "react-intl-cra",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(TableCell)>
+                        react-intl-cra
+</WithStyles(TableCell)>,
+                      <WithStyles(TableCell)>
+                        ^0.3.3
+</WithStyles(TableCell)>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "react-intl-cra",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "react-intl-cra",
+                      },
+                      "ref": null,
+                      "rendered": "react-intl-cra",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "^0.3.3",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "^0.3.3",
+                      },
+                      "ref": null,
+                      "rendered": "^0.3.3",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "react-intl-translations-manager",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(TableCell)>
+                        react-intl-translations-manager
+</WithStyles(TableCell)>,
+                      <WithStyles(TableCell)>
+                        ^5.0.3
+</WithStyles(TableCell)>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "react-intl-translations-manager",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "react-intl-translations-manager",
+                      },
+                      "ref": null,
+                      "rendered": "react-intl-translations-manager",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "^5.0.3",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "^5.0.3",
+                      },
+                      "ref": null,
+                      "rendered": "^5.0.3",
                       "type": [Function],
                     },
                   ],

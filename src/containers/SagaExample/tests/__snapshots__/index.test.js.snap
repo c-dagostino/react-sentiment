@@ -22,17 +22,33 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h3>
-          Saga Example
+          <FormattedMessage
+                    defaultMessage="[Saga Example]"
+                    id="sagaExample.title"
+                    values={Object {}}
+          />
 </h3>,
         <p>
-          Test: 
+          <FormattedMessage
+                    defaultMessage="[Test: {responseMessage}]"
+                    id="sagaExample.response"
+                    values={
+                              Object {
+                                        "responseMessage": "",
+                                      }
+                    }
+          />
 </p>,
         <button
           data-id="sagaTestButton"
           onClick={[Function]}
           type="button"
 >
-          Test Saga
+          <FormattedMessage
+                    defaultMessage="[Test Saga]"
+                    id="sagaExample.testButton"
+                    values={Object {}}
+          />
 </button>,
       ],
     },
@@ -43,10 +59,26 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Saga Example",
+          "children": <FormattedMessage
+            defaultMessage="[Saga Example]"
+            id="sagaExample.title"
+            values={Object {}}
+/>,
         },
         "ref": null,
-        "rendered": "Saga Example",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "[Saga Example]",
+            "id": "sagaExample.title",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": "h3",
       },
       Object {
@@ -54,10 +86,32 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Test: ",
+          "children": <FormattedMessage
+            defaultMessage="[Test: {responseMessage}]"
+            id="sagaExample.response"
+            values={
+                        Object {
+                                    "responseMessage": "",
+                                  }
+            }
+/>,
         },
         "ref": null,
-        "rendered": "Test: ",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "[Test: {responseMessage}]",
+            "id": "sagaExample.response",
+            "values": Object {
+              "responseMessage": "",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": "p",
       },
       Object {
@@ -65,13 +119,29 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Test Saga",
+          "children": <FormattedMessage
+            defaultMessage="[Test Saga]"
+            id="sagaExample.testButton"
+            values={Object {}}
+/>,
           "data-id": "sagaTestButton",
           "onClick": [Function],
           "type": "button",
         },
         "ref": null,
-        "rendered": "Test Saga",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "[Test Saga]",
+            "id": "sagaExample.testButton",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": "button",
       },
     ],
@@ -85,17 +155,33 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h3>
-            Saga Example
+            <FormattedMessage
+                        defaultMessage="[Saga Example]"
+                        id="sagaExample.title"
+                        values={Object {}}
+            />
 </h3>,
           <p>
-            Test: 
+            <FormattedMessage
+                        defaultMessage="[Test: {responseMessage}]"
+                        id="sagaExample.response"
+                        values={
+                                    Object {
+                                                "responseMessage": "",
+                                              }
+                        }
+            />
 </p>,
           <button
             data-id="sagaTestButton"
             onClick={[Function]}
             type="button"
 >
-            Test Saga
+            <FormattedMessage
+                        defaultMessage="[Test Saga]"
+                        id="sagaExample.testButton"
+                        values={Object {}}
+            />
 </button>,
         ],
       },
@@ -106,10 +192,26 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Saga Example",
+            "children": <FormattedMessage
+              defaultMessage="[Saga Example]"
+              id="sagaExample.title"
+              values={Object {}}
+/>,
           },
           "ref": null,
-          "rendered": "Saga Example",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "[Saga Example]",
+              "id": "sagaExample.title",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": "h3",
         },
         Object {
@@ -117,10 +219,32 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Test: ",
+            "children": <FormattedMessage
+              defaultMessage="[Test: {responseMessage}]"
+              id="sagaExample.response"
+              values={
+                            Object {
+                                          "responseMessage": "",
+                                        }
+              }
+/>,
           },
           "ref": null,
-          "rendered": "Test: ",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "[Test: {responseMessage}]",
+              "id": "sagaExample.response",
+              "values": Object {
+                "responseMessage": "",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": "p",
         },
         Object {
@@ -128,13 +252,29 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Test Saga",
+            "children": <FormattedMessage
+              defaultMessage="[Test Saga]"
+              id="sagaExample.testButton"
+              values={Object {}}
+/>,
             "data-id": "sagaTestButton",
             "onClick": [Function],
             "type": "button",
           },
           "ref": null,
-          "rendered": "Test Saga",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "[Test Saga]",
+              "id": "sagaExample.testButton",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": "button",
         },
       ],

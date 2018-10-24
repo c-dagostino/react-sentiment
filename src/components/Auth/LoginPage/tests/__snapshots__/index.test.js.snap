@@ -26,7 +26,11 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <h3>
-        LoginPage
+        <FormattedMessage
+                defaultMessage="[LoginPage]"
+                id="loginPage.title"
+                values={Object {}}
+        />
 </h3>,
     },
     "ref": null,
@@ -35,10 +39,26 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "LoginPage",
+        "children": <FormattedMessage
+          defaultMessage="[LoginPage]"
+          id="loginPage.title"
+          values={Object {}}
+/>,
       },
       "ref": null,
-      "rendered": "LoginPage",
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "defaultMessage": "[LoginPage]",
+          "id": "loginPage.title",
+          "values": Object {},
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
       "type": "h3",
     },
     "type": "div",
@@ -50,7 +70,11 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <h3>
-          LoginPage
+          <FormattedMessage
+                    defaultMessage="[LoginPage]"
+                    id="loginPage.title"
+                    values={Object {}}
+          />
 </h3>,
       },
       "ref": null,
@@ -59,10 +83,26 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "LoginPage",
+          "children": <FormattedMessage
+            defaultMessage="[LoginPage]"
+            id="loginPage.title"
+            values={Object {}}
+/>,
         },
         "ref": null,
-        "rendered": "LoginPage",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "[LoginPage]",
+            "id": "loginPage.title",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": "h3",
       },
       "type": "div",
@@ -116,7 +156,11 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <h3>
-        LoginPage
+        <FormattedMessage
+                defaultMessage="[LoginPage]"
+                id="loginPage.title"
+                values={Object {}}
+        />
 </h3>,
     },
     "ref": null,
@@ -125,10 +169,26 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "LoginPage",
+        "children": <FormattedMessage
+          defaultMessage="[LoginPage]"
+          id="loginPage.title"
+          values={Object {}}
+/>,
       },
       "ref": null,
-      "rendered": "LoginPage",
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "defaultMessage": "[LoginPage]",
+          "id": "loginPage.title",
+          "values": Object {},
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
       "type": "h3",
     },
     "type": "div",
@@ -140,7 +200,11 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <h3>
-          LoginPage
+          <FormattedMessage
+                    defaultMessage="[LoginPage]"
+                    id="loginPage.title"
+                    values={Object {}}
+          />
 </h3>,
       },
       "ref": null,
@@ -149,10 +213,26 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "LoginPage",
+          "children": <FormattedMessage
+            defaultMessage="[LoginPage]"
+            id="loginPage.title"
+            values={Object {}}
+/>,
         },
         "ref": null,
-        "rendered": "LoginPage",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "[LoginPage]",
+            "id": "loginPage.title",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": "h3",
       },
       "type": "div",

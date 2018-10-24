@@ -5,7 +5,7 @@
 # multiple node versions to work with it. They come from the docker
 # repo.
 # Uses NodeJS V 9.4.0
-# image: node:9.4.0
+image: node:latest
 
 # And to cache them as well.
 cache:
@@ -25,6 +25,7 @@ before_script:
 stages:
 - build
 - test
+- deploy
 
 Build:
   stage: build
@@ -34,17 +35,76 @@ Build:
   - yarn config set cache-folder .yarn_cache
   - yarn install
   script:
-  - npm run build
+  - yarn build
 
-Test:
+unit_tests:
   stage: test
   tags:
   - Linux
-  before_script:
-  - yarn install --cache-folder .yarn_cache
   script:
-  # Runs the tests.
+  - yarn install
   - yarn test --coverage --no-cache
+
+unit_test_coverage_deploy:
+  stage: deploy
+  when: manual
   artifacts:
     paths:
-    - coverage/lcov-report
+    - public
+    expire_in: 6 weeks
+  dependencies:
+  - unit_tests
+  script:
+  - yarn install
+  - yarn test --coverage --no-cache
+  - mv coverage/lcov-report/ public/
+  tags:
+  - Linux
+
+deploy_dev:
+  stage: deploy
+  when: manual
+  environment:
+    name: DEV
+    url: $AWS_WEBAPP_URL
+    # commenting this out for testing
+  #  only:
+  #  - develop
+  #  - quarterly-release
+  script:
+  - yarn install
+  - yarn build
+  - echo $APPLICATION_NAME
+  - echo $CI_AWS_REGION
+  - echo $CI_AWS_ACCESS_KEY_ID
+  - echo $CI_AWS_SECRET_ACCESS_KEY
+  - echo $S3_BUCKET_PATH
+  - echo $DEV_DISTRIBUTION_ID
+  - echo $DEV_DISTRIBUTION_PATH
+  - echo "${S3_BUCKET_PATH}/marketing-admin-webapp"
+  - echo "${S3_BUCKET_PATH}/marketing-admin-webapp.old"
+
+  - export AWS_REGION=$CI_AWS_REGION
+  - export AWS_ACCESS_KEY_ID=$CI_AWS_ACCESS_KEY_ID
+  - export AWS_SECRET_ACCESS_KEY=$CI_AWS_SECRET_ACCESS_KEY
+
+  # Installing AWS CLI to be able to login and pushing on Amazon
+  - pip install --user awscli
+
+  # Rename folder
+  - aws s3 mv "${S3_BUCKET_PATH}/${APPLICATION_NAME}" "${S3_BUCKET_PATH}/${APPLICATION_NAME}.old" --recursive --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
+
+  # Upload the build folder to S3 bucket
+  - aws s3 cp build/ "${S3_BUCKET_PATH}/marketing-admin-webapp" --recursive --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
+
+  # Fixes SVGs content type
+  - aws s3 cp "${S3_BUCKET_PATH}/${APPLICATION_NAME}" "${S3_BUCKET_PATH}/${APPLICATION_NAME}"  --exclude "*" --include "*.svg" --content-type="image/svg+xml" --metadata-directive="REPLACE" --recursive
+
+  # Invalidate all of the objects in the distribution. It removes them from CloudFront edge caches.
+  - aws cloudfront create-invalidation --distribution-id $DEV_DISTRIBUTION_ID --paths "${DEV_DISTRIBUTION_PATH}"
+
+  # Delete old folder
+  - aws s3 rm "${S3_BUCKET_PATH}/${APPLICATION_NAME}.old" --recursive
+  tags:
+  - Linux
+

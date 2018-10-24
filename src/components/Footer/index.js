@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { FormattedDate } from 'react-intl';
+import moment from 'moment';
 
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
@@ -22,18 +23,23 @@ export class Footer extends React.Component {
   static propTypes = {
     classes: PropTypes.shape({
       footer: PropTypes.string.isRequired
-    }).isRequired
+    }).isRequired,
+    currentYear: PropTypes.string
+  };
+
+  static defaultProps = {
+    currentYear: moment().format('YYYY')
   };
 
   render() {
-    const { classes } = this.props;
+    const { classes, currentYear } = this.props;
     return (
       <footer className={classes.footer}>
         <Typography variant="title" align="center" gutterBottom>
-          {`© Navis Software ${new Date().getFullYear()}`}
+          {`© Navis Software ${currentYear}`}
         </Typography>
         <Typography variant="title" align="center" gutterBottom>
-          <FormattedDate value={new Date()} />
+          <FormattedDate value={currentYear} />
         </Typography>
         <LanguageSelector />
       </footer>

@@ -1,9 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { shallow } from 'enzyme';
+
 import App from '../index';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+function getWrapper(props) {
+  const requiredProps = {};
+
+  return shallow(<App {...requiredProps} {...props} />);
+}
+
+describe('App', () => {
+  it('Expect component to render properly', () => {
+    const wrapper = getWrapper();
+    expect(wrapper).toMatchSnapshot();
+  });
 });

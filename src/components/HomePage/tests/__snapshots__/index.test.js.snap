@@ -17,22 +17,80 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h3>
-        HomePage
+      "children": Array [
+        <h3>
+          <FormattedMessage
+                    defaultMessage="[HomePage]"
+                    id="homepage.title"
+                    values={Object {}}
+          />
 </h3>,
+        <p>
+          <FormattedMessage
+                    defaultMessage="[Hello, World!]"
+                    id="homepage.paragraph"
+                    values={Object {}}
+          />
+</p>,
+      ],
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "HomePage",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="[HomePage]"
+            id="homepage.title"
+            values={Object {}}
+/>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "[HomePage]",
+            "id": "homepage.title",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "h3",
       },
-      "ref": null,
-      "rendered": "HomePage",
-      "type": "h3",
-    },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="[Hello, World!]"
+            id="homepage.paragraph"
+            values={Object {}}
+/>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "[Hello, World!]",
+            "id": "homepage.paragraph",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "p",
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -41,22 +99,80 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h3>
-          HomePage
+        "children": Array [
+          <h3>
+            <FormattedMessage
+                        defaultMessage="[HomePage]"
+                        id="homepage.title"
+                        values={Object {}}
+            />
 </h3>,
+          <p>
+            <FormattedMessage
+                        defaultMessage="[Hello, World!]"
+                        id="homepage.paragraph"
+                        values={Object {}}
+            />
+</p>,
+        ],
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "HomePage",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="[HomePage]"
+              id="homepage.title"
+              values={Object {}}
+/>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "[HomePage]",
+              "id": "homepage.title",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "h3",
         },
-        "ref": null,
-        "rendered": "HomePage",
-        "type": "h3",
-      },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="[Hello, World!]"
+              id="homepage.paragraph"
+              values={Object {}}
+/>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "[Hello, World!]",
+              "id": "homepage.paragraph",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "p",
+        },
+      ],
       "type": "div",
     },
   ],

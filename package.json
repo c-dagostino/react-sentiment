@@ -10,6 +10,7 @@
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
     "immutable": "^3.8.2",
+    "moment": "^2.22.2",
     "oidc-client": "^1.5.2",
     "polished": "^2.0.3",
     "prop-types": "^15.6.2",
