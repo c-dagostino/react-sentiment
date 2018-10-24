@@ -78,7 +78,7 @@ deploy_dev:
   #  - quarterly-release
   script:
   - yarn install
-  - REACT_APP_STAGE=dev yarn build
+  - yarn build:dev
   - echo $APPLICATION_NAME
   - echo $CI_AWS_REGION
   - echo $CI_AWS_ACCESS_KEY_ID
