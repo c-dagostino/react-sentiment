@@ -80,6 +80,7 @@ export class AboutPage extends React.Component {
   render() {
     const {
       NODE_ENV: nodeEnvironment,
+      REACT_APP_ENV: reactEnvironment,
       REACT_APP_NAME: appName,
       REACT_APP_OIDC_AUTHORITY_CLIENT_ID: clientId,
       REACT_APP_OIDC_AUTHORITY_URL: authUrl
@@ -88,6 +89,7 @@ export class AboutPage extends React.Component {
     const environmentRows = {
       appName,
       nodeEnvironment,
+      reactEnvironment,
       clientId,
       authUrl
     };

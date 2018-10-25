@@ -73,6 +73,12 @@ ShallowWrapper {
                               </WithStyles(TableRow)>
                               <WithStyles(TableRow)>
                                         <WithStyles(TableCell)>
+                                                  reactEnvironment
+                                        </WithStyles(TableCell)>
+                                        <WithStyles(TableCell) />
+                              </WithStyles(TableRow)>
+                              <WithStyles(TableRow)>
+                                        <WithStyles(TableCell)>
                                                   clientId
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell) />
@@ -559,6 +565,12 @@ ShallowWrapper {
                         </WithStyles(TableRow)>
                         <WithStyles(TableRow)>
                                     <WithStyles(TableCell)>
+                                                reactEnvironment
+                                    </WithStyles(TableCell)>
+                                    <WithStyles(TableCell) />
+                        </WithStyles(TableRow)>
+                        <WithStyles(TableRow)>
+                                    <WithStyles(TableCell)>
                                                 clientId
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell) />
@@ -614,6 +626,12 @@ ShallowWrapper {
               </WithStyles(TableRow)>
               <WithStyles(TableRow)>
                             <WithStyles(TableCell)>
+                                          reactEnvironment
+                            </WithStyles(TableCell)>
+                            <WithStyles(TableCell) />
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)>
+                            <WithStyles(TableCell)>
                                           clientId
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell) />
@@ -666,6 +684,12 @@ ShallowWrapper {
                     <WithStyles(TableCell)>
                                         test
                     </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                  <WithStyles(TableRow)>
+                    <WithStyles(TableCell)>
+                                        reactEnvironment
+                    </WithStyles(TableCell)>
+                    <WithStyles(TableCell) />
 </WithStyles(TableRow)>,
                   <WithStyles(TableRow)>
                     <WithStyles(TableCell)>
@@ -845,6 +869,45 @@ ShallowWrapper {
                     },
                     "ref": null,
                     "rendered": "test",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "reactEnvironment",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell)>
+                      reactEnvironment
+</WithStyles(TableCell)>,
+                    <WithStyles(TableCell) />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "reactEnvironment",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "reactEnvironment",
+                    },
+                    "ref": null,
+                    "rendered": "reactEnvironment",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
                     "type": [Function],
                   },
                 ],
@@ -4181,6 +4244,12 @@ ShallowWrapper {
                                     </WithStyles(TableRow)>
                                     <WithStyles(TableRow)>
                                                 <WithStyles(TableCell)>
+                                                            reactEnvironment
+                                                </WithStyles(TableCell)>
+                                                <WithStyles(TableCell) />
+                                    </WithStyles(TableRow)>
+                                    <WithStyles(TableRow)>
+                                                <WithStyles(TableCell)>
                                                             clientId
                                                 </WithStyles(TableCell)>
                                                 <WithStyles(TableCell) />
@@ -4667,6 +4736,12 @@ ShallowWrapper {
                             </WithStyles(TableRow)>
                             <WithStyles(TableRow)>
                                           <WithStyles(TableCell)>
+                                                        reactEnvironment
+                                          </WithStyles(TableCell)>
+                                          <WithStyles(TableCell) />
+                            </WithStyles(TableRow)>
+                            <WithStyles(TableRow)>
+                                          <WithStyles(TableCell)>
                                                         clientId
                                           </WithStyles(TableCell)>
                                           <WithStyles(TableCell) />
@@ -4722,6 +4797,12 @@ ShallowWrapper {
                 </WithStyles(TableRow)>
                 <WithStyles(TableRow)>
                                 <WithStyles(TableCell)>
+                                                reactEnvironment
+                                </WithStyles(TableCell)>
+                                <WithStyles(TableCell) />
+                </WithStyles(TableRow)>
+                <WithStyles(TableRow)>
+                                <WithStyles(TableCell)>
                                                 clientId
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell) />
@@ -4774,6 +4855,12 @@ ShallowWrapper {
                       <WithStyles(TableCell)>
                                             test
                       </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                    <WithStyles(TableRow)>
+                      <WithStyles(TableCell)>
+                                            reactEnvironment
+                      </WithStyles(TableCell)>
+                      <WithStyles(TableCell) />
 </WithStyles(TableRow)>,
                     <WithStyles(TableRow)>
                       <WithStyles(TableCell)>
@@ -4953,6 +5040,45 @@ ShallowWrapper {
                       },
                       "ref": null,
                       "rendered": "test",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "reactEnvironment",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(TableCell)>
+                        reactEnvironment
+</WithStyles(TableCell)>,
+                      <WithStyles(TableCell) />,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "reactEnvironment",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "reactEnvironment",
+                      },
+                      "ref": null,
+                      "rendered": "reactEnvironment",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
                       "type": [Function],
                     },
                   ],
