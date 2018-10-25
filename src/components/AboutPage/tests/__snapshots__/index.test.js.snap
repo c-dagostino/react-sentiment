@@ -370,6 +370,14 @@ ShallowWrapper {
                               </WithStyles(TableRow)>
                               <WithStyles(TableRow)>
                                         <WithStyles(TableCell)>
+                                                  env-cmd
+                                        </WithStyles(TableCell)>
+                                        <WithStyles(TableCell)>
+                                                  ^8.0.2
+                                        </WithStyles(TableCell)>
+                              </WithStyles(TableRow)>
+                              <WithStyles(TableRow)>
+                                        <WithStyles(TableCell)>
                                                   eslint
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell)>
@@ -3056,6 +3064,14 @@ ShallowWrapper {
                         </WithStyles(TableRow)>
                         <WithStyles(TableRow)>
                                     <WithStyles(TableCell)>
+                                                env-cmd
+                                    </WithStyles(TableCell)>
+                                    <WithStyles(TableCell)>
+                                                ^8.0.2
+                                    </WithStyles(TableCell)>
+                        </WithStyles(TableRow)>
+                        <WithStyles(TableRow)>
+                                    <WithStyles(TableCell)>
                                                 eslint
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell)>
@@ -3184,6 +3200,14 @@ ShallowWrapper {
                                           </WithStyles(Typography)>
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell) />
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)>
+                            <WithStyles(TableCell)>
+                                          env-cmd
+                            </WithStyles(TableCell)>
+                            <WithStyles(TableCell)>
+                                          ^8.0.2
+                            </WithStyles(TableCell)>
               </WithStyles(TableRow)>
               <WithStyles(TableRow)>
                             <WithStyles(TableCell)>
@@ -3316,6 +3340,14 @@ ShallowWrapper {
                   <WithStyles(TableCell) />
 </WithStyles(TableRow)>,
                 Array [
+                  <WithStyles(TableRow)>
+                    <WithStyles(TableCell)>
+                                        env-cmd
+                    </WithStyles(TableCell)>
+                    <WithStyles(TableCell)>
+                                        ^8.0.2
+                    </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
                   <WithStyles(TableRow)>
                     <WithStyles(TableCell)>
                                         eslint
@@ -3504,6 +3536,47 @@ ShallowWrapper {
                     "props": Object {},
                     "ref": null,
                     "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "env-cmd",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell)>
+                      env-cmd
+</WithStyles(TableCell)>,
+                    <WithStyles(TableCell)>
+                      ^8.0.2
+</WithStyles(TableCell)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "env-cmd",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "env-cmd",
+                    },
+                    "ref": null,
+                    "rendered": "env-cmd",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "^8.0.2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "^8.0.2",
+                    },
+                    "ref": null,
+                    "rendered": "^8.0.2",
                     "type": [Function],
                   },
                 ],
@@ -4402,6 +4475,14 @@ ShallowWrapper {
                                                             </WithStyles(Typography)>
                                                 </WithStyles(TableCell)>
                                                 <WithStyles(TableCell) />
+                                    </WithStyles(TableRow)>
+                                    <WithStyles(TableRow)>
+                                                <WithStyles(TableCell)>
+                                                            env-cmd
+                                                </WithStyles(TableCell)>
+                                                <WithStyles(TableCell)>
+                                                            ^8.0.2
+                                                </WithStyles(TableCell)>
                                     </WithStyles(TableRow)>
                                     <WithStyles(TableRow)>
                                                 <WithStyles(TableCell)>
@@ -7091,6 +7172,14 @@ ShallowWrapper {
                             </WithStyles(TableRow)>
                             <WithStyles(TableRow)>
                                           <WithStyles(TableCell)>
+                                                        env-cmd
+                                          </WithStyles(TableCell)>
+                                          <WithStyles(TableCell)>
+                                                        ^8.0.2
+                                          </WithStyles(TableCell)>
+                            </WithStyles(TableRow)>
+                            <WithStyles(TableRow)>
+                                          <WithStyles(TableCell)>
                                                         eslint
                                           </WithStyles(TableCell)>
                                           <WithStyles(TableCell)>
@@ -7219,6 +7308,14 @@ ShallowWrapper {
                                                 </WithStyles(Typography)>
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell) />
+                </WithStyles(TableRow)>
+                <WithStyles(TableRow)>
+                                <WithStyles(TableCell)>
+                                                env-cmd
+                                </WithStyles(TableCell)>
+                                <WithStyles(TableCell)>
+                                                ^8.0.2
+                                </WithStyles(TableCell)>
                 </WithStyles(TableRow)>
                 <WithStyles(TableRow)>
                                 <WithStyles(TableCell)>
@@ -7351,6 +7448,14 @@ ShallowWrapper {
                     <WithStyles(TableCell) />
 </WithStyles(TableRow)>,
                   Array [
+                    <WithStyles(TableRow)>
+                      <WithStyles(TableCell)>
+                                            env-cmd
+                      </WithStyles(TableCell)>
+                      <WithStyles(TableCell)>
+                                            ^8.0.2
+                      </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
                     <WithStyles(TableRow)>
                       <WithStyles(TableCell)>
                                             eslint
@@ -7539,6 +7644,47 @@ ShallowWrapper {
                       "props": Object {},
                       "ref": null,
                       "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "env-cmd",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(TableCell)>
+                        env-cmd
+</WithStyles(TableCell)>,
+                      <WithStyles(TableCell)>
+                        ^8.0.2
+</WithStyles(TableCell)>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "env-cmd",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "env-cmd",
+                      },
+                      "ref": null,
+                      "rendered": "env-cmd",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "^8.0.2",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "^8.0.2",
+                      },
+                      "ref": null,
+                      "rendered": "^8.0.2",
                       "type": [Function],
                     },
                   ],
