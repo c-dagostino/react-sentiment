@@ -78,6 +78,7 @@ deploy_dev:
   #  - quarterly-release
   script:
   - yarn install
+  - cat .env.development
   - yarn build:dev
   - echo $APPLICATION_NAME
   - echo $CI_AWS_REGION
