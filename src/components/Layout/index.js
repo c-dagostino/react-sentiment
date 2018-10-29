@@ -12,7 +12,7 @@ import theme from '../../utils/theme';
 const stickyFooter = {
   boxSizing: 'border-box',
   minHeight: '100%',
-  paddingBottom: '100px',
+  paddingBottom: '120px',
   position: 'relative'
 };
 
