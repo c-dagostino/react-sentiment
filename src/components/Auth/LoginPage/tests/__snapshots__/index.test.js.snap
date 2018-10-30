@@ -7,6 +7,7 @@ ShallowWrapper {
     location={
         Object {
             "state": Object {
+              "locale": "en",
               "referrer": "/",
             },
           }

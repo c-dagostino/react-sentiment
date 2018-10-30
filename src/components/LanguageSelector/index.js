@@ -16,6 +16,8 @@ import Menu from '@material-ui/core/Menu';
 import { setLocale as setLocaleAction } from './actions';
 import supportedLanguages from '../../utils/supportedLanguages';
 
+const { REACT_APP_SHOW_LANGUAGE_SELECTOR: showLanguageSelector } = process.env;
+
 const styles = theme => ({
   root: {
     backgroundColor: theme.palette.background.paper,
@@ -30,6 +32,10 @@ const messages = defineMessages({
   en: {
     id: 'en.label',
     defaultMessage: '[English]'
+  },
+  es: {
+    id: 'es.label',
+    defaultMessage: '[Spanish]'
   }
 });
 
@@ -65,43 +71,44 @@ export class LanguageSelector extends React.Component {
 
     return (
       <div className={classes.root}>
-        {supportedLanguages.length > 1 && (
-          <div>
-            <List component="nav">
-              <ListItem
-                button
-                aria-haspopup="true"
-                aria-controls="lock-menu"
-                aria-label="Language"
-                onClick={this.handleClickListItem}
-              >
-                <ListItemText
-                  primary={
-                    <FormattedMessage
-                      id={'language'}
-                      defaultMessage={'[Language]'}
-                    />
-                  }
-                  secondary={<FormattedMessage {...messages[locale]} />}
-                />
-              </ListItem>
-            </List>
-            <Menu
-              anchorEl={anchorEl}
-              open={Boolean(anchorEl)}
-              onClose={this.handleClose}
-            >
-              {supportedLanguages.map(key => (
-                <MenuItem
-                  key={supportedLanguages[key]}
-                  onClick={event => this.handleMenuItemClick(event, key)}
+        {showLanguageSelector === 'true' &&
+          supportedLanguages.length > 1 && (
+            <div>
+              <List component="nav">
+                <ListItem
+                  button
+                  aria-haspopup="true"
+                  aria-controls="lock-menu"
+                  aria-label="Language"
+                  onClick={this.handleClickListItem}
                 >
-                  <FormattedMessage {...messages[key]} />
-                </MenuItem>
-              ))}
-            </Menu>
-          </div>
-        )}
+                  <ListItemText
+                    primary={
+                      <FormattedMessage
+                        id={'language'}
+                        defaultMessage={'[Language]'}
+                      />
+                    }
+                    secondary={<FormattedMessage {...messages[locale]} />}
+                  />
+                </ListItem>
+              </List>
+              <Menu
+                anchorEl={anchorEl}
+                open={Boolean(anchorEl)}
+                onClose={this.handleClose}
+              >
+                {supportedLanguages.map(key => (
+                  <MenuItem
+                    key={key}
+                    onClick={event => this.handleMenuItemClick(event, key)}
+                  >
+                    <FormattedMessage {...messages[key]} />
+                  </MenuItem>
+                ))}
+              </Menu>
+            </div>
+          )}
       </div>
     );
   }

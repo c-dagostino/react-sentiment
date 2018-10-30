@@ -53,13 +53,13 @@ export class AboutPage extends React.Component {
       <div>
         <Table>
           <TableBody>
-            <TableRow className={classes.headerRow}>
-              <TableCell>
+            <TableRow key={'headerRow'} className={classes.headerRow}>
+              <TableCell key={'headerTitleCell'}>
                 <Typography variant="title" color={'textSecondary'}>
                   <FormattedMessage {...messages[key]} />
                 </Typography>
               </TableCell>
-              <TableCell />
+              <TableCell key={'emptyHeaderCell'} />
             </TableRow>
             {this.generateRows(rows)}
           </TableBody>
@@ -71,7 +71,10 @@ export class AboutPage extends React.Component {
   generateRows(rows) {
     const entries = Object.entries(rows);
     return entries.map(entry => {
-      const cells = entry.map(cell => <TableCell key={cell}>{cell}</TableCell>);
+      const cells = entry.map((cell, index) => (
+        // eslint-disable-next-line react/no-array-index-key
+        <TableCell key={index}>{cell}</TableCell>
+      ));
 
       return <TableRow key={entry[0]}>{cells}</TableRow>;
     });

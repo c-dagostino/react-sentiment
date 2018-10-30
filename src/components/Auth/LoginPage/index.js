@@ -8,6 +8,7 @@ class LoginPage extends React.Component {
   static propTypes = {
     location: PropTypes.shape({
       state: PropTypes.shape({
+        locale: PropTypes.string,
         referrer: PropTypes.string
       })
     })
@@ -16,16 +17,29 @@ class LoginPage extends React.Component {
   static defaultProps = {
     location: {
       state: {
+        locale: 'en',
         referrer: '/'
       }
     }
   };
 
   componentDidMount() {
+    const locale = this.getLocale();
     const referrer = this.getReferrer();
     userManager.signinRedirect({
-      data: { referrer }
+      data: { locale, referrer }
     });
+  }
+
+  getLocale() {
+    const { location } = this.props;
+
+    if (location && location.state && location.state.locale) {
+      const { locale } = location.state;
+      return locale;
+    }
+
+    return 'en';
   }
 
   getReferrer() {

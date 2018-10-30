@@ -50,6 +50,11 @@
     "filepath": "src/components/LanguageSelector/index.js"
   },
   {
+    "id": "es.label",
+    "defaultMessage": "[Spanish]",
+    "filepath": "src/components/LanguageSelector/index.js"
+  },
+  {
     "id": "language",
     "defaultMessage": "[Language]",
     "filepath": "src/components/LanguageSelector/index.js"

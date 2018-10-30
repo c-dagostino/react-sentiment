@@ -9,6 +9,7 @@ ShallowWrapper {
             "push": [Function],
           }
     }
+    setLocale={null}
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
