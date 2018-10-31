@@ -9,10 +9,12 @@ import Routes from '../../containers/Routes';
 
 import theme from '../../utils/theme';
 
+const { REACT_APP_SHOW_LANGUAGE_SELECTOR: showLanguageSelector } = process.env;
+
 const stickyFooter = {
   boxSizing: 'border-box',
   minHeight: '100%',
-  paddingBottom: '120px',
+  paddingBottom: showLanguageSelector === 'true' ? ' 200px' : '120px',
   position: 'relative'
 };
 
