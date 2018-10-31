@@ -85,14 +85,20 @@ export class AboutPage extends React.Component {
       NODE_ENV: nodeEnvironment,
       REACT_APP_ENV: reactEnvironment,
       REACT_APP_NAME: appName,
+      REACT_APP_ID: appId,
       REACT_APP_OIDC_AUTHORITY_CLIENT_ID: clientId,
-      REACT_APP_OIDC_AUTHORITY_URL: authUrl
+      REACT_APP_OIDC_AUTHORITY_URL: authUrl,
+      REACT_APP_SHOW_LANGUAGE_SELECTOR: showLanguageSelector,
+      REACT_APP_ENABLE_DEBUG_LOGGING: enableDebugLogging
     } = environmentProperties;
 
     const environmentRows = {
       appName,
+      appId,
       nodeEnvironment,
+      showLanguageSelector,
       reactEnvironment,
+      enableDebugLogging,
       clientId,
       authUrl
     };

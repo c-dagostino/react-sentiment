@@ -65,6 +65,14 @@ ShallowWrapper {
                               </WithStyles(TableRow)>
                               <WithStyles(TableRow)>
                                         <WithStyles(TableCell)>
+                                                  appId
+                                        </WithStyles(TableCell)>
+                                        <WithStyles(TableCell)>
+                                                  react-marketing-baseline-client
+                                        </WithStyles(TableCell)>
+                              </WithStyles(TableRow)>
+                              <WithStyles(TableRow)>
+                                        <WithStyles(TableCell)>
                                                   nodeEnvironment
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell)>
@@ -73,7 +81,19 @@ ShallowWrapper {
                               </WithStyles(TableRow)>
                               <WithStyles(TableRow)>
                                         <WithStyles(TableCell)>
+                                                  showLanguageSelector
+                                        </WithStyles(TableCell)>
+                                        <WithStyles(TableCell) />
+                              </WithStyles(TableRow)>
+                              <WithStyles(TableRow)>
+                                        <WithStyles(TableCell)>
                                                   reactEnvironment
+                                        </WithStyles(TableCell)>
+                                        <WithStyles(TableCell) />
+                              </WithStyles(TableRow)>
+                              <WithStyles(TableRow)>
+                                        <WithStyles(TableCell)>
+                                                  enableDebugLogging
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell) />
                               </WithStyles(TableRow)>
@@ -181,6 +201,14 @@ ShallowWrapper {
                                         </WithStyles(TableCell)>
                                         <WithStyles(TableCell)>
                                                   ^1.0.1
+                                        </WithStyles(TableCell)>
+                              </WithStyles(TableRow)>
+                              <WithStyles(TableRow)>
+                                        <WithStyles(TableCell)>
+                                                  debug
+                                        </WithStyles(TableCell)>
+                                        <WithStyles(TableCell)>
+                                                  ^3.1.0
                                         </WithStyles(TableCell)>
                               </WithStyles(TableRow)>
                               <WithStyles(TableRow)>
@@ -557,6 +585,14 @@ ShallowWrapper {
                         </WithStyles(TableRow)>
                         <WithStyles(TableRow)>
                                     <WithStyles(TableCell)>
+                                                appId
+                                    </WithStyles(TableCell)>
+                                    <WithStyles(TableCell)>
+                                                react-marketing-baseline-client
+                                    </WithStyles(TableCell)>
+                        </WithStyles(TableRow)>
+                        <WithStyles(TableRow)>
+                                    <WithStyles(TableCell)>
                                                 nodeEnvironment
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell)>
@@ -565,7 +601,19 @@ ShallowWrapper {
                         </WithStyles(TableRow)>
                         <WithStyles(TableRow)>
                                     <WithStyles(TableCell)>
+                                                showLanguageSelector
+                                    </WithStyles(TableCell)>
+                                    <WithStyles(TableCell) />
+                        </WithStyles(TableRow)>
+                        <WithStyles(TableRow)>
+                                    <WithStyles(TableCell)>
                                                 reactEnvironment
+                                    </WithStyles(TableCell)>
+                                    <WithStyles(TableCell) />
+                        </WithStyles(TableRow)>
+                        <WithStyles(TableRow)>
+                                    <WithStyles(TableCell)>
+                                                enableDebugLogging
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell) />
                         </WithStyles(TableRow)>
@@ -618,6 +666,14 @@ ShallowWrapper {
               </WithStyles(TableRow)>
               <WithStyles(TableRow)>
                             <WithStyles(TableCell)>
+                                          appId
+                            </WithStyles(TableCell)>
+                            <WithStyles(TableCell)>
+                                          react-marketing-baseline-client
+                            </WithStyles(TableCell)>
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)>
+                            <WithStyles(TableCell)>
                                           nodeEnvironment
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell)>
@@ -626,7 +682,19 @@ ShallowWrapper {
               </WithStyles(TableRow)>
               <WithStyles(TableRow)>
                             <WithStyles(TableCell)>
+                                          showLanguageSelector
+                            </WithStyles(TableCell)>
+                            <WithStyles(TableCell) />
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)>
+                            <WithStyles(TableCell)>
                                           reactEnvironment
+                            </WithStyles(TableCell)>
+                            <WithStyles(TableCell) />
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)>
+                            <WithStyles(TableCell)>
+                                          enableDebugLogging
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell) />
               </WithStyles(TableRow)>
@@ -679,6 +747,14 @@ ShallowWrapper {
 </WithStyles(TableRow)>,
                   <WithStyles(TableRow)>
                     <WithStyles(TableCell)>
+                                        appId
+                    </WithStyles(TableCell)>
+                    <WithStyles(TableCell)>
+                                        react-marketing-baseline-client
+                    </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                  <WithStyles(TableRow)>
+                    <WithStyles(TableCell)>
                                         nodeEnvironment
                     </WithStyles(TableCell)>
                     <WithStyles(TableCell)>
@@ -687,7 +763,19 @@ ShallowWrapper {
 </WithStyles(TableRow)>,
                   <WithStyles(TableRow)>
                     <WithStyles(TableCell)>
+                                        showLanguageSelector
+                    </WithStyles(TableCell)>
+                    <WithStyles(TableCell) />
+</WithStyles(TableRow)>,
+                  <WithStyles(TableRow)>
+                    <WithStyles(TableCell)>
                                         reactEnvironment
+                    </WithStyles(TableCell)>
+                    <WithStyles(TableCell) />
+</WithStyles(TableRow)>,
+                  <WithStyles(TableRow)>
+                    <WithStyles(TableCell)>
+                                        enableDebugLogging
                     </WithStyles(TableCell)>
                     <WithStyles(TableCell) />
 </WithStyles(TableRow)>,
@@ -835,6 +923,47 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
+                "key": "appId",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell)>
+                      appId
+</WithStyles(TableCell)>,
+                    <WithStyles(TableCell)>
+                      react-marketing-baseline-client
+</WithStyles(TableCell)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "appId",
+                    },
+                    "ref": null,
+                    "rendered": "appId",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "react-marketing-baseline-client",
+                    },
+                    "ref": null,
+                    "rendered": "react-marketing-baseline-client",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
                 "key": "nodeEnvironment",
                 "nodeType": "class",
                 "props": Object {
@@ -876,6 +1005,45 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
+                "key": "showLanguageSelector",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell)>
+                      showLanguageSelector
+</WithStyles(TableCell)>,
+                    <WithStyles(TableCell) />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "showLanguageSelector",
+                    },
+                    "ref": null,
+                    "rendered": "showLanguageSelector",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
                 "key": "reactEnvironment",
                 "nodeType": "class",
                 "props": Object {
@@ -897,6 +1065,45 @@ ShallowWrapper {
                     },
                     "ref": null,
                     "rendered": "reactEnvironment",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "enableDebugLogging",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell)>
+                      enableDebugLogging
+</WithStyles(TableCell)>,
+                    <WithStyles(TableCell) />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "enableDebugLogging",
+                    },
+                    "ref": null,
+                    "rendered": "enableDebugLogging",
                     "type": [Function],
                   },
                   Object {
@@ -1360,6 +1567,14 @@ ShallowWrapper {
                         </WithStyles(TableRow)>
                         <WithStyles(TableRow)>
                                     <WithStyles(TableCell)>
+                                                debug
+                                    </WithStyles(TableCell)>
+                                    <WithStyles(TableCell)>
+                                                ^3.1.0
+                                    </WithStyles(TableCell)>
+                        </WithStyles(TableRow)>
+                        <WithStyles(TableRow)>
+                                    <WithStyles(TableCell)>
                                                 enzyme
                                     </WithStyles(TableCell)>
                                     <WithStyles(TableCell)>
@@ -1587,6 +1802,14 @@ ShallowWrapper {
               </WithStyles(TableRow)>
               <WithStyles(TableRow)>
                             <WithStyles(TableCell)>
+                                          debug
+                            </WithStyles(TableCell)>
+                            <WithStyles(TableCell)>
+                                          ^3.1.0
+                            </WithStyles(TableCell)>
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)>
+                            <WithStyles(TableCell)>
                                           enzyme
                             </WithStyles(TableCell)>
                             <WithStyles(TableCell)>
@@ -1810,6 +2033,14 @@ ShallowWrapper {
                     </WithStyles(TableCell)>
                     <WithStyles(TableCell)>
                                         ^1.0.1
+                    </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                  <WithStyles(TableRow)>
+                    <WithStyles(TableCell)>
+                                        debug
+                    </WithStyles(TableCell)>
+                    <WithStyles(TableCell)>
+                                        ^3.1.0
                     </WithStyles(TableCell)>
 </WithStyles(TableRow)>,
                   <WithStyles(TableRow)>
@@ -2228,6 +2459,47 @@ ShallowWrapper {
                     },
                     "ref": null,
                     "rendered": "^1.0.1",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "debug",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell)>
+                      debug
+</WithStyles(TableCell)>,
+                    <WithStyles(TableCell)>
+                      ^3.1.0
+</WithStyles(TableCell)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "debug",
+                    },
+                    "ref": null,
+                    "rendered": "debug",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "^3.1.0",
+                    },
+                    "ref": null,
+                    "rendered": "^3.1.0",
                     "type": [Function],
                   },
                 ],
@@ -4236,6 +4508,14 @@ ShallowWrapper {
                                     </WithStyles(TableRow)>
                                     <WithStyles(TableRow)>
                                                 <WithStyles(TableCell)>
+                                                            appId
+                                                </WithStyles(TableCell)>
+                                                <WithStyles(TableCell)>
+                                                            react-marketing-baseline-client
+                                                </WithStyles(TableCell)>
+                                    </WithStyles(TableRow)>
+                                    <WithStyles(TableRow)>
+                                                <WithStyles(TableCell)>
                                                             nodeEnvironment
                                                 </WithStyles(TableCell)>
                                                 <WithStyles(TableCell)>
@@ -4244,7 +4524,19 @@ ShallowWrapper {
                                     </WithStyles(TableRow)>
                                     <WithStyles(TableRow)>
                                                 <WithStyles(TableCell)>
+                                                            showLanguageSelector
+                                                </WithStyles(TableCell)>
+                                                <WithStyles(TableCell) />
+                                    </WithStyles(TableRow)>
+                                    <WithStyles(TableRow)>
+                                                <WithStyles(TableCell)>
                                                             reactEnvironment
+                                                </WithStyles(TableCell)>
+                                                <WithStyles(TableCell) />
+                                    </WithStyles(TableRow)>
+                                    <WithStyles(TableRow)>
+                                                <WithStyles(TableCell)>
+                                                            enableDebugLogging
                                                 </WithStyles(TableCell)>
                                                 <WithStyles(TableCell) />
                                     </WithStyles(TableRow)>
@@ -4352,6 +4644,14 @@ ShallowWrapper {
                                                 </WithStyles(TableCell)>
                                                 <WithStyles(TableCell)>
                                                             ^1.0.1
+                                                </WithStyles(TableCell)>
+                                    </WithStyles(TableRow)>
+                                    <WithStyles(TableRow)>
+                                                <WithStyles(TableCell)>
+                                                            debug
+                                                </WithStyles(TableCell)>
+                                                <WithStyles(TableCell)>
+                                                            ^3.1.0
                                                 </WithStyles(TableCell)>
                                     </WithStyles(TableRow)>
                                     <WithStyles(TableRow)>
@@ -4728,6 +5028,14 @@ ShallowWrapper {
                             </WithStyles(TableRow)>
                             <WithStyles(TableRow)>
                                           <WithStyles(TableCell)>
+                                                        appId
+                                          </WithStyles(TableCell)>
+                                          <WithStyles(TableCell)>
+                                                        react-marketing-baseline-client
+                                          </WithStyles(TableCell)>
+                            </WithStyles(TableRow)>
+                            <WithStyles(TableRow)>
+                                          <WithStyles(TableCell)>
                                                         nodeEnvironment
                                           </WithStyles(TableCell)>
                                           <WithStyles(TableCell)>
@@ -4736,7 +5044,19 @@ ShallowWrapper {
                             </WithStyles(TableRow)>
                             <WithStyles(TableRow)>
                                           <WithStyles(TableCell)>
+                                                        showLanguageSelector
+                                          </WithStyles(TableCell)>
+                                          <WithStyles(TableCell) />
+                            </WithStyles(TableRow)>
+                            <WithStyles(TableRow)>
+                                          <WithStyles(TableCell)>
                                                         reactEnvironment
+                                          </WithStyles(TableCell)>
+                                          <WithStyles(TableCell) />
+                            </WithStyles(TableRow)>
+                            <WithStyles(TableRow)>
+                                          <WithStyles(TableCell)>
+                                                        enableDebugLogging
                                           </WithStyles(TableCell)>
                                           <WithStyles(TableCell) />
                             </WithStyles(TableRow)>
@@ -4789,6 +5109,14 @@ ShallowWrapper {
                 </WithStyles(TableRow)>
                 <WithStyles(TableRow)>
                                 <WithStyles(TableCell)>
+                                                appId
+                                </WithStyles(TableCell)>
+                                <WithStyles(TableCell)>
+                                                react-marketing-baseline-client
+                                </WithStyles(TableCell)>
+                </WithStyles(TableRow)>
+                <WithStyles(TableRow)>
+                                <WithStyles(TableCell)>
                                                 nodeEnvironment
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell)>
@@ -4797,7 +5125,19 @@ ShallowWrapper {
                 </WithStyles(TableRow)>
                 <WithStyles(TableRow)>
                                 <WithStyles(TableCell)>
+                                                showLanguageSelector
+                                </WithStyles(TableCell)>
+                                <WithStyles(TableCell) />
+                </WithStyles(TableRow)>
+                <WithStyles(TableRow)>
+                                <WithStyles(TableCell)>
                                                 reactEnvironment
+                                </WithStyles(TableCell)>
+                                <WithStyles(TableCell) />
+                </WithStyles(TableRow)>
+                <WithStyles(TableRow)>
+                                <WithStyles(TableCell)>
+                                                enableDebugLogging
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell) />
                 </WithStyles(TableRow)>
@@ -4850,6 +5190,14 @@ ShallowWrapper {
 </WithStyles(TableRow)>,
                     <WithStyles(TableRow)>
                       <WithStyles(TableCell)>
+                                            appId
+                      </WithStyles(TableCell)>
+                      <WithStyles(TableCell)>
+                                            react-marketing-baseline-client
+                      </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                    <WithStyles(TableRow)>
+                      <WithStyles(TableCell)>
                                             nodeEnvironment
                       </WithStyles(TableCell)>
                       <WithStyles(TableCell)>
@@ -4858,7 +5206,19 @@ ShallowWrapper {
 </WithStyles(TableRow)>,
                     <WithStyles(TableRow)>
                       <WithStyles(TableCell)>
+                                            showLanguageSelector
+                      </WithStyles(TableCell)>
+                      <WithStyles(TableCell) />
+</WithStyles(TableRow)>,
+                    <WithStyles(TableRow)>
+                      <WithStyles(TableCell)>
                                             reactEnvironment
+                      </WithStyles(TableCell)>
+                      <WithStyles(TableCell) />
+</WithStyles(TableRow)>,
+                    <WithStyles(TableRow)>
+                      <WithStyles(TableCell)>
+                                            enableDebugLogging
                       </WithStyles(TableCell)>
                       <WithStyles(TableCell) />
 </WithStyles(TableRow)>,
@@ -5006,6 +5366,47 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
+                  "key": "appId",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(TableCell)>
+                        appId
+</WithStyles(TableCell)>,
+                      <WithStyles(TableCell)>
+                        react-marketing-baseline-client
+</WithStyles(TableCell)>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "appId",
+                      },
+                      "ref": null,
+                      "rendered": "appId",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "react-marketing-baseline-client",
+                      },
+                      "ref": null,
+                      "rendered": "react-marketing-baseline-client",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
                   "key": "nodeEnvironment",
                   "nodeType": "class",
                   "props": Object {
@@ -5047,6 +5448,45 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
+                  "key": "showLanguageSelector",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(TableCell)>
+                        showLanguageSelector
+</WithStyles(TableCell)>,
+                      <WithStyles(TableCell) />,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "showLanguageSelector",
+                      },
+                      "ref": null,
+                      "rendered": "showLanguageSelector",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
                   "key": "reactEnvironment",
                   "nodeType": "class",
                   "props": Object {
@@ -5068,6 +5508,45 @@ ShallowWrapper {
                       },
                       "ref": null,
                       "rendered": "reactEnvironment",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "enableDebugLogging",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(TableCell)>
+                        enableDebugLogging
+</WithStyles(TableCell)>,
+                      <WithStyles(TableCell) />,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "enableDebugLogging",
+                      },
+                      "ref": null,
+                      "rendered": "enableDebugLogging",
                       "type": [Function],
                     },
                     Object {
@@ -5531,6 +6010,14 @@ ShallowWrapper {
                             </WithStyles(TableRow)>
                             <WithStyles(TableRow)>
                                           <WithStyles(TableCell)>
+                                                        debug
+                                          </WithStyles(TableCell)>
+                                          <WithStyles(TableCell)>
+                                                        ^3.1.0
+                                          </WithStyles(TableCell)>
+                            </WithStyles(TableRow)>
+                            <WithStyles(TableRow)>
+                                          <WithStyles(TableCell)>
                                                         enzyme
                                           </WithStyles(TableCell)>
                                           <WithStyles(TableCell)>
@@ -5758,6 +6245,14 @@ ShallowWrapper {
                 </WithStyles(TableRow)>
                 <WithStyles(TableRow)>
                                 <WithStyles(TableCell)>
+                                                debug
+                                </WithStyles(TableCell)>
+                                <WithStyles(TableCell)>
+                                                ^3.1.0
+                                </WithStyles(TableCell)>
+                </WithStyles(TableRow)>
+                <WithStyles(TableRow)>
+                                <WithStyles(TableCell)>
                                                 enzyme
                                 </WithStyles(TableCell)>
                                 <WithStyles(TableCell)>
@@ -5981,6 +6476,14 @@ ShallowWrapper {
                       </WithStyles(TableCell)>
                       <WithStyles(TableCell)>
                                             ^1.0.1
+                      </WithStyles(TableCell)>
+</WithStyles(TableRow)>,
+                    <WithStyles(TableRow)>
+                      <WithStyles(TableCell)>
+                                            debug
+                      </WithStyles(TableCell)>
+                      <WithStyles(TableCell)>
+                                            ^3.1.0
                       </WithStyles(TableCell)>
 </WithStyles(TableRow)>,
                     <WithStyles(TableRow)>
@@ -6399,6 +6902,47 @@ ShallowWrapper {
                       },
                       "ref": null,
                       "rendered": "^1.0.1",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "debug",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(TableCell)>
+                        debug
+</WithStyles(TableCell)>,
+                      <WithStyles(TableCell)>
+                        ^3.1.0
+</WithStyles(TableCell)>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "debug",
+                      },
+                      "ref": null,
+                      "rendered": "debug",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "^3.1.0",
+                      },
+                      "ref": null,
+                      "rendered": "^3.1.0",
                       "type": [Function],
                     },
                   ],
