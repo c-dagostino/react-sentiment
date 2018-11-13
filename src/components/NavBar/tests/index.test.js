@@ -9,7 +9,9 @@ function getWrapper(props) {
       appBar: 'test-app-bar',
       toolbarTitle: 'test-toolbar-title'
     },
-    value: 'test-value'
+    location: {
+      pathname: '/test-pathname'
+    }
   };
 
   return shallow(<NavBar {...requiredProps} {...props} />);

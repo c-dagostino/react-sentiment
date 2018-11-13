@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { fromJS } from 'immutable';
 
 import { compose } from 'redux';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 
 import { FormattedMessage, defineMessages } from 'react-intl';
 
@@ -75,12 +75,15 @@ export class NavBar extends React.Component {
       appBar: PropTypes.string.isRequired,
       toolbarTitle: PropTypes.string.isRequired
     }).isRequired,
-    value: PropTypes.string.isRequired
+    location: PropTypes.shape({
+      pathname: PropTypes.string.isRequired
+    }).isRequired
   };
 
   validateValue() {
-    const { value } = this.props;
-    return tabs.some(tab => tab.get('value') === value) ? value : false;
+    const { location } = this.props;
+    const { pathname } = location;
+    return tabs.some(tab => tab.get('value') === pathname) ? pathname : false;
   }
 
   generateTabList() {
@@ -124,4 +127,7 @@ export class NavBar extends React.Component {
   }
 }
 
-export default compose(withStyles(styles))(NavBar);
+export default compose(
+  withStyles(styles),
+  withRouter
+)(NavBar);

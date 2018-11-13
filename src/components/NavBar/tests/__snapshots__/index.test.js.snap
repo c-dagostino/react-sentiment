@@ -10,7 +10,11 @@ ShallowWrapper {
             "toolbarTitle": "test-toolbar-title",
           }
     }
-    value="test-value"
+    location={
+        Object {
+            "pathname": "/test-pathname",
+          }
+    }
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -1004,6 +1008,11 @@ ShallowWrapper {
             "toolbarTitle": "test-toolbar-title",
           }
     }
+    location={
+        Object {
+            "pathname": "/test-pathname",
+          }
+    }
     value="/about"
 />,
   Symbol(enzyme.__renderer__): Object {
@@ -1038,7 +1047,7 @@ ShallowWrapper {
                 </WithStyles(Typography)>
                 <WithStyles(Tabs)
                         fullWidth={true}
-                        value="/about"
+                        value={false}
                 >
                         Immutable.List [
                                 <WithStyles(Tab)
@@ -1127,7 +1136,7 @@ ShallowWrapper {
           </WithStyles(Typography)>
           <WithStyles(Tabs)
                     fullWidth={true}
-                    value="/about"
+                    value={false}
           >
                     Immutable.List [
                               <WithStyles(Tab)
@@ -1217,7 +1226,7 @@ ShallowWrapper {
 </WithStyles(Typography)>,
             <WithStyles(Tabs)
               fullWidth={true}
-              value="/about"
+              value={false}
 >
               Immutable.List [
                             <WithStyles(Tab)
@@ -1385,7 +1394,7 @@ ShallowWrapper {
                 />,
 ],
               "fullWidth": true,
-              "value": "/about",
+              "value": false,
             },
             "ref": null,
             "rendered": Array [
@@ -1514,7 +1523,7 @@ ShallowWrapper {
                     </WithStyles(Typography)>
                     <WithStyles(Tabs)
                               fullWidth={true}
-                              value="/about"
+                              value={false}
                     >
                               Immutable.List [
                                         <WithStyles(Tab)
@@ -1603,7 +1612,7 @@ ShallowWrapper {
             </WithStyles(Typography)>
             <WithStyles(Tabs)
                         fullWidth={true}
-                        value="/about"
+                        value={false}
             >
                         Immutable.List [
                                     <WithStyles(Tab)
@@ -1693,7 +1702,7 @@ ShallowWrapper {
 </WithStyles(Typography)>,
               <WithStyles(Tabs)
                 fullWidth={true}
-                value="/about"
+                value={false}
 >
                 Immutable.List [
                                 <WithStyles(Tab)
@@ -1861,7 +1870,7 @@ ShallowWrapper {
                   />,
 ],
                 "fullWidth": true,
-                "value": "/about",
+                "value": false,
               },
               "ref": null,
               "rendered": Array [
