@@ -110,7 +110,7 @@ export class AboutPage extends React.Component {
 
     return (
       <div>
-        <Typography variant="title" align="center" gutterBottom>
+        <Typography variant="h6" align="center" gutterBottom>
           <FormattedMessage
             id={'app.name'}
             default={'[React Marketing Baseline Client]'}

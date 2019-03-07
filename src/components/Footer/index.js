@@ -12,7 +12,7 @@ import LanguageSelector from '../LanguageSelector';
 const styles = theme => ({
   footer: {
     backgroundColor: theme.palette.background.paper,
-    padding: `${theme.spacing.unit * 6}px 0`,
+    padding: `${theme.spacing.unit * 6}px, 10px`,
     bottom: 0,
     width: '100%',
     position: 'absolute'
@@ -35,10 +35,10 @@ export class Footer extends React.Component {
     const { classes, currentYear } = this.props;
     return (
       <footer className={classes.footer}>
-        <Typography variant="title" align="center" gutterBottom>
+        <Typography variant="h6" align="center" gutterBottom>
           {`© Navis Software ${currentYear}`}
         </Typography>
-        <Typography variant="title" align="center" gutterBottom>
+        <Typography variant="h6" align="center" gutterBottom>
           <FormattedDate value={currentYear} />
         </Typography>
         <LanguageSelector />

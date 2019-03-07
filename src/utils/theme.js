@@ -12,7 +12,9 @@ const theme = createMuiTheme({
     keys: ['xs', 'sm', 'md', 'lg', 'xl'],
     values: [360, 768, 992, 1200, 1440]
   },
-
+  typography: {
+    useNextVariants: true
+  },
   palette: {
     primary: {
       light: lightBlue[300],

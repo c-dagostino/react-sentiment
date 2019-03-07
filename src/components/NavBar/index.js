@@ -107,7 +107,7 @@ export class NavBar extends React.Component {
         <AppBar position="static" className={classes.appBar}>
           <Toolbar>
             <Typography
-              variant="title"
+              variant="h6"
               color="inherit"
               noWrap
               className={classes.toolbarTitle}
@@ -117,7 +117,7 @@ export class NavBar extends React.Component {
                 defaultMessage={'[React Marketing Baseline Client]'}
               />
             </Typography>
-            <Tabs value={this.validateValue()} fullWidth>
+            <Tabs value={this.validateValue()} variant="fullWidth">
               {this.generateTabList()}
             </Tabs>
           </Toolbar>

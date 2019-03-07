@@ -13,3 +13,11 @@ body {
 body {
   font-family: sans-serif;
 }
+
+h1 {
+  margin-top: 0px;
+}
+
+.tableTop {
+  vertical-align: text-top;
+}

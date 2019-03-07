@@ -7,11 +7,9 @@ import { FormattedMessage } from 'react-intl';
 import LoginPage from '../../components/Auth/LoginPage';
 import LogoutPage from '../../components/Auth/LogoutPage';
 import CallbackPage from '../../components/Auth/CallbackPage';
-import RequireAuth from '../../components/Auth/RequireAuth';
-
 import AboutPage from '../../components/AboutPage';
-import HomePage from '../../components/HomePage';
-import SagaPage from '../SagaExample';
+import HomePage from '../Dashboard';
+import TweetsPage from '../Tweets';
 
 export const Public = () => (
   <h3>
@@ -38,9 +36,9 @@ export default class Routes extends React.Component {
         <Route path={'/callback'} component={CallbackPage} />
         <Route path={'/login'} component={LoginPage} />
         <Route path={'/logout'} component={LogoutPage} />
-        <Route path={'/protected'} component={RequireAuth(Protected)} />
+        <Route path={'/protected'} component={Protected} />
         <Route path={'/public'} component={Public} />
-        <Route path={'/saga'} component={RequireAuth(SagaPage)} />
+        <Route path={'/saga'} component={TweetsPage} />
         <Route exaxt path={'/'} component={HomePage} />
       </Switch>
     );
