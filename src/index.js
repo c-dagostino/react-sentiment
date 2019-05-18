@@ -5,6 +5,9 @@ import store from './store';
 import './index.css';
 import I18n from './containers/I18n';
 import registerServiceWorker from './registerServiceWorker';
+import Amplify from 'aws-amplify';
+import aws_exports from './aws-exports';
+Amplify.configure(aws_exports);
 
 const {
   REACT_APP_ENABLE_DEBUG_LOGGING: enableDebugLogging,

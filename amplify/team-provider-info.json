@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "react-baseline-dev-20190516125024-authRole",
+            "UnauthRoleArn": "arn:aws:iam::064890193549:role/react-baseline-dev-20190516125024-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::064890193549:role/react-baseline-dev-20190516125024-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "react-baseline-dev-20190516125024-deployment",
+            "UnauthRoleName": "react-baseline-dev-20190516125024-unauthRole",
+            "StackName": "react-baseline-dev-20190516125024",
+            "StackId": "arn:aws:cloudformation:us-west-2:064890193549:stack/react-baseline-dev-20190516125024/d8a51500-7813-11e9-a86f-0a6b0666b1b0"
+        },
+        "categories": {
+            "auth": {
+                "cognito7aa01c65": {}
+            }
+        }
+    }
+}

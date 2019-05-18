@@ -3,11 +3,8 @@ import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 
 import { FormattedMessage } from 'react-intl';
-
-import userManager from '../../../utils/userManager';
+import { Auth } from 'aws-amplify';
 import { LOGOUT_URL } from '../constants';
-
-const { REACT_APP_OIDC_AUTHORITY_URL: authorityUrl } = process.env;
 
 export class LogoutPage extends React.Component {
   static propTypes = {
@@ -17,19 +14,13 @@ export class LogoutPage extends React.Component {
   };
 
   // eslint-disable-next-line consistent-return
-  async componentDidMount() {
-    try {
-      const user = await userManager.getUser();
-      const tokenId = user.id_token;
-
-      await userManager.removeUser();
-      window.location.assign(
-        `${authorityUrl}${LOGOUT_URL}&id_token_hint=${tokenId}`
-      );
-    } catch (exception) {
-      const { push } = this.props.history;
-      return push('/');
-    }
+  componentDidMount() {
+    // By doing this, you are revoking all the auth tokens(id token, access token and refresh token)
+    // which means the user is signed out from all the devices
+    // Note: although the tokens are revoked, the AWS credentials will remain valid until they expire (which by default is 1 hour)
+    Auth.signOut({ global: true })
+      .then(data => console.log(data))
+      .catch(err => console.log(err));
   }
 
   render() {

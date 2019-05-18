@@ -70,6 +70,11 @@
     "filepath": "src/components/NavBar/index.js"
   },
   {
+    "id": "nav.blogs",
+    "defaultMessage": "[blogs]",
+    "filepath": "src/components/NavBar/index.js"
+  },
+  {
     "id": "nav.protected",
     "defaultMessage": "[Protected]",
     "filepath": "src/components/NavBar/index.js"

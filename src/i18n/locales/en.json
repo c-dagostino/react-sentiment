@@ -15,6 +15,7 @@
   "nav.about": "About",
   "nav.logout": "Logout",
   "nav.protected": "Protected",
+  "nav.blogs": "blogs",
   "nav.public": "Public",
   "nav.sagaExample": "Saga Example",
   "routes.protected": "Protected - Login Required",

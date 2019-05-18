@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "reactbaseline",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito7aa01c65",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

@@ -1,70 +1,76 @@
-import React from 'react';
+import * as React from 'react';
 import PropTypes from 'prop-types';
-
+import { Auth } from 'aws-amplify';
 import { FormattedMessage } from 'react-intl';
-import userManager from '../../../utils/userManager';
 
-class LoginPage extends React.Component {
+export default class LoginPage extends React.Component {
   static propTypes = {
-    location: PropTypes.shape({
-      state: PropTypes.shape({
-        locale: PropTypes.string,
-        referrer: PropTypes.string
-      })
+    onSubmit: PropTypes.func.isRequired
+  };
+  state = {
+    username: '',
+    password: ''
+  };
+  handleChange = e => {
+    const { name, value } = e.target;
+    this.setState({ [name]: value });
+  };
+
+  login = () => {
+    const { username, password } = this.state;
+    const validationData = null;
+    Auth.signIn({
+      username, // Required, the username
+      password, // Optional, the password
+      validationData // Optional, a random key-value pair map which can contain any key and will be passed to your PreAuthentication Lambda trigger as-is. It can be used to implement additional validations around authentication
     })
+      .then(user => console.log(user))
+      .catch(err => console.log(err));
   };
-
-  static defaultProps = {
-    location: {
-      state: {
-        locale: 'en',
-        referrer: '/'
-      }
-    }
-  };
-
-  componentDidMount() {
-    const locale = this.getLocale();
-    const referrer = this.getReferrer();
-    userManager.signinRedirect({
-      data: { locale, referrer }
-    });
-  }
-
-  getLocale() {
-    const { location } = this.props;
-
-    if (location && location.state && location.state.locale) {
-      const { locale } = location.state;
-      return locale;
-    }
-
-    return 'en';
-  }
-
-  getReferrer() {
-    const { location } = this.props;
-
-    if (location && location.state && location.state.referrer) {
-      const { referrer } = location.state;
-      return referrer;
-    }
-
-    return '/';
-  }
 
   render() {
     return (
       <div>
-        <h3>
-          <FormattedMessage
-            id={'loginPage.title'}
-            defaultMessage={'[LoginPage]'}
-          />
-        </h3>
+        <form
+          onSubmit={e => {
+            e.preventDefault();
+            this.login();
+          }}
+        >
+          <h3>
+            <FormattedMessage
+              id={'loginPage.title'}
+              defaultMessage={'[LoginPage]'}
+            />
+          </h3>
+          <div>
+            <span>Username:</span>
+            <input
+              name="username"
+              placeholder="username"
+              value={this.state.username}
+              onChange={this.handleChange}
+            />
+          </div>
+          <div>
+            <span>Password:</span>
+            <input
+              name="password"
+              placeholder="password"
+              type="password"
+              value={this.state.password}
+              onChange={this.handleChange}
+            />
+          </div>
+          <button type="submit">Enter</button>
+        </form>
+        <div>
+          Not a member yet?{' '}
+          <a href="/signup" title="Sign Up Now">
+            Sign Up Now
+          </a>{' '}
+        </div>
       </div>
     );
   }
 }
-
-export default LoginPage;

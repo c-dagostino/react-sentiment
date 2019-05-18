@@ -36,9 +36,9 @@ const messages = defineMessages({
     id: 'nav.protected',
     defaultMessage: '[Protected]'
   },
-  sagaExample: {
-    id: 'nav.sagaExample',
-    defaultMessage: '[Saga Example]'
+  blogs: {
+    id: 'nav.blogs',
+    defaultMessage: '[Blogs]'
   },
   logout: {
     id: 'nav.logout',
@@ -60,8 +60,8 @@ export const tabs = fromJS([
     value: '/protected'
   },
   {
-    id: 'sagaExample',
-    value: '/saga'
+    id: 'blogs',
+    value: '/blogs'
   },
   {
     id: 'logout',
