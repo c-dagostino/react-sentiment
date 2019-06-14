@@ -9,6 +9,10 @@ export class Dashboard extends React.Component {
       <table>
         <tbody>
           <tr>
+            <td>hello!</td>
+            <td />
+          </tr>
+          <tr>
             <td style={{ verticalAlign: 'top' }} colSpan={2}>
               <TweetsPage />
             </td>
